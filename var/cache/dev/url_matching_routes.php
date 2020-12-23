@@ -52,6 +52,7 @@ return [
         '/backend/ajouter-une-opportunite' => [[['_route' => 'cms_add_offer', '_controller' => 'App\\Controller\\cmsController::edit_opportunities'], null, null, null, false, false, null]],
         '/backend/editer-une-opportunite' => [[['_route' => 'cms_edit_offer', '_controller' => 'App\\Controller\\cmsController::edit_opportunities'], null, null, null, false, false, null]],
         '/etudiant/editer-mon-cv' => [[['_route' => 'etu_edit_cv', '_controller' => 'App\\Controller\\etudiantController::editcv'], null, null, null, false, false, null]],
+        '/etudiant/cv' => [[['_route' => 'etu_cv', '_controller' => 'App\\Controller\\etudiantController::cv'], null, null, null, false, false, null]],
         '/etudiant/mes-soumissions' => [[['_route' => 'etu_soumissions', '_controller' => 'App\\Controller\\etudiantController::soumissions'], null, null, null, false, false, null]],
         '/etudiant/profil' => [[['_route' => 'etu_profil', '_controller' => 'App\\Controller\\etudiantController::profil'], null, null, null, false, false, null]],
         '/etudiant' => [[['_route' => 'etu_index', '_controller' => 'App\\Controller\\etudiantController::index'], null, null, null, true, false, null]],

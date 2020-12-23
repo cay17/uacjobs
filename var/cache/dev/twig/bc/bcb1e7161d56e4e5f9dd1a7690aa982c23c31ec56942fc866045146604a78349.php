@@ -175,7 +175,10 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
 
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"";
+        // line 61
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -206,7 +209,10 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"";
+        // line 89
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -237,7 +243,10 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"";
+        // line 117
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -268,7 +277,10 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"";
+        // line 145
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -305,7 +317,10 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
 
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"";
+        // line 179
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -340,7 +355,10 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"";
+        // line 211
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -375,7 +393,10 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"";
+        // line 243
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -410,7 +431,10 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"";
+        // line 275
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -445,7 +469,10 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"";
+        // line 307
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -480,7 +507,10 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"";
+        // line 339
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -515,7 +545,10 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"";
+        // line 371
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -550,7 +583,10 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"";
+        // line 403
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -602,7 +638,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
 
     public function getDebugInfo()
     {
-        return array (  542 => 393,  507 => 361,  472 => 329,  437 => 297,  402 => 265,  367 => 233,  332 => 201,  296 => 168,  260 => 135,  229 => 107,  198 => 79,  166 => 50,  140 => 27,  133 => 23,  116 => 8,  106 => 7,  94 => 5,  89 => 4,  79 => 3,  60 => 2,  37 => 1,);
+        return array (  588 => 403,  575 => 393,  550 => 371,  537 => 361,  512 => 339,  499 => 329,  474 => 307,  461 => 297,  436 => 275,  423 => 265,  398 => 243,  385 => 233,  360 => 211,  347 => 201,  322 => 179,  308 => 168,  282 => 145,  269 => 135,  248 => 117,  235 => 107,  214 => 89,  201 => 79,  180 => 61,  166 => 50,  140 => 27,  133 => 23,  116 => 8,  106 => 7,  94 => 5,  89 => 4,  79 => 3,  60 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -667,7 +703,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
 
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -695,7 +731,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -723,7 +759,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -751,7 +787,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -785,7 +821,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
 
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -817,7 +853,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -849,7 +885,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -881,7 +917,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -913,7 +949,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -945,7 +981,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -977,7 +1013,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>
@@ -1009,7 +1045,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 </div>
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
-                                    <a href=\"cv.html\" class=\"text-black\">
+                                    <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
                                         <p class=\"designation\">Informaticien</p>
                                     </a>

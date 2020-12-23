@@ -51,6 +51,7 @@ return [
     'cms_add_offer' => [[], ['_controller' => 'App\\Controller\\cmsController::edit_opportunities'], [], [['text', '/backend/ajouter-une-opportunite']], [], []],
     'cms_edit_offer' => [[], ['_controller' => 'App\\Controller\\cmsController::edit_opportunities'], [], [['text', '/backend/editer-une-opportunite']], [], []],
     'etu_edit_cv' => [[], ['_controller' => 'App\\Controller\\etudiantController::editcv'], [], [['text', '/etudiant/editer-mon-cv']], [], []],
+    'etu_cv' => [[], ['_controller' => 'App\\Controller\\etudiantController::cv'], [], [['text', '/etudiant/cv']], [], []],
     'etu_soumissions' => [[], ['_controller' => 'App\\Controller\\etudiantController::soumissions'], [], [['text', '/etudiant/mes-soumissions']], [], []],
     'etu_profil' => [[], ['_controller' => 'App\\Controller\\etudiantController::profil'], [], [['text', '/etudiant/profil']], [], []],
     'etu_index' => [[], ['_controller' => 'App\\Controller\\etudiantController::index'], [], [['text', '/etudiant/']], [], []],

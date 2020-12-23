@@ -91,7 +91,7 @@ class __TwigTemplate_556bd26ea2180b462e5e59c56057dd2e8f59b0704fdc67a78ed7324c2ed
            style=\"background-image: url('";
         // line 7
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/et.jpg"), "html", null, true);
-        echo "');background-repeat: no-repeat;background-size: cover;height: 480px;z-index: 0\">
+        echo "');background-repeat: no-repeat;background-size: cover;height: 580px;z-index: 0\">
             <div class=\"du-featured-text d-flex justify-content-center h-100\" style=\"background-color: rgba(0,0,0,0.5)\">
                   <!--welcome-message-->
                   <header class=\"container\">
@@ -624,7 +624,7 @@ class __TwigTemplate_556bd26ea2180b462e5e59c56057dd2e8f59b0704fdc67a78ed7324c2ed
 <div class=\"du-banner-area\">
 
       <div class=\"du-featured-photo bg-dark position-absolute w-100\"
-           style=\"background-image: url('{{ asset('build/img/et.jpg') }}');background-repeat: no-repeat;background-size: cover;height: 480px;z-index: 0\">
+           style=\"background-image: url('{{ asset('build/img/et.jpg') }}');background-repeat: no-repeat;background-size: cover;height: 580px;z-index: 0\">
             <div class=\"du-featured-text d-flex justify-content-center h-100\" style=\"background-color: rgba(0,0,0,0.5)\">
                   <!--welcome-message-->
                   <header class=\"container\">

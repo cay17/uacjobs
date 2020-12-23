@@ -20,6 +20,13 @@ class etudiantController extends AbstractController
         return $this->render('student/editcv.html.twig');
     }
     /**
+     * @Route("/cv", name="cv")
+     */
+    public function cv(): Response
+    {
+        return $this->render('student/cv.html.twig');
+    }
+    /**
      * @Route("/mes-soumissions", name="soumissions")
      */
     public function soumissions(): Response
