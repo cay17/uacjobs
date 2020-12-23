@@ -2,19 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ddd3f22-011e-46c9-9fa6-8c1c4ba1384c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/tt.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/cv-full.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/cv-full.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/css/cv-full.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/css/cv-full.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/etudiantController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/etudiantController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/about.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/actualites.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/actualites.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/article.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/article.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/contact.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/emplois.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/emplois.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/faq.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/faq.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/galery.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/galery.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/opportunitesitem.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/opportunitesitem.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/partenaires.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/partenaires.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/podcast.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/podcast.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/publications.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/publications.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/stages.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/stages.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/front/trucs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/trucs.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/about.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/actualites.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/actualites.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/article.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/article.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/contact.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/emplois.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/emplois.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/faq.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/faq.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/galery.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/galery.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/opportunitesitem.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/opportunitesitem.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/podcast.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/podcast.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/publications.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/publications.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/recruteur/soumissionslist.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/soumissionslist.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.php.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/App_KernelDevDebugContainer.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/stages.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/stages.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/trucs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/trucs.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/about.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/actualites.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/actualites.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/article.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/article.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/contact.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/cv.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/cv.pdf.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/emplois.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/emplois.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/faq.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/faq.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/galery.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/galery.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/opportunitesitem.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/opportunitesitem.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/podcast.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/podcast.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/publications.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/publications.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/stages.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/stages.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/trucs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/trucs.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/10/10d00c172db7818ff46073d31f4fdaacaab6c89e240dcc4e0757ebf1aebb3d29.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/10/10d00c172db7818ff46073d31f4fdaacaab6c89e240dcc4e0757ebf1aebb3d29.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/17/17a1221713af11a8760bbdc6ba23518ba6a11e71f656cc80476dd50570008c24.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/17/17a1221713af11a8760bbdc6ba23518ba6a11e71f656cc80476dd50570008c24.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1c/1c5ad13853e8993bf1fc4a555704d784b01102879fce15195e08b1f8d061fa00.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/1c/1c5ad13853e8993bf1fc4a555704d784b01102879fce15195e08b1f8d061fa00.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/23/23f21b352c12316a6c5433ca55df327b21e1832b3620ca63a947aa91c69d42ff.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/23/23f21b352c12316a6c5433ca55df327b21e1832b3620ca63a947aa91c69d42ff.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/4c/4c1013ebc5ca5428d730ce7ba0f925510340e472866552251fbe1ec94f583d20.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/4c/4c1013ebc5ca5428d730ce7ba0f925510340e472866552251fbe1ec94f583d20.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/55/553e37fc56a412f2de8dc0e7b157916e46993548b407564ffd992cab72d91b77.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/55/553e37fc56a412f2de8dc0e7b157916e46993548b407564ffd992cab72d91b77.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/59/59a0aff47b51140ff0544255e9ed0d33c71a2eef68fdf6da316808523026d692.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/59/59a0aff47b51140ff0544255e9ed0d33c71a2eef68fdf6da316808523026d692.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/68/682b66d0848f9c482be833a01a1af3ce26bb31dc5e7689c9390bcce0b2dd2fa1.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/68/682b66d0848f9c482be833a01a1af3ce26bb31dc5e7689c9390bcce0b2dd2fa1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/81/819b47560e9dbfba5652eb928b92e0b34301f8072d0a24b16d1931491cce5b2e.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/81/819b47560e9dbfba5652eb928b92e0b34301f8072d0a24b16d1931491cce5b2e.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/bc/bcb1e7161d56e4e5f9dd1a7690aa982c23c31ec56942fc866045146604a78349.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/bc/bcb1e7161d56e4e5f9dd1a7690aa982c23c31ec56942fc866045146604a78349.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ee/ee030d5d792df82cc2c916c5bb8f8d4e5f40d24f8d96342c20e718d1fdae4245.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/ee/ee030d5d792df82cc2c916c5bb8f8d4e5f40d24f8d96342c20e718d1fdae4245.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/url_generating_routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/url_generating_routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/url_matching_routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/url_matching_routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c0/c0c585c288e4d172248819025151d0351f29b415528bdb1bd3df5d6251514571.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c0/c0c585c288e4d172248819025151d0351f29b415528bdb1bd3df5d6251514571.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c5/c55bc89a1fd65dfb998f37d5bf87cf1cbb4a2ed0a89215477f0b29663a27ddd2.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c5/c55bc89a1fd65dfb998f37d5bf87cf1cbb4a2ed0a89215477f0b29663a27ddd2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/eb/eb5806e566f04eb6c1c390225dcba4014abee78903402d99b0b00c257ee9c0e9.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/eb/eb5806e566f04eb6c1c390225dcba4014abee78903402d99b0b00c257ee9c0e9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/f8/f800e116ab148218dda90099d6d07c2ffcf2b2cf3f148ddb349bc7a5fcd78572.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/f8/f800e116ab148218dda90099d6d07c2ffcf2b2cf3f148ddb349bc7a5fcd78572.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fe/fe9bb38a2372f31e51c756b5781c4b6b4ac8163fdf078c1d11c2a9996c88d082.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/fe/fe9bb38a2372f31e51c756b5781c4b6b4ac8163fdf078c1d11c2a9996c88d082.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/log/dev.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,10 +113,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/recruteur/soumissionslist.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/front/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="402" column="65" selection-start-line="402" selection-start-column="65" selection-end-line="402" selection-end-column="65" />
+            <state relative-caret-position="-17">
+              <caret line="329" column="81" selection-start-line="329" selection-start-column="81" selection-end-line="329" selection-end-column="81" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +159,7 @@
       <find>menu</find>
       <find>admi</find>
       <find>adm</find>
+      <find>logo</find>
     </findStrings>
     <replaceStrings>
       <replace>ipHarma</replace>
@@ -119,57 +174,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/cms/patenaire.html.twig" />
-        <option value="$PROJECT_DIR$/assets/cms/js/class/newsletter-list.js" />
-        <option value="$PROJECT_DIR$/src/Entity/NewsletterMessage.php" />
-        <option value="$PROJECT_DIR$/templates/cms/create_newsletter.html.twig" />
-        <option value="$PROJECT_DIR$/templates/cms/newsletter.html.twig" />
-        <option value="$PROJECT_DIR$/assets/cms/js/class/newsletter.js" />
-        <option value="$PROJECT_DIR$/src/Entity/Users.php" />
-        <option value="$PROJECT_DIR$/templates/registration/base.html.twig" />
-        <option value="$PROJECT_DIR$/templates/front/connexion.html.twig" />
-        <option value="$PROJECT_DIR$/templates/security/login.html.twig" />
-        <option value="$PROJECT_DIR$/templates/student/base.html.twig" />
-        <option value="$PROJECT_DIR$/templates/registration/register_recruteur.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
-        <option value="$PROJECT_DIR$/templates/front/preconnexion.html.twig" />
-        <option value="$PROJECT_DIR$/templates/security/base.html.twig" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/templates/registration/register.html.twig" />
-        <option value="$PROJECT_DIR$/src/Entity/Opportunities.php" />
-        <option value="$PROJECT_DIR$/templates/front/podcast.html.twig" />
-        <option value="$PROJECT_DIR$/templates/front/contact.html.twig" />
-        <option value="$PROJECT_DIR$/templates/front/about.html.twig" />
-        <option value="$PROJECT_DIR$/templates/front/emplois.html.twig" />
-        <option value="$PROJECT_DIR$/templates/front/stages.html.twig" />
-        <option value="$PROJECT_DIR$/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/assets/css/flexy-menu.css" />
-        <option value="$PROJECT_DIR$/templates/cms/edit_account.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/RegistrationController.php" />
-        <option value="$PROJECT_DIR$/src/Form/RegistrationFormType.php" />
-        <option value="$PROJECT_DIR$/assets/cms/js/class/user-list.js" />
-        <option value="$PROJECT_DIR$/assets/cms/js/class/user.js" />
-        <option value="$PROJECT_DIR$/templates/cms/users_accounts.html.twig" />
-        <option value="$PROJECT_DIR$/assets/cms/js/class/offer-list.js" />
-        <option value="$PROJECT_DIR$/templates/cms/index.html.twig" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/templates/cms/base.html.twig" />
-        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
-        <option value="$PROJECT_DIR$/templates/recruteur/create-opportunitie.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/cmsController.php" />
-        <option value="$PROJECT_DIR$/templates/cms/opportunities.html.twig" />
         <option value="$PROJECT_DIR$/templates/cms/galery.html.twig" />
         <option value="$PROJECT_DIR$/templates/cms/edit_opportunities.html.twig" />
         <option value="$PROJECT_DIR$/assets/cms/js/class/offer.js" />
         <option value="$PROJECT_DIR$/templates/recruteur/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/student/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Security/AppCustomAuthentificatorAuthenticator.php" />
-        <option value="$PROJECT_DIR$/templates/front/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/front/base.html.twig" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Controller/etudiantController.php" />
+        <option value="$PROJECT_DIR$/templates/student/cv.pdf.twig" />
+        <option value="$PROJECT_DIR$/assets/css/cv-full.css" />
         <option value="$PROJECT_DIR$/templates/recruteur/soumissionslist.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/base.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/base.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/base.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/article.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/actualites.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/contact.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/emplois.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/galery.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/partenaires.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/podcast.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/publications.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/stages.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/trucs.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/faq.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/about.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/actualites.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/contact.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/emplois.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/faq.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/galery.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/opportunitesitem.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/podcast.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/publications.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/stages.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/trucs.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/about.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/actualites.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/contact.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/emplois.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/faq.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/galery.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/opportunitesitem.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/podcast.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/publications.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/stages.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/trucs.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/about.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/opportunitesitem.html.twig" />
+        <option value="$PROJECT_DIR$/templates/front/index.html.twig" />
       </list>
     </option>
   </component>
@@ -324,6 +379,17 @@
             <path>
               <item name="uacjobs" type="b2602c69:ProjectViewProjectNode" />
               <item name="uacjobs" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uacjobs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uacjobs" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uacjobs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uacjobs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -341,7 +407,19 @@
               <item name="uacjobs" type="b2602c69:ProjectViewProjectNode" />
               <item name="uacjobs" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uacjobs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uacjobs" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="recruteur" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uacjobs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uacjobs" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,7 +432,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/student" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -362,11 +440,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Cayrol\Documents\Apowersoft\uacjobs\templates\student" />
+      <recent name="C:\Users\Cayrol\Documents\Apowersoft\uacjobs\templates\recruteur" />
+      <recent name="C:\Users\Cayrol\Documents\Apowersoft\uacjobs\assets\img" />
       <recent name="C:\Users\Cayrol\Documents\Apowersoft\uacjobs\templates\cms" />
       <recent name="C:\Users\Cayrol\Documents\Apowersoft\uacjobs\assets\cms\js\class" />
-      <recent name="C:\Users\Cayrol\Documents\Apowersoft\uacjobs\templates\registration" />
-      <recent name="C:\Users\Cayrol\Documents\Apowersoft\uacjobs\templates\security" />
-      <recent name="C:\Users\Cayrol\Documents\Apowersoft\uacjobs\src\Repository" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Cayrol\Documents\Apowersoft\uacjobs\assets\css" />
@@ -403,17 +481,26 @@
       <workItem from="1601129355771" duration="51035000" />
       <workItem from="1608032706204" duration="5613000" />
       <workItem from="1608050079492" duration="83121000" />
-      <workItem from="1608586607824" duration="37302000" />
+      <workItem from="1608586607824" duration="45271000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1608709734974</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608709734974</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238243000" />
+    <option name="totallyTimeSpent" value="246212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12210797" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12210797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -429,7 +516,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.49945474" weight="0.32894737" />
       <window_info anchor="bottom" id="TG" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5008375" side_tool="true" weight="0.2986842" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49916247" visible="true" weight="0.2986842" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49916247" visible="true" weight="0.2986842" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32894737" />
       <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -440,6 +527,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -458,396 +549,414 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/floating-labels.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/flexy-menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4913">
-          <caret line="289" column="19" selection-start-line="289" selection-start-column="19" selection-end-line="289" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/api/api.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms/articles.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/soumissionslist.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="77" column="10" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="77" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#9;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/RegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/RegistrationFormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="67" column="102" selection-start-line="67" selection-start-column="102" selection-end-line="67" selection-end-column="102" />
-          <folding>
-            <element signature="e#28#49#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cms/js/class/user-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!block;n#addEvent#0;n#UserList#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cms/js/class/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="n#!!block;n#constructor#0;n#User#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms/users_accounts.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-          <folding>
-            <element signature="e#527#1720#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cms/js/class/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#constructor#0;n#Article#0" expanded="true" />
-            <element signature="n#!!block;n#showTag#0;n#Article#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cms/js/class/podcast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#showTag#0;n#Podcast#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cms/js/class/newsletter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#showTag#0;n#Newsletter#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cms/js/class/categorie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#showTag#0;n#Categorie#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cms/js/class/faq.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#showTag#0;n#Faq#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cms/js/class/galery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#showTag#0;n#Galery#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cms/js/class/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#showTag#0;n#Menu#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cms/js/class/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!block;n#showTag#0;n#Message#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Opportunities.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cms/js/class/offer-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/front/preconnexion.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4d04d683-d457-4090-bb64-5cb7574a9070/schema/main/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="df9ae032-b936-4894-a814-89f8e211bfd6">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="165" column="130" selection-start-line="165" selection-start-column="130" selection-end-line="165" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms/edit_account.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="80" column="68" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/recruteur/create-opportunitie.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="43" column="25" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms/opportunities.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms/edit_partenaire.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1667">
-          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms/edit_opportunities.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="146" column="39" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
-          <folding>
-            <element signature="e#906#4192#0#HTML" expanded="true" />
-            <element signature="e#2419#4166#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4d04d683-d457-4090-bb64-5cb7574a9070/schema/main/table/opportunities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="df9ae032-b936-4894-a814-89f8e211bfd6">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms/galery.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="57" column="15" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="57" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cms/js/class/offer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/recruteur/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="136" selection-start-line="6" selection-start-column="136" selection-end-line="6" selection-end-column="136" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/student/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="136" selection-start-line="6" selection-start-column="136" selection-end-line="6" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Security/AppCustomAuthentificatorAuthenticator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="96" column="81" selection-start-line="96" selection-start-column="81" selection-end-line="96" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cms/edit_article.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="241" column="14" lean-forward="true" selection-start-line="232" selection-start-column="8" selection-end-line="241" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/front/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6495">
-          <caret line="34" column="122" selection-start-line="34" selection-start-column="122" selection-end-line="34" selection-end-column="122" />
+          <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/recruteur/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="126" column="18" lean-forward="true" selection-start-line="117" selection-start-column="12" selection-end-line="126" selection-end-column="18" />
+        <state relative-caret-position="478">
+          <caret line="91" column="93" selection-start-line="91" selection-start-column="93" selection-end-line="91" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="88" column="222" selection-start-line="88" selection-start-column="222" selection-end-line="88" selection-end-column="222" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/front/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="175" column="101" selection-start-line="175" selection-start-column="101" selection-end-line="175" selection-end-column="101" />
+        <state relative-caret-position="289">
+          <caret line="82" column="23" selection-start-line="67" selection-start-column="18" selection-end-line="82" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/var/log/dev.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-4794" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/log/prod.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-1260" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/templates/front/actualites.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/templates/front/article.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="1037">
+          <caret line="190" column="116" selection-start-line="190" selection-start-column="116" selection-end-line="190" selection-end-column="116" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/templates/front/connexion.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/templates/front/contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/cmsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
           <folding>
-            <element signature="e#34#55#0#PHP" expanded="true" />
+            <element signature="e#377#397#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/etudiantController.php">
+    <entry file="file://$PROJECT_DIR$/templates/front/emplois.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="136">
+          <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+          <folding>
+            <element signature="e#413#433#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front/galery.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="48" column="92" selection-start-line="48" selection-start-column="92" selection-end-line="48" selection-end-column="92" />
+          <folding>
+            <element signature="e#1514#1534#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front/partenaires.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="92" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
+          <folding>
+            <element signature="e#513#533#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front/podcast.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+          <folding>
+            <element signature="e#370#390#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front/preconnexion.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front/publications.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+          <folding>
+            <element signature="e#385#405#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front/stages.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding>
+            <element signature="e#382#402#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front/trucs.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding>
+            <element signature="e#385#403#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front/faq.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/about.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding>
+            <element signature="e#385#405#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/actualites.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+          <folding>
+            <element signature="e#388#408#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding>
+            <element signature="e#381#401#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/create-opportunitie.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/emplois.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+          <folding>
+            <element signature="e#417#437#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/faq.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+          <folding>
+            <element signature="e#394#414#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/galery.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="48" column="92" selection-start-line="48" selection-start-column="92" selection-end-line="48" selection-end-column="92" />
+          <folding>
+            <element signature="e#1518#1538#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/recruteur/mesoffres.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/podcast.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
+        <state relative-caret-position="102">
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+          <folding>
+            <element signature="e#374#394#0#HTML" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/recruteur/soumissionslist.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/profilrecruteurs.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/publications.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="402" column="65" selection-start-line="402" selection-start-column="65" selection-end-line="402" selection-end-column="65" />
+        <state relative-caret-position="102">
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+          <folding>
+            <element signature="e#389#409#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/stages.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding>
+            <element signature="e#386#406#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/trucs.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding>
+            <element signature="e#389#407#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/article.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/article.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/about.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding>
+            <element signature="e#383#403#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/actualites.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+          <folding>
+            <element signature="e#386#406#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding>
+            <element signature="e#379#399#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/emplois.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+          <folding>
+            <element signature="e#415#435#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/faq.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="105" selection-start-line="6" selection-start-column="105" selection-end-line="6" selection-end-column="105" />
+          <folding>
+            <element signature="e#392#412#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/galery.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="48" column="92" selection-start-line="48" selection-start-column="92" selection-end-line="48" selection-end-column="92" />
+          <folding>
+            <element signature="e#1516#1536#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/messoumissions.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/podcast.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+          <folding>
+            <element signature="e#372#392#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/publications.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
+          <folding>
+            <element signature="e#387#407#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/rechercher.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/stages.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding>
+            <element signature="e#384#404#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/trucs.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding>
+            <element signature="e#387#405#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/images.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front/about.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
+          <folding>
+            <element signature="e#1507#1532#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front/opportunitesitem.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="e#279#311#0#HTML" expanded="true" />
+            <element signature="e#1699#1724#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/opportunitesitem.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/opportunitesitem.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/front/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="329" column="81" selection-start-line="329" selection-start-column="81" selection-end-line="329" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

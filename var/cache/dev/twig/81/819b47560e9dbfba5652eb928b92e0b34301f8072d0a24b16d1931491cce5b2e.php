@@ -85,388 +85,407 @@ class __TwigTemplate_fcad4dfefc685e7919e3978593b692e2ba23ce90a577b29be4d6213ba79
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
-        echo "<div class=\"dream-university-subpage\">
+        echo "    <div class=\"dream-university-subpage\">
 
-      <!-- Begin breadcrumbs-->
-      <div class=\"du-page-header du-breadcrumbs overflow-hidden p-0 w-100\" style=\"z-index: -1\">
-            <div style=\"height: 80px\" class=\"bg-dark\">
-                  <img src=\"";
-        // line 9
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog3.jpg"), "html", null, true);
-        echo "\" class=\"w-100\" style=\"opacity: 0.4\"/>
-            </div>
-      </div>
-      <!-- End breadcrumbs-->
+        <!-- Begin breadcrumbs-->
+        <!-- End breadcrumbs-->
 
 
-      <!-- Begin Blog single -->
-      <div class=\"du-subpage-content\">
+        <!-- Begin Blog single -->
+        <div class=\"du-subpage-content\" style=\"background-color: rgba(218,218,218,0.2)\">
             <div class=\"du-single-page\">
 
-                  <!-- Begin Single Post -->
+                <!-- Begin Single Post -->
 
-                  <section class=\"single-page ptb-50\">
-                        <div class=\"container\">
+                <section class=\"single-page ptb-50\">
+                    <div class=\"container\" style=\"font-size: medium\">
 
-                              <div class=\"row\">
-                                    <div class=\"col-md-9\">
-                                          <h3 class=\"text-secondary\">Présentation des nouveaux boursiers de la
-                                                mastercard foundation à l'université d'abomey-calavi</h3>
-                                          <div class=\"box-container post\">
-                                                <img alt=\"image\" class=\"media-object img-fluid\"
-                                                     src=\"";
-        // line 30
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog/single-post.jpg"), "html", null, true);
-        echo "img/blog/single-post.jpg\">
-                                                <div class=\"ptb-30\">
-                                                      <div class=\"clearfix meta\">
-                                                            <p class=\"serif italic pull-left\">Date:
-                                                                  <a>15 May 2012</a></p>
-                                                      </div>
-                                                      <div class=\"author\">
-                                                            <p class=\"serif italic\">posted by:
-                                                                  <a>John Doe</a>
-                                                                  in
-                                                                  <a>Category Name</a></p>
-                                                      </div>
-                                                      <p><strong>Pellentesque habitant morbi tristique senectus et netus
-                                                            et
-                                                            malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                                                            feugiat
-                                                            vitae, ultricies eget, tempor sit amet, ante.</strong>
-                                                            Donec eu libero sit amet quam egestas semper. Aenean
-                                                            ultricies mi vitae
-                                                            est. Mauris placerat eleifend leo. Quisque sit amet est et
-                                                            sapien
-                                                            ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
-                                                            commodo
-                                                            vitae, ornare sit amet, wisi. Aenean fermentum, elit eget
-                                                            tincidunt
-                                                            condimentum, eros ipsum rutrum orci, sagittis tempus lacus
-                                                            enim ac dui.
-                                                            Donec non enim in turpis pulvinar facilisis. Ut felis.
-                                                            Praesent dapibus,
-                                                            neque id cursus faucibus, tortor neque egestas augue, eu
-                                                            vulputate magna
-                                                            eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt
-                                                            quis,
-                                                            accumsan porttitor, facilisis luctus, metus</p>
-                                                      <h4>Heading 2. Praesent dapibus, neque id cursus faucibus, tortor
-                                                            neque
-                                                            egestas augue.</h4>
-                                                      <p>Pellentesque habitant morbi tristique senectus et netus et
-                                                            malesuada
-                                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
-                                                            vitae,
-                                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
-                                                            amet quam
-                                                            egestas semper. Aenean ultricies mi vitae est. Mauris
-                                                            placerat eleifend
-                                                            leo.</p>
-                                                      <blockquote>
-                                                            <p>Blockquote. Lorem ipsum dolor sit amet, consectetur
-                                                                  adipiscing elit.
-                                                                  Integer posuere erat a ante.</p>
-                                                            <small>Someone famous
-                                                                  <cite title=\"Source Title\">Source Title</cite></small>
-                                                      </blockquote>
-                                                      <p>Pellentesque habitant morbi tristique senectus et netus et
-                                                            malesuada
-                                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
-                                                            vitae,
-                                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
-                                                            amet quam
-                                                            egestas semper. Aenean ultricies mi vitae est. Mauris
-                                                            placerat eleifend
-                                                            leo.</p>
-                                                      <h3>Heading 3. Praesent dapibus, neque id cursus faucibus, tortor
-                                                            neque
-                                                            egestas augue.</h3>
-                                                      <p>Pellentesque habitant morbi tristique senectus et netus et
-                                                            malesuada
-                                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
-                                                            vitae,
-                                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
-                                                            amet quam
-                                                            egestas semper. Aenean ultricies mi vitae est. Mauris
-                                                            placerat eleifend
-                                                            leo.</p>
-                                                      <ul>
-                                                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                                                  elit.
-                                                            </li>
-                                                            <li>Aliquam tincidunt mauris eu risus.
-                                                                  <ul>
-                                                                        <li>Lorem ipsum dolor sit amet, consectetuer
-                                                                              adipiscing elit.
-                                                                        </li>
-                                                                        <li>Aliquam tincidunt mauris eu risus.</li>
-                                                                        <li>Vestibulum auctor dapibus neque.</li>
-                                                                  </ul>
-                                                            </li>
-                                                            <li>Vestibulum auctor dapibus neque.</li>
-                                                      </ul>
-                                                      <h4>Heading 4. Praesent dapibus, neque id cursus faucibus, tortor
-                                                            neque
-                                                            egestas augue.</h4>
-                                                      <p>Pellentesque habitant morbi tristique senectus et netus et
-                                                            malesuada
-                                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
-                                                            vitae,
-                                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
-                                                            amet quam
-                                                            egestas semper. Aenean ultricies mi vitae est. Mauris
-                                                            placerat eleifend
-                                                            leo.</p>
-                                                      <ol>
-                                                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                                                  elit.
-                                                            </li>
-                                                            <li>Aliquam tincidunt mauris eu risus.</li>
-                                                            <li>Vestibulum auctor dapibus neque.</li>
-                                                      </ol>
-                                                      <h5>Heading 5. Praesent dapibus, neque id cursus faucibus, tortor
-                                                            neque
-                                                            egestas augue.</h5>
-                                                      <p>Pellentesque habitant morbi tristique senectus et netus et
-                                                            malesuada
-                                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
-                                                            vitae,
-                                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
-                                                            amet quam
-                                                            egestas semper. Aenean ultricies mi vitae est. Mauris
-                                                            placerat eleifend
-                                                            leo.</p>
-                                                      <h6>Heading 6. Praesent dapibus, neque id cursus faucibus, tortor
-                                                            neque
-                                                            egestas augue.</h6>
-                                                      <p>Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
-                                                            erat
-                                                            wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
-                                                            Aenean
-                                                            fermentum, elit eget tincidunt condimentum, eros ipsum
-                                                            rutrum orci,
-                                                            sagittis tempus lacus enim ac dui. Donec non enim in turpis
-                                                            pulvinar
-                                                            facilisis. Ut felis. Praesent dapibus, neque id cursus
-                                                            faucibus, tortor
-                                                            neque egestas augue, eu vulputate magna eros eu erat.
-                                                      </p>
-                                                </div>
-                                          </div>
-                                          <!-- .post -->
-                                          <!-- .comment-container -->
+                        <div class=\"row\">
+                            <div class=\"col-md-9\">
+                                <h2 class=\"text-secondary\">Présentation des nouveaux boursiers de la
+                                    mastercard foundation à l'université d'abomey-calavi</h2>
+                                <div class=\"box-container post\">
+                                    <img alt=\"image\" class=\"media-object img-fluid w-100\"
+                                         src=\"";
+        // line 25
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/tt.jpg"), "html", null, true);
+        echo "\">
+                                    <div class=\"ptb-30\">
+                                        <div class=\"clearfix meta\">
+                                            <p class=\"serif italic pull-left\">Date:
+                                                <a>15 May 2012</a></p>
+                                        </div>
+                                        <div class=\"author\">
+                                            <p class=\"serif italic\">posted by:
+                                                <a>John Doe</a>
+                                                in
+                                                <a>Category Name</a></p>
+                                        </div>
+                                        <p><strong>Pellentesque habitant morbi tristique senectus et netus
+                                                et
+                                                malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                                                feugiat
+                                                vitae, ultricies eget, tempor sit amet, ante.</strong>
+                                            Donec eu libero sit amet quam egestas semper. Aenean
+                                            ultricies mi vitae
+                                            est. Mauris placerat eleifend leo. Quisque sit amet est et
+                                            sapien
+                                            ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
+                                            commodo
+                                            vitae, ornare sit amet, wisi. Aenean fermentum, elit eget
+                                            tincidunt
+                                            condimentum, eros ipsum rutrum orci, sagittis tempus lacus
+                                            enim ac dui.
+                                            Donec non enim in turpis pulvinar facilisis. Ut felis.
+                                            Praesent dapibus,
+                                            neque id cursus faucibus, tortor neque egestas augue, eu
+                                            vulputate magna
+                                            eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt
+                                            quis,
+                                            accumsan porttitor, facilisis luctus, metus</p>
+                                        <h4>Heading 2. Praesent dapibus, neque id cursus faucibus, tortor
+                                            neque
+                                            egestas augue.</h4>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et
+                                            malesuada
+                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
+                                            vitae,
+                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                                            amet quam
+                                            egestas semper. Aenean ultricies mi vitae est. Mauris
+                                            placerat eleifend
+                                            leo.</p>
+                                        <blockquote>
+                                            <p>Blockquote. Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit.
+                                                Integer posuere erat a ante.</p>
+                                            <small>Someone famous
+                                                <cite title=\"Source Title\">Source Title</cite></small>
+                                        </blockquote>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et
+                                            malesuada
+                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
+                                            vitae,
+                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                                            amet quam
+                                            egestas semper. Aenean ultricies mi vitae est. Mauris
+                                            placerat eleifend
+                                            leo.</p>
+                                        <h3>Heading 3. Praesent dapibus, neque id cursus faucibus, tortor
+                                            neque
+                                            egestas augue.</h3>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et
+                                            malesuada
+                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
+                                            vitae,
+                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                                            amet quam
+                                            egestas semper. Aenean ultricies mi vitae est. Mauris
+                                            placerat eleifend
+                                            leo.</p>
+                                        <ul>
+                                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                elit.
+                                            </li>
+                                            <li>Aliquam tincidunt mauris eu risus.
+                                                <ul>
+                                                    <li>Lorem ipsum dolor sit amet, consectetuer
+                                                        adipiscing elit.
+                                                    </li>
+                                                    <li>Aliquam tincidunt mauris eu risus.</li>
+                                                    <li>Vestibulum auctor dapibus neque.</li>
+                                                </ul>
+                                            </li>
+                                            <li>Vestibulum auctor dapibus neque.</li>
+                                        </ul>
+                                        <h4>Heading 4. Praesent dapibus, neque id cursus faucibus, tortor
+                                            neque
+                                            egestas augue.</h4>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et
+                                            malesuada
+                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
+                                            vitae,
+                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                                            amet quam
+                                            egestas semper. Aenean ultricies mi vitae est. Mauris
+                                            placerat eleifend
+                                            leo.</p>
+                                        <ol>
+                                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                elit.
+                                            </li>
+                                            <li>Aliquam tincidunt mauris eu risus.</li>
+                                            <li>Vestibulum auctor dapibus neque.</li>
+                                        </ol>
+                                        <h5>Heading 5. Praesent dapibus, neque id cursus faucibus, tortor
+                                            neque
+                                            egestas augue.</h5>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et
+                                            malesuada
+                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
+                                            vitae,
+                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                                            amet quam
+                                            egestas semper. Aenean ultricies mi vitae est. Mauris
+                                            placerat eleifend
+                                            leo.</p>
+                                        <h6>Heading 6. Praesent dapibus, neque id cursus faucibus, tortor
+                                            neque
+                                            egestas augue.</h6>
+                                        <p>Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
+                                            erat
+                                            wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
+                                            Aenean
+                                            fermentum, elit eget tincidunt condimentum, eros ipsum
+                                            rutrum orci,
+                                            sagittis tempus lacus enim ac dui. Donec non enim in turpis
+                                            pulvinar
+                                            facilisis. Ut felis. Praesent dapibus, neque id cursus
+                                            faucibus, tortor
+                                            neque egestas augue, eu vulputate magna eros eu erat.
+                                        </p>
                                     </div>
+                                </div>
+                                <!-- .post -->
+                                <!-- .comment-container -->
+                            </div>
 
-                                    <!-- Blog sidebar -->
+                            <!-- Blog sidebar -->
 
-                                    <div class=\"col-md-3\">
-                                          <div class=\"sidebar\">
-                                                <div class=\"sidebar-inner\">
-                                                      <div class=\"widget\">
-                                                            <h3 class=\"widget-title\">Partager sur</h3>
+                            <div class=\"col-md-3\">
+                                <div class=\"sidebar\">
+                                    <div class=\"sidebar-inner\">
+                                        <div class=\"widget\">
+                                            <h3 class=\"widget-title\">Partager sur</h3>
 
-                                                            <ul class=\"social social-boxed\">
-                                                                  <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a>
-                                                                  </li>
-                                                                  <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
-                                                                  <li><a href=\"#\"><i class=\"fa fa-linkedin\"></i></a>
-                                                                  </li>
-                                                                  <li><a href=\"#\"><i class=\"fa fa-vimeo-square\"></i></a>
-                                                                  </li>
-                                                                  <li><a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
-                                                            </ul><!-- /.social-->
-                                                      </div><!-- /.widget -->
+                                            <ul class=\"social social-boxed\">
+                                                <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a>
+                                                </li>
+                                                <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
+                                                <li><a href=\"#\"><i class=\"fa fa-linkedin\"></i></a>
+                                                </li>
+                                                <li><a href=\"#\"><i class=\"fa fa-vimeo-square\"></i></a>
+                                                </li>
+                                                <li><a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
+                                            </ul><!-- /.social-->
+                                        </div><!-- /.widget -->
 
-                                                      <div class=\"widget\">
-                                                            <h3 class=\"widget-title\">Récents</h3>
+                                        <div class=\"widget\">
+                                            <h3 class=\"widget-title\">Récents</h3>
 
-                                                            <div class=\"post-list\">
+                                            <div class=\"post-list\">
 
-                                                                  <div class=\"sidebar-single-post clearfix\">
-                                                                        <div class=\"sidebar-single-post-picture col-sm-12 col-md-4\">
-                                                                              <div class=\"sidebar-single-post-picture-inner\">
-                                                                                    <a href=\"";
-        // line 199
+                                                <div class=\"sidebar-single-post clearfix shadow-lg border-0 bg-white\">
+                                                    <div class=\"sidebar-single-post-picture col-sm-12 col-md-12\">
+                                                        <div class=\"sidebar-single-post-picture-inner overflow-hidden\" style=\"height: 120px\">
+                                                            <a href=\"";
+        // line 194
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
         echo "\"
-                                                                                       class=\"sidebar-single-post-picture-target\">
-                                                                                          <img class=\"img-fluid\"
-                                                                                               src=\"";
-        // line 202
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog/small/7.jpg"), "html", null, true);
+                                                               class=\"sidebar-single-post-picture-target\">
+                                                                <img class=\"img-fluid w-100\"
+                                                                     src=\"";
+        // line 197
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog/single-post.jpg"), "html", null, true);
         echo "\"
-                                                                                               alt=\"\">
-                                                                                    </a>
-                                                                              </div>
-                                                                              <!-- /.sidebar-single-post-picture -->
-                                                                        </div><!-- /.sidebar-single-post-picture -->
+                                                                     alt=\"\">
+                                                            </a>
+                                                        </div>
+                                                        <!-- /.sidebar-single-post-picture -->
+                                                    </div><!-- /.sidebar-single-post-picture -->
 
-                                                                        <div class=\"sidebar-post-content-box col-sm-12 col-md-8\">
-                                                                              <h4 class=\"sidebar-single-post-title\">
-                                                                                    <a href=\"";
-        // line 211
+                                                    <div class=\"sidebar-post-content-box col-sm-12 col-md-12 mt-2\">
+                                                        <h4 class=\"sidebar-single-post-title\">
+                                                            <a
+                                                                    href=\"";
+        // line 207
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
-        echo "\">Rentrée académique à
-                                                                                          l'uac ce 22/04/2012</a></h4>
-                                                                              <!-- /.sidebar-single-post-title -->
-                                                                        </div><!-- /.sidebar-post-content-box -->
-                                                                  </div><!-- /.sidebar-single-post -->
+        echo "\"
+                                                                    style=\"font-size: medium\">Rentrée académique à l'uac
+                                                                ce 22/04/2012
+                                                            </a>
+                                                        </h4>
+                                                        <p class=\"small mb-0 d-flex justify-content-end text-secondary\">12/02/2020 à 10h47</p>
+                                                        <!-- /.sidebar-single-post-title -->
+                                                    </div><!-- /.sidebar-post-content-box -->
+                                                </div><!-- /.sidebar-single-post -->
 
-                                                                  <div class=\"sidebar-single-post clearfix\">
-                                                                        <div class=\"sidebar-single-post-picture col-sm-12 col-md-4\">
-                                                                              <div class=\"sidebar-single-post-picture-inner\">
-                                                                                    <a href=\"";
+                                                <div class=\"sidebar-single-post clearfix shadow-lg border-0 bg-white\">
+                                                    <div class=\"sidebar-single-post-picture col-sm-12 col-md-12\">
+                                                        <div class=\"sidebar-single-post-picture-inner overflow-hidden\" style=\"height: 120px\">
+                                                            <a href=\"";
         // line 220
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
         echo "\"
-                                                                                       class=\"sidebar-single-post-picture-target\">
-                                                                                          <img class=\"img-responsive\"
-                                                                                               src=\"";
+                                                               class=\"sidebar-single-post-picture-target\">
+                                                                <img class=\"img-fluid w-100\"
+                                                                     src=\"";
         // line 223
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog/small/10.jpg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog/single-post.jpg"), "html", null, true);
         echo "\"
-                                                                                               alt=\"\">
-                                                                                    </a>
-                                                                              </div>
-                                                                              <!-- /.sidebar-single-post-picture -->
-                                                                        </div><!-- /.sidebar-single-post-picture -->
+                                                                     alt=\"\">
+                                                            </a>
+                                                        </div>
+                                                        <!-- /.sidebar-single-post-picture -->
+                                                    </div><!-- /.sidebar-single-post-picture -->
 
-                                                                        <div class=\"sidebar-post-content-box col-sm-12 col-md-8\">
-                                                                              <h4 class=\"sidebar-single-post-title\"><a
-                                                                                      href=\"";
-        // line 232
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
-        echo "\">Rentrée académique à l'uac ce 22/04/2012</a></h4>
-                                                                              <!-- /.sidebar-single-post-title -->
-                                                                        </div><!-- /.sidebar-post-content-box -->
-                                                                  </div><!-- /.sidebar-single-post -->
-
-                                                                  <div class=\"sidebar-single-post clearfix\">
-                                                                        <div class=\"sidebar-single-post-picture col-sm-12 col-md-4\">
-                                                                              <div class=\"sidebar-single-post-picture-inner\">
-                                                                                    <a href=\"";
-        // line 240
+                                                    <div class=\"sidebar-post-content-box col-sm-12 col-md-12 mt-2\">
+                                                        <h4 class=\"sidebar-single-post-title\">
+                                                            <a
+                                                                    href=\"";
+        // line 233
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
         echo "\"
-                                                                                       class=\"sidebar-single-post-picture-target\">
-                                                                                          <img class=\"img-responsive\"
-                                                                                               src=\"";
-        // line 243
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog/small/1.jpg"), "html", null, true);
-        echo "\"
-                                                                                               alt=\"\">
-                                                                                    </a>
-                                                                              </div>
-                                                                              <!-- /.sidebar-single-post-picture -->
-                                                                        </div><!-- /.sidebar-single-post-picture -->
+                                                                    style=\"font-size: medium\">Rentrée académique à l'uac
+                                                                ce 22/04/2012
+                                                            </a>
+                                                        </h4>
+                                                        <p class=\"small mb-0 d-flex justify-content-end text-secondary\">12/02/2020 à 10h47</p>
+                                                        <!-- /.sidebar-single-post-title -->
+                                                    </div><!-- /.sidebar-post-content-box -->
+                                                </div><!-- /.sidebar-single-post -->
 
-                                                                        <div class=\"sidebar-post-content-box col-sm-12 col-md-8\">
-                                                                              <h4 class=\"sidebar-single-post-title\"><a
-                                                                                      href=\"";
-        // line 252
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
-        echo "\">Rentrée académique à l'uac ce 22/04/2012</a></h4>
-                                                                              <!-- /.sidebar-single-post-title -->
-                                                                        </div><!-- /.sidebar-post-content-box -->
-                                                                  </div><!-- /.sidebar-single-post -->
-
-                                                                  <div class=\"sidebar-single-post clearfix\">
-                                                                        <div class=\"sidebar-single-post-picture col-sm-12 col-md-4\">
-                                                                              <div class=\"sidebar-single-post-picture-inner\">
-                                                                                    <a href=\"";
-        // line 260
+                                                <div class=\"sidebar-single-post clearfix shadow-lg border-0 bg-white\">
+                                                    <div class=\"sidebar-single-post-picture col-sm-12 col-md-12\">
+                                                        <div class=\"sidebar-single-post-picture-inner overflow-hidden\" style=\"height: 120px\">
+                                                            <a href=\"";
+        // line 246
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
         echo "\"
-                                                                                       class=\"sidebar-single-post-picture-target\">
-                                                                                          <img class=\"img-responsive\"
-                                                                                               src=\"";
-        // line 263
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog/small/7.jpg"), "html", null, true);
+                                                               class=\"sidebar-single-post-picture-target\">
+                                                                <img class=\"img-fluid w-100\"
+                                                                     src=\"";
+        // line 249
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog/single-post.jpg"), "html", null, true);
         echo "\"
-                                                                                               alt=\"\">
-                                                                                    </a>
-                                                                              </div>
-                                                                              <!-- /.sidebar-single-post-picture -->
-                                                                        </div><!-- /.sidebar-single-post-picture -->
+                                                                     alt=\"\">
+                                                            </a>
+                                                        </div>
+                                                        <!-- /.sidebar-single-post-picture -->
+                                                    </div><!-- /.sidebar-single-post-picture -->
 
-                                                                        <div class=\"sidebar-post-content-box col-sm-12 col-md-8\">
-                                                                              <h4 class=\"sidebar-single-post-title\"><a
-                                                                                      href=\"";
+                                                    <div class=\"sidebar-post-content-box col-sm-12 col-md-12 mt-2\">
+                                                        <h4 class=\"sidebar-single-post-title\">
+                                                            <a
+                                                                    href=\"";
+        // line 259
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
+        echo "\"
+                                                                    style=\"font-size: medium\">Rentrée académique à l'uac
+                                                                ce 22/04/2012
+                                                            </a>
+                                                        </h4>
+                                                        <p class=\"small mb-0 d-flex justify-content-end text-secondary\">12/02/2020 à 10h47</p>
+                                                        <!-- /.sidebar-single-post-title -->
+                                                    </div><!-- /.sidebar-post-content-box -->
+                                                </div><!-- /.sidebar-single-post -->
+
+                                                <div class=\"sidebar-single-post clearfix shadow-lg border-0 bg-white\">
+                                                    <div class=\"sidebar-single-post-picture col-sm-12 col-md-12\">
+                                                        <div class=\"sidebar-single-post-picture-inner overflow-hidden\" style=\"height: 120px\">
+                                                            <a href=\"";
         // line 272
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
-        echo "\">Rentrée académique à l'uac ce 22/04/2012</a></h4>
-                                                                              <!-- /.sidebar-single-post-title -->
-                                                                        </div><!-- /.sidebar-post-content-box -->
-                                                                  </div><!-- /.sidebar-single-post -->
+        echo "\"
+                                                               class=\"sidebar-single-post-picture-target\">
+                                                                <img class=\"img-fluid w-100\"
+                                                                     src=\"";
+        // line 275
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog/single-post.jpg"), "html", null, true);
+        echo "\"
+                                                                     alt=\"\">
+                                                            </a>
+                                                        </div>
+                                                        <!-- /.sidebar-single-post-picture -->
+                                                    </div><!-- /.sidebar-single-post-picture -->
 
-                                                                  <div class=\"sidebar-single-post clearfix\">
-                                                                        <div class=\"sidebar-single-post-picture col-sm-12 col-md-4\">
-                                                                              <div class=\"sidebar-single-post-picture-inner\">
-                                                                                    <a href=\"";
-        // line 280
+                                                    <div class=\"sidebar-post-content-box col-sm-12 col-md-12 mt-2\">
+                                                        <h4 class=\"sidebar-single-post-title\">
+                                                            <a
+                                                                    href=\"";
+        // line 285
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
         echo "\"
-                                                                                       class=\"sidebar-single-post-picture-target\">
-                                                                                          <img class=\"img-responsive\"
-                                                                                               src=\"";
-        // line 283
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog/small/7.jpg"), "html", null, true);
-        echo "\"
-                                                                                               alt=\"\">
-                                                                                    </a>
-                                                                              </div>
-                                                                              <!-- /.sidebar-single-post-picture -->
-                                                                        </div><!-- /.sidebar-single-post-picture -->
+                                                                    style=\"font-size: medium\">Rentrée académique à l'uac
+                                                                ce 22/04/2012
+                                                            </a>
+                                                        </h4>
+                                                        <p class=\"small mb-0 d-flex justify-content-end text-secondary\">12/02/2020 à 10h47</p>
+                                                        <!-- /.sidebar-single-post-title -->
+                                                    </div><!-- /.sidebar-post-content-box -->
+                                                </div><!-- /.sidebar-single-post -->
 
-                                                                        <div class=\"sidebar-post-content-box col-sm-12 col-md-8\">
-                                                                              <h4 class=\"sidebar-single-post-title\"><a
-                                                                                      href=\"";
-        // line 292
+                                                <div class=\"sidebar-single-post clearfix shadow-lg border-0 bg-white\">
+                                                    <div class=\"sidebar-single-post-picture col-sm-12 col-md-12\">
+                                                        <div class=\"sidebar-single-post-picture-inner overflow-hidden\" style=\"height: 120px\">
+                                                            <a href=\"";
+        // line 298
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
-        echo "\">Rentrée académique à l'uac ce 22/04/2012</a></h4>
-                                                                              <!-- /.sidebar-single-post-title -->
-                                                                        </div><!-- /.sidebar-post-content-box -->
-                                                                  </div><!-- /.sidebar-single-post -->
+        echo "\"
+                                                               class=\"sidebar-single-post-picture-target\">
+                                                                <img class=\"img-fluid w-100\"
+                                                                     src=\"";
+        // line 301
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog/single-post.jpg"), "html", null, true);
+        echo "\"
+                                                                     alt=\"\">
+                                                            </a>
+                                                        </div>
+                                                        <!-- /.sidebar-single-post-picture -->
+                                                    </div><!-- /.sidebar-single-post-picture -->
 
-                                                            </div><!-- /.post-list -->
-                                                      </div><!-- /.widget -->
-                                                      <!-- /.widget popular property -->
+                                                    <div class=\"sidebar-post-content-box col-sm-12 col-md-12 mt-2\">
+                                                        <h4 class=\"sidebar-single-post-title\">
+                                                            <a
+                                                                    href=\"";
+        // line 311
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
+        echo "\"
+                                                                    style=\"font-size: medium\">Rentrée académique à l'uac
+                                                                ce 22/04/2012
+                                                            </a>
+                                                        </h4>
+                                                        <p class=\"small mb-0 d-flex justify-content-end text-secondary\">12/02/2020 à 10h47</p>
+                                                        <!-- /.sidebar-single-post-title -->
+                                                    </div><!-- /.sidebar-post-content-box -->
+                                                </div><!-- /.sidebar-single-post -->
 
-                                                </div><!-- /.sidebar-inner -->
-                                          </div><!-- /.sidebar -->
-                                    </div>
+                                            </div><!-- /.post-list -->
+                                        </div><!-- /.widget -->
+                                        <!-- /.widget popular property -->
 
-                              </div>
+                                    </div><!-- /.sidebar-inner -->
+                                </div><!-- /.sidebar -->
+                            </div>
+
                         </div>
-                  </section>
-                  <!-- End Single Post -->
+                    </div>
+                </section>
+                <!-- End Single Post -->
 
             </div><!-- /.du-blog-single -->
-      </div><!-- /.du-subpage content -->
-      <!-- End blog single -->
+        </div><!-- /.du-subpage content -->
+        <!-- End blog single -->
 
-      <div class=\"du-newsletter\">
+        <div class=\"du-newsletter\">
             <div class=\"container\">
-                  <h2 class=\"wow fadeInUp\">Abonnez-vous à notre newsletter</h2>
-                  <p class=\"wow fadeInUp\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero
-                        scelerisque ligula sagittis faucibus eget quis lacus. <br>Suspendisse sodales sed orci ac
-                        feugiat. </p>
-                  <div class=\"row\">
-                        <div class=\"col-lg-12 wow fadeInUp\">
-                              <form id=\"newsletter\" accept-charset=\"utf-8\">
-                                    <div class=\"success\">Your subscribe request has been sent!</div>
-                                    <label class=\"email\">
-                                          <input type=\"email\" value=\"Entrez votre email:\">
-                                          <span class=\"error\">*This is not a valid email address.</span>
-                                    </label><br>
-                                    <a href=\"#\" data-type=\"submit\">Souscrire</a>
-                              </form>
-                        </div>
-                  </div>
+                <h2 class=\"wow fadeInUp\">Abonnez-vous à notre newsletter</h2>
+                <p class=\"wow fadeInUp\">Afin de ne rater aucune de nos dernières actualités. </p>
+                <div class=\"row\">
+                    <div class=\"col-lg-12 wow fadeInUp\">
+                        <form id=\"newsletter\" accept-charset=\"utf-8\">
+                            <div class=\"success\">Your subscribe request has been sent!</div>
+                            <label class=\"email\">
+                                <input type=\"email\" value=\"Entrez votre email:\">
+                                <span class=\"error\">*This is not a valid email address.</span>
+                            </label><br>
+                            <a href=\"#\" data-type=\"submit\">Souscrire</a>
+                        </form>
+                    </div>
+                </div>
             </div>
-      </div>
-</div>
+        </div>
+    </div>
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -488,7 +507,7 @@ class __TwigTemplate_fcad4dfefc685e7919e3978593b692e2ba23ce90a577b29be4d6213ba79
 
     public function getDebugInfo()
     {
-        return array (  426 => 292,  414 => 283,  408 => 280,  397 => 272,  385 => 263,  379 => 260,  368 => 252,  356 => 243,  350 => 240,  339 => 232,  327 => 223,  321 => 220,  309 => 211,  297 => 202,  291 => 199,  119 => 30,  95 => 9,  88 => 4,  78 => 3,  59 => 2,  36 => 1,);
+        return array (  442 => 311,  429 => 301,  423 => 298,  407 => 285,  394 => 275,  388 => 272,  372 => 259,  359 => 249,  353 => 246,  337 => 233,  324 => 223,  318 => 220,  302 => 207,  289 => 197,  283 => 194,  111 => 25,  88 => 4,  78 => 3,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -496,337 +515,359 @@ class __TwigTemplate_fcad4dfefc685e7919e3978593b692e2ba23ce90a577b29be4d6213ba79
         return new Source("{% extends 'front/base.html.twig' %}
 {% block title %}Article{% endblock %}
 {% block body %}
-<div class=\"dream-university-subpage\">
+    <div class=\"dream-university-subpage\">
 
-      <!-- Begin breadcrumbs-->
-      <div class=\"du-page-header du-breadcrumbs overflow-hidden p-0 w-100\" style=\"z-index: -1\">
-            <div style=\"height: 80px\" class=\"bg-dark\">
-                  <img src=\"{{ asset('build/img/blog3.jpg') }}\" class=\"w-100\" style=\"opacity: 0.4\"/>
-            </div>
-      </div>
-      <!-- End breadcrumbs-->
+        <!-- Begin breadcrumbs-->
+        <!-- End breadcrumbs-->
 
 
-      <!-- Begin Blog single -->
-      <div class=\"du-subpage-content\">
+        <!-- Begin Blog single -->
+        <div class=\"du-subpage-content\" style=\"background-color: rgba(218,218,218,0.2)\">
             <div class=\"du-single-page\">
 
-                  <!-- Begin Single Post -->
+                <!-- Begin Single Post -->
 
-                  <section class=\"single-page ptb-50\">
-                        <div class=\"container\">
+                <section class=\"single-page ptb-50\">
+                    <div class=\"container\" style=\"font-size: medium\">
 
-                              <div class=\"row\">
-                                    <div class=\"col-md-9\">
-                                          <h3 class=\"text-secondary\">Présentation des nouveaux boursiers de la
-                                                mastercard foundation à l'université d'abomey-calavi</h3>
-                                          <div class=\"box-container post\">
-                                                <img alt=\"image\" class=\"media-object img-fluid\"
-                                                     src=\"{{ asset('build/img/blog/single-post.jpg') }}img/blog/single-post.jpg\">
-                                                <div class=\"ptb-30\">
-                                                      <div class=\"clearfix meta\">
-                                                            <p class=\"serif italic pull-left\">Date:
-                                                                  <a>15 May 2012</a></p>
-                                                      </div>
-                                                      <div class=\"author\">
-                                                            <p class=\"serif italic\">posted by:
-                                                                  <a>John Doe</a>
-                                                                  in
-                                                                  <a>Category Name</a></p>
-                                                      </div>
-                                                      <p><strong>Pellentesque habitant morbi tristique senectus et netus
-                                                            et
-                                                            malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                                                            feugiat
-                                                            vitae, ultricies eget, tempor sit amet, ante.</strong>
-                                                            Donec eu libero sit amet quam egestas semper. Aenean
-                                                            ultricies mi vitae
-                                                            est. Mauris placerat eleifend leo. Quisque sit amet est et
-                                                            sapien
-                                                            ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
-                                                            commodo
-                                                            vitae, ornare sit amet, wisi. Aenean fermentum, elit eget
-                                                            tincidunt
-                                                            condimentum, eros ipsum rutrum orci, sagittis tempus lacus
-                                                            enim ac dui.
-                                                            Donec non enim in turpis pulvinar facilisis. Ut felis.
-                                                            Praesent dapibus,
-                                                            neque id cursus faucibus, tortor neque egestas augue, eu
-                                                            vulputate magna
-                                                            eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt
-                                                            quis,
-                                                            accumsan porttitor, facilisis luctus, metus</p>
-                                                      <h4>Heading 2. Praesent dapibus, neque id cursus faucibus, tortor
-                                                            neque
-                                                            egestas augue.</h4>
-                                                      <p>Pellentesque habitant morbi tristique senectus et netus et
-                                                            malesuada
-                                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
-                                                            vitae,
-                                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
-                                                            amet quam
-                                                            egestas semper. Aenean ultricies mi vitae est. Mauris
-                                                            placerat eleifend
-                                                            leo.</p>
-                                                      <blockquote>
-                                                            <p>Blockquote. Lorem ipsum dolor sit amet, consectetur
-                                                                  adipiscing elit.
-                                                                  Integer posuere erat a ante.</p>
-                                                            <small>Someone famous
-                                                                  <cite title=\"Source Title\">Source Title</cite></small>
-                                                      </blockquote>
-                                                      <p>Pellentesque habitant morbi tristique senectus et netus et
-                                                            malesuada
-                                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
-                                                            vitae,
-                                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
-                                                            amet quam
-                                                            egestas semper. Aenean ultricies mi vitae est. Mauris
-                                                            placerat eleifend
-                                                            leo.</p>
-                                                      <h3>Heading 3. Praesent dapibus, neque id cursus faucibus, tortor
-                                                            neque
-                                                            egestas augue.</h3>
-                                                      <p>Pellentesque habitant morbi tristique senectus et netus et
-                                                            malesuada
-                                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
-                                                            vitae,
-                                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
-                                                            amet quam
-                                                            egestas semper. Aenean ultricies mi vitae est. Mauris
-                                                            placerat eleifend
-                                                            leo.</p>
-                                                      <ul>
-                                                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                                                  elit.
-                                                            </li>
-                                                            <li>Aliquam tincidunt mauris eu risus.
-                                                                  <ul>
-                                                                        <li>Lorem ipsum dolor sit amet, consectetuer
-                                                                              adipiscing elit.
-                                                                        </li>
-                                                                        <li>Aliquam tincidunt mauris eu risus.</li>
-                                                                        <li>Vestibulum auctor dapibus neque.</li>
-                                                                  </ul>
-                                                            </li>
-                                                            <li>Vestibulum auctor dapibus neque.</li>
-                                                      </ul>
-                                                      <h4>Heading 4. Praesent dapibus, neque id cursus faucibus, tortor
-                                                            neque
-                                                            egestas augue.</h4>
-                                                      <p>Pellentesque habitant morbi tristique senectus et netus et
-                                                            malesuada
-                                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
-                                                            vitae,
-                                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
-                                                            amet quam
-                                                            egestas semper. Aenean ultricies mi vitae est. Mauris
-                                                            placerat eleifend
-                                                            leo.</p>
-                                                      <ol>
-                                                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                                                  elit.
-                                                            </li>
-                                                            <li>Aliquam tincidunt mauris eu risus.</li>
-                                                            <li>Vestibulum auctor dapibus neque.</li>
-                                                      </ol>
-                                                      <h5>Heading 5. Praesent dapibus, neque id cursus faucibus, tortor
-                                                            neque
-                                                            egestas augue.</h5>
-                                                      <p>Pellentesque habitant morbi tristique senectus et netus et
-                                                            malesuada
-                                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
-                                                            vitae,
-                                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
-                                                            amet quam
-                                                            egestas semper. Aenean ultricies mi vitae est. Mauris
-                                                            placerat eleifend
-                                                            leo.</p>
-                                                      <h6>Heading 6. Praesent dapibus, neque id cursus faucibus, tortor
-                                                            neque
-                                                            egestas augue.</h6>
-                                                      <p>Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
-                                                            erat
-                                                            wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
-                                                            Aenean
-                                                            fermentum, elit eget tincidunt condimentum, eros ipsum
-                                                            rutrum orci,
-                                                            sagittis tempus lacus enim ac dui. Donec non enim in turpis
-                                                            pulvinar
-                                                            facilisis. Ut felis. Praesent dapibus, neque id cursus
-                                                            faucibus, tortor
-                                                            neque egestas augue, eu vulputate magna eros eu erat.
-                                                      </p>
-                                                </div>
-                                          </div>
-                                          <!-- .post -->
-                                          <!-- .comment-container -->
+                        <div class=\"row\">
+                            <div class=\"col-md-9\">
+                                <h2 class=\"text-secondary\">Présentation des nouveaux boursiers de la
+                                    mastercard foundation à l'université d'abomey-calavi</h2>
+                                <div class=\"box-container post\">
+                                    <img alt=\"image\" class=\"media-object img-fluid w-100\"
+                                         src=\"{{ asset('build/img/tt.jpg') }}\">
+                                    <div class=\"ptb-30\">
+                                        <div class=\"clearfix meta\">
+                                            <p class=\"serif italic pull-left\">Date:
+                                                <a>15 May 2012</a></p>
+                                        </div>
+                                        <div class=\"author\">
+                                            <p class=\"serif italic\">posted by:
+                                                <a>John Doe</a>
+                                                in
+                                                <a>Category Name</a></p>
+                                        </div>
+                                        <p><strong>Pellentesque habitant morbi tristique senectus et netus
+                                                et
+                                                malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                                                feugiat
+                                                vitae, ultricies eget, tempor sit amet, ante.</strong>
+                                            Donec eu libero sit amet quam egestas semper. Aenean
+                                            ultricies mi vitae
+                                            est. Mauris placerat eleifend leo. Quisque sit amet est et
+                                            sapien
+                                            ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
+                                            commodo
+                                            vitae, ornare sit amet, wisi. Aenean fermentum, elit eget
+                                            tincidunt
+                                            condimentum, eros ipsum rutrum orci, sagittis tempus lacus
+                                            enim ac dui.
+                                            Donec non enim in turpis pulvinar facilisis. Ut felis.
+                                            Praesent dapibus,
+                                            neque id cursus faucibus, tortor neque egestas augue, eu
+                                            vulputate magna
+                                            eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt
+                                            quis,
+                                            accumsan porttitor, facilisis luctus, metus</p>
+                                        <h4>Heading 2. Praesent dapibus, neque id cursus faucibus, tortor
+                                            neque
+                                            egestas augue.</h4>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et
+                                            malesuada
+                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
+                                            vitae,
+                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                                            amet quam
+                                            egestas semper. Aenean ultricies mi vitae est. Mauris
+                                            placerat eleifend
+                                            leo.</p>
+                                        <blockquote>
+                                            <p>Blockquote. Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit.
+                                                Integer posuere erat a ante.</p>
+                                            <small>Someone famous
+                                                <cite title=\"Source Title\">Source Title</cite></small>
+                                        </blockquote>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et
+                                            malesuada
+                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
+                                            vitae,
+                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                                            amet quam
+                                            egestas semper. Aenean ultricies mi vitae est. Mauris
+                                            placerat eleifend
+                                            leo.</p>
+                                        <h3>Heading 3. Praesent dapibus, neque id cursus faucibus, tortor
+                                            neque
+                                            egestas augue.</h3>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et
+                                            malesuada
+                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
+                                            vitae,
+                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                                            amet quam
+                                            egestas semper. Aenean ultricies mi vitae est. Mauris
+                                            placerat eleifend
+                                            leo.</p>
+                                        <ul>
+                                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                elit.
+                                            </li>
+                                            <li>Aliquam tincidunt mauris eu risus.
+                                                <ul>
+                                                    <li>Lorem ipsum dolor sit amet, consectetuer
+                                                        adipiscing elit.
+                                                    </li>
+                                                    <li>Aliquam tincidunt mauris eu risus.</li>
+                                                    <li>Vestibulum auctor dapibus neque.</li>
+                                                </ul>
+                                            </li>
+                                            <li>Vestibulum auctor dapibus neque.</li>
+                                        </ul>
+                                        <h4>Heading 4. Praesent dapibus, neque id cursus faucibus, tortor
+                                            neque
+                                            egestas augue.</h4>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et
+                                            malesuada
+                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
+                                            vitae,
+                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                                            amet quam
+                                            egestas semper. Aenean ultricies mi vitae est. Mauris
+                                            placerat eleifend
+                                            leo.</p>
+                                        <ol>
+                                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                elit.
+                                            </li>
+                                            <li>Aliquam tincidunt mauris eu risus.</li>
+                                            <li>Vestibulum auctor dapibus neque.</li>
+                                        </ol>
+                                        <h5>Heading 5. Praesent dapibus, neque id cursus faucibus, tortor
+                                            neque
+                                            egestas augue.</h5>
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et
+                                            malesuada
+                                            fames ac turpis egestas. Vestibulum tortor quam, feugiat
+                                            vitae,
+                                            ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                                            amet quam
+                                            egestas semper. Aenean ultricies mi vitae est. Mauris
+                                            placerat eleifend
+                                            leo.</p>
+                                        <h6>Heading 6. Praesent dapibus, neque id cursus faucibus, tortor
+                                            neque
+                                            egestas augue.</h6>
+                                        <p>Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
+                                            erat
+                                            wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
+                                            Aenean
+                                            fermentum, elit eget tincidunt condimentum, eros ipsum
+                                            rutrum orci,
+                                            sagittis tempus lacus enim ac dui. Donec non enim in turpis
+                                            pulvinar
+                                            facilisis. Ut felis. Praesent dapibus, neque id cursus
+                                            faucibus, tortor
+                                            neque egestas augue, eu vulputate magna eros eu erat.
+                                        </p>
                                     </div>
+                                </div>
+                                <!-- .post -->
+                                <!-- .comment-container -->
+                            </div>
 
-                                    <!-- Blog sidebar -->
+                            <!-- Blog sidebar -->
 
-                                    <div class=\"col-md-3\">
-                                          <div class=\"sidebar\">
-                                                <div class=\"sidebar-inner\">
-                                                      <div class=\"widget\">
-                                                            <h3 class=\"widget-title\">Partager sur</h3>
+                            <div class=\"col-md-3\">
+                                <div class=\"sidebar\">
+                                    <div class=\"sidebar-inner\">
+                                        <div class=\"widget\">
+                                            <h3 class=\"widget-title\">Partager sur</h3>
 
-                                                            <ul class=\"social social-boxed\">
-                                                                  <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a>
-                                                                  </li>
-                                                                  <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
-                                                                  <li><a href=\"#\"><i class=\"fa fa-linkedin\"></i></a>
-                                                                  </li>
-                                                                  <li><a href=\"#\"><i class=\"fa fa-vimeo-square\"></i></a>
-                                                                  </li>
-                                                                  <li><a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
-                                                            </ul><!-- /.social-->
-                                                      </div><!-- /.widget -->
+                                            <ul class=\"social social-boxed\">
+                                                <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a>
+                                                </li>
+                                                <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
+                                                <li><a href=\"#\"><i class=\"fa fa-linkedin\"></i></a>
+                                                </li>
+                                                <li><a href=\"#\"><i class=\"fa fa-vimeo-square\"></i></a>
+                                                </li>
+                                                <li><a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
+                                            </ul><!-- /.social-->
+                                        </div><!-- /.widget -->
 
-                                                      <div class=\"widget\">
-                                                            <h3 class=\"widget-title\">Récents</h3>
+                                        <div class=\"widget\">
+                                            <h3 class=\"widget-title\">Récents</h3>
 
-                                                            <div class=\"post-list\">
+                                            <div class=\"post-list\">
 
-                                                                  <div class=\"sidebar-single-post clearfix\">
-                                                                        <div class=\"sidebar-single-post-picture col-sm-12 col-md-4\">
-                                                                              <div class=\"sidebar-single-post-picture-inner\">
-                                                                                    <a href=\"{{ path('article') }}\"
-                                                                                       class=\"sidebar-single-post-picture-target\">
-                                                                                          <img class=\"img-fluid\"
-                                                                                               src=\"{{ asset('build/img/blog/small/7.jpg')}}\"
-                                                                                               alt=\"\">
-                                                                                    </a>
-                                                                              </div>
-                                                                              <!-- /.sidebar-single-post-picture -->
-                                                                        </div><!-- /.sidebar-single-post-picture -->
+                                                <div class=\"sidebar-single-post clearfix shadow-lg border-0 bg-white\">
+                                                    <div class=\"sidebar-single-post-picture col-sm-12 col-md-12\">
+                                                        <div class=\"sidebar-single-post-picture-inner overflow-hidden\" style=\"height: 120px\">
+                                                            <a href=\"{{ path('article') }}\"
+                                                               class=\"sidebar-single-post-picture-target\">
+                                                                <img class=\"img-fluid w-100\"
+                                                                     src=\"{{ asset('build/img/blog/single-post.jpg') }}\"
+                                                                     alt=\"\">
+                                                            </a>
+                                                        </div>
+                                                        <!-- /.sidebar-single-post-picture -->
+                                                    </div><!-- /.sidebar-single-post-picture -->
 
-                                                                        <div class=\"sidebar-post-content-box col-sm-12 col-md-8\">
-                                                                              <h4 class=\"sidebar-single-post-title\">
-                                                                                    <a href=\"{{ path('article') }}\">Rentrée académique à
-                                                                                          l'uac ce 22/04/2012</a></h4>
-                                                                              <!-- /.sidebar-single-post-title -->
-                                                                        </div><!-- /.sidebar-post-content-box -->
-                                                                  </div><!-- /.sidebar-single-post -->
+                                                    <div class=\"sidebar-post-content-box col-sm-12 col-md-12 mt-2\">
+                                                        <h4 class=\"sidebar-single-post-title\">
+                                                            <a
+                                                                    href=\"{{ path('article') }}\"
+                                                                    style=\"font-size: medium\">Rentrée académique à l'uac
+                                                                ce 22/04/2012
+                                                            </a>
+                                                        </h4>
+                                                        <p class=\"small mb-0 d-flex justify-content-end text-secondary\">12/02/2020 à 10h47</p>
+                                                        <!-- /.sidebar-single-post-title -->
+                                                    </div><!-- /.sidebar-post-content-box -->
+                                                </div><!-- /.sidebar-single-post -->
 
-                                                                  <div class=\"sidebar-single-post clearfix\">
-                                                                        <div class=\"sidebar-single-post-picture col-sm-12 col-md-4\">
-                                                                              <div class=\"sidebar-single-post-picture-inner\">
-                                                                                    <a href=\"{{ path('article') }}\"
-                                                                                       class=\"sidebar-single-post-picture-target\">
-                                                                                          <img class=\"img-responsive\"
-                                                                                               src=\"{{ asset('build/img/blog/small/10.jpg')}}\"
-                                                                                               alt=\"\">
-                                                                                    </a>
-                                                                              </div>
-                                                                              <!-- /.sidebar-single-post-picture -->
-                                                                        </div><!-- /.sidebar-single-post-picture -->
+                                                <div class=\"sidebar-single-post clearfix shadow-lg border-0 bg-white\">
+                                                    <div class=\"sidebar-single-post-picture col-sm-12 col-md-12\">
+                                                        <div class=\"sidebar-single-post-picture-inner overflow-hidden\" style=\"height: 120px\">
+                                                            <a href=\"{{ path('article') }}\"
+                                                               class=\"sidebar-single-post-picture-target\">
+                                                                <img class=\"img-fluid w-100\"
+                                                                     src=\"{{ asset('build/img/blog/single-post.jpg') }}\"
+                                                                     alt=\"\">
+                                                            </a>
+                                                        </div>
+                                                        <!-- /.sidebar-single-post-picture -->
+                                                    </div><!-- /.sidebar-single-post-picture -->
 
-                                                                        <div class=\"sidebar-post-content-box col-sm-12 col-md-8\">
-                                                                              <h4 class=\"sidebar-single-post-title\"><a
-                                                                                      href=\"{{ path('article') }}\">Rentrée académique à l'uac ce 22/04/2012</a></h4>
-                                                                              <!-- /.sidebar-single-post-title -->
-                                                                        </div><!-- /.sidebar-post-content-box -->
-                                                                  </div><!-- /.sidebar-single-post -->
+                                                    <div class=\"sidebar-post-content-box col-sm-12 col-md-12 mt-2\">
+                                                        <h4 class=\"sidebar-single-post-title\">
+                                                            <a
+                                                                    href=\"{{ path('article') }}\"
+                                                                    style=\"font-size: medium\">Rentrée académique à l'uac
+                                                                ce 22/04/2012
+                                                            </a>
+                                                        </h4>
+                                                        <p class=\"small mb-0 d-flex justify-content-end text-secondary\">12/02/2020 à 10h47</p>
+                                                        <!-- /.sidebar-single-post-title -->
+                                                    </div><!-- /.sidebar-post-content-box -->
+                                                </div><!-- /.sidebar-single-post -->
 
-                                                                  <div class=\"sidebar-single-post clearfix\">
-                                                                        <div class=\"sidebar-single-post-picture col-sm-12 col-md-4\">
-                                                                              <div class=\"sidebar-single-post-picture-inner\">
-                                                                                    <a href=\"{{ path('article') }}\"
-                                                                                       class=\"sidebar-single-post-picture-target\">
-                                                                                          <img class=\"img-responsive\"
-                                                                                               src=\"{{ asset('build/img/blog/small/1.jpg')}}\"
-                                                                                               alt=\"\">
-                                                                                    </a>
-                                                                              </div>
-                                                                              <!-- /.sidebar-single-post-picture -->
-                                                                        </div><!-- /.sidebar-single-post-picture -->
+                                                <div class=\"sidebar-single-post clearfix shadow-lg border-0 bg-white\">
+                                                    <div class=\"sidebar-single-post-picture col-sm-12 col-md-12\">
+                                                        <div class=\"sidebar-single-post-picture-inner overflow-hidden\" style=\"height: 120px\">
+                                                            <a href=\"{{ path('article') }}\"
+                                                               class=\"sidebar-single-post-picture-target\">
+                                                                <img class=\"img-fluid w-100\"
+                                                                     src=\"{{ asset('build/img/blog/single-post.jpg') }}\"
+                                                                     alt=\"\">
+                                                            </a>
+                                                        </div>
+                                                        <!-- /.sidebar-single-post-picture -->
+                                                    </div><!-- /.sidebar-single-post-picture -->
 
-                                                                        <div class=\"sidebar-post-content-box col-sm-12 col-md-8\">
-                                                                              <h4 class=\"sidebar-single-post-title\"><a
-                                                                                      href=\"{{ path('article') }}\">Rentrée académique à l'uac ce 22/04/2012</a></h4>
-                                                                              <!-- /.sidebar-single-post-title -->
-                                                                        </div><!-- /.sidebar-post-content-box -->
-                                                                  </div><!-- /.sidebar-single-post -->
+                                                    <div class=\"sidebar-post-content-box col-sm-12 col-md-12 mt-2\">
+                                                        <h4 class=\"sidebar-single-post-title\">
+                                                            <a
+                                                                    href=\"{{ path('article') }}\"
+                                                                    style=\"font-size: medium\">Rentrée académique à l'uac
+                                                                ce 22/04/2012
+                                                            </a>
+                                                        </h4>
+                                                        <p class=\"small mb-0 d-flex justify-content-end text-secondary\">12/02/2020 à 10h47</p>
+                                                        <!-- /.sidebar-single-post-title -->
+                                                    </div><!-- /.sidebar-post-content-box -->
+                                                </div><!-- /.sidebar-single-post -->
 
-                                                                  <div class=\"sidebar-single-post clearfix\">
-                                                                        <div class=\"sidebar-single-post-picture col-sm-12 col-md-4\">
-                                                                              <div class=\"sidebar-single-post-picture-inner\">
-                                                                                    <a href=\"{{ path('article') }}\"
-                                                                                       class=\"sidebar-single-post-picture-target\">
-                                                                                          <img class=\"img-responsive\"
-                                                                                               src=\"{{ asset('build/img/blog/small/7.jpg')}}\"
-                                                                                               alt=\"\">
-                                                                                    </a>
-                                                                              </div>
-                                                                              <!-- /.sidebar-single-post-picture -->
-                                                                        </div><!-- /.sidebar-single-post-picture -->
+                                                <div class=\"sidebar-single-post clearfix shadow-lg border-0 bg-white\">
+                                                    <div class=\"sidebar-single-post-picture col-sm-12 col-md-12\">
+                                                        <div class=\"sidebar-single-post-picture-inner overflow-hidden\" style=\"height: 120px\">
+                                                            <a href=\"{{ path('article') }}\"
+                                                               class=\"sidebar-single-post-picture-target\">
+                                                                <img class=\"img-fluid w-100\"
+                                                                     src=\"{{ asset('build/img/blog/single-post.jpg') }}\"
+                                                                     alt=\"\">
+                                                            </a>
+                                                        </div>
+                                                        <!-- /.sidebar-single-post-picture -->
+                                                    </div><!-- /.sidebar-single-post-picture -->
 
-                                                                        <div class=\"sidebar-post-content-box col-sm-12 col-md-8\">
-                                                                              <h4 class=\"sidebar-single-post-title\"><a
-                                                                                      href=\"{{ path('article') }}\">Rentrée académique à l'uac ce 22/04/2012</a></h4>
-                                                                              <!-- /.sidebar-single-post-title -->
-                                                                        </div><!-- /.sidebar-post-content-box -->
-                                                                  </div><!-- /.sidebar-single-post -->
+                                                    <div class=\"sidebar-post-content-box col-sm-12 col-md-12 mt-2\">
+                                                        <h4 class=\"sidebar-single-post-title\">
+                                                            <a
+                                                                    href=\"{{ path('article') }}\"
+                                                                    style=\"font-size: medium\">Rentrée académique à l'uac
+                                                                ce 22/04/2012
+                                                            </a>
+                                                        </h4>
+                                                        <p class=\"small mb-0 d-flex justify-content-end text-secondary\">12/02/2020 à 10h47</p>
+                                                        <!-- /.sidebar-single-post-title -->
+                                                    </div><!-- /.sidebar-post-content-box -->
+                                                </div><!-- /.sidebar-single-post -->
 
-                                                                  <div class=\"sidebar-single-post clearfix\">
-                                                                        <div class=\"sidebar-single-post-picture col-sm-12 col-md-4\">
-                                                                              <div class=\"sidebar-single-post-picture-inner\">
-                                                                                    <a href=\"{{ path('article') }}\"
-                                                                                       class=\"sidebar-single-post-picture-target\">
-                                                                                          <img class=\"img-responsive\"
-                                                                                               src=\"{{ asset('build/img/blog/small/7.jpg')}}\"
-                                                                                               alt=\"\">
-                                                                                    </a>
-                                                                              </div>
-                                                                              <!-- /.sidebar-single-post-picture -->
-                                                                        </div><!-- /.sidebar-single-post-picture -->
+                                                <div class=\"sidebar-single-post clearfix shadow-lg border-0 bg-white\">
+                                                    <div class=\"sidebar-single-post-picture col-sm-12 col-md-12\">
+                                                        <div class=\"sidebar-single-post-picture-inner overflow-hidden\" style=\"height: 120px\">
+                                                            <a href=\"{{ path('article') }}\"
+                                                               class=\"sidebar-single-post-picture-target\">
+                                                                <img class=\"img-fluid w-100\"
+                                                                     src=\"{{ asset('build/img/blog/single-post.jpg') }}\"
+                                                                     alt=\"\">
+                                                            </a>
+                                                        </div>
+                                                        <!-- /.sidebar-single-post-picture -->
+                                                    </div><!-- /.sidebar-single-post-picture -->
 
-                                                                        <div class=\"sidebar-post-content-box col-sm-12 col-md-8\">
-                                                                              <h4 class=\"sidebar-single-post-title\"><a
-                                                                                      href=\"{{ path('article') }}\">Rentrée académique à l'uac ce 22/04/2012</a></h4>
-                                                                              <!-- /.sidebar-single-post-title -->
-                                                                        </div><!-- /.sidebar-post-content-box -->
-                                                                  </div><!-- /.sidebar-single-post -->
+                                                    <div class=\"sidebar-post-content-box col-sm-12 col-md-12 mt-2\">
+                                                        <h4 class=\"sidebar-single-post-title\">
+                                                            <a
+                                                                    href=\"{{ path('article') }}\"
+                                                                    style=\"font-size: medium\">Rentrée académique à l'uac
+                                                                ce 22/04/2012
+                                                            </a>
+                                                        </h4>
+                                                        <p class=\"small mb-0 d-flex justify-content-end text-secondary\">12/02/2020 à 10h47</p>
+                                                        <!-- /.sidebar-single-post-title -->
+                                                    </div><!-- /.sidebar-post-content-box -->
+                                                </div><!-- /.sidebar-single-post -->
 
-                                                            </div><!-- /.post-list -->
-                                                      </div><!-- /.widget -->
-                                                      <!-- /.widget popular property -->
+                                            </div><!-- /.post-list -->
+                                        </div><!-- /.widget -->
+                                        <!-- /.widget popular property -->
 
-                                                </div><!-- /.sidebar-inner -->
-                                          </div><!-- /.sidebar -->
-                                    </div>
+                                    </div><!-- /.sidebar-inner -->
+                                </div><!-- /.sidebar -->
+                            </div>
 
-                              </div>
                         </div>
-                  </section>
-                  <!-- End Single Post -->
+                    </div>
+                </section>
+                <!-- End Single Post -->
 
             </div><!-- /.du-blog-single -->
-      </div><!-- /.du-subpage content -->
-      <!-- End blog single -->
+        </div><!-- /.du-subpage content -->
+        <!-- End blog single -->
 
-      <div class=\"du-newsletter\">
+        <div class=\"du-newsletter\">
             <div class=\"container\">
-                  <h2 class=\"wow fadeInUp\">Abonnez-vous à notre newsletter</h2>
-                  <p class=\"wow fadeInUp\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero
-                        scelerisque ligula sagittis faucibus eget quis lacus. <br>Suspendisse sodales sed orci ac
-                        feugiat. </p>
-                  <div class=\"row\">
-                        <div class=\"col-lg-12 wow fadeInUp\">
-                              <form id=\"newsletter\" accept-charset=\"utf-8\">
-                                    <div class=\"success\">Your subscribe request has been sent!</div>
-                                    <label class=\"email\">
-                                          <input type=\"email\" value=\"Entrez votre email:\">
-                                          <span class=\"error\">*This is not a valid email address.</span>
-                                    </label><br>
-                                    <a href=\"#\" data-type=\"submit\">Souscrire</a>
-                              </form>
-                        </div>
-                  </div>
+                <h2 class=\"wow fadeInUp\">Abonnez-vous à notre newsletter</h2>
+                <p class=\"wow fadeInUp\">Afin de ne rater aucune de nos dernières actualités. </p>
+                <div class=\"row\">
+                    <div class=\"col-lg-12 wow fadeInUp\">
+                        <form id=\"newsletter\" accept-charset=\"utf-8\">
+                            <div class=\"success\">Your subscribe request has been sent!</div>
+                            <label class=\"email\">
+                                <input type=\"email\" value=\"Entrez votre email:\">
+                                <span class=\"error\">*This is not a valid email address.</span>
+                            </label><br>
+                            <a href=\"#\" data-type=\"submit\">Souscrire</a>
+                        </form>
+                    </div>
+                </div>
             </div>
-      </div>
-</div>
+        </div>
+    </div>
 {% endblock %}", "front/article.html.twig", "C:\\Users\\Cayrol\\Documents\\Apowersoft\\uacjobs\\templates\\front\\article.html.twig");
     }
 }

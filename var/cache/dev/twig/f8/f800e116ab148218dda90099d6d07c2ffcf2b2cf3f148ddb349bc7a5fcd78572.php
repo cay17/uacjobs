@@ -215,29 +215,42 @@ class __TwigTemplate_2860e1a8282f2be657a034e411366b3a5ce9c1f145c835dbb799bfabe37
         echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 90, $this->source); })()), "request", [], "any", false, false, false, 90), "attributes", [], "any", false, false, false, 90), "get", [0 => "_route"], "method", false, false, false, 90), "recr_contact"))) ? ("#") : ($this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("recr_contact")));
         echo "\">Contact</a></li>
                 <li class=\"dropdown \">
-                    <a class=\"dropdown-toggle bg-primary text-white\" href=\"#\" id=\"dropdownMenuLink3\"
+                    <a class=\"dropdown-toggle bg-primary text-white d-flex align-items-center\" href=\"#\" id=\"dropdownMenuLink3\"
                        data-toggle=\"dropdown\"
-                       aria-haspopup=\"true\" aria-expanded=\"false\">
-                        <img src=\"";
-        // line 95
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/logo.png"), "html", null, true);
-        echo "\" class=\"img-fluid rounded-circle\" width=\"40\"/>
-                        <span>recruteur</span>
+                       aria-haspopup=\"true\" aria-expanded=\"false\">";
+        // line 94
+        if ((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 94, $this->source); })()), "user", [], "any", false, false, false, 94), "picture", [], "any", false, false, false, 94), null))) {
+            // line 95
+            echo "                            <i class=\"fa fa-user text-secondary mr-3 p-3 rounded-circle bg-white\" style=\"font-size: 25px;\"></i>
+                        ";
+        } else {
+            // line 97
+            echo "                            <img src=\"";
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
+            echo "\" class=\"img-fluid rounded-circle\" width=\"40\"/>
+                        ";
+        }
+        // line 99
+        echo "                        <span>";
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 99, $this->source); })()), "user", [], "any", false, false, false, 99), "lastname", [], "any", false, false, false, 99), "html", null, true);
+        echo " ";
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 99, $this->source); })()), "user", [], "any", false, false, false, 99), "name", [], "any", false, false, false, 99), "html", null, true);
+        echo "</span>
                     </a>
 
                     <ul class=\"dropdown-menu w-100\" aria-labelledby=\"dropdownMenuLink3\">
                         <li class=\"text-dark\"><a class=\"dropdown-item \" href=\"";
-        // line 100
-        echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 100, $this->source); })()), "request", [], "any", false, false, false, 100), "attributes", [], "any", false, false, false, 100), "get", [0 => "_route"], "method", false, false, false, 100), "recr_create_offer"))) ? ("#") : ($this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("recr_create_offer")));
+        // line 103
+        echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 103, $this->source); })()), "request", [], "any", false, false, false, 103), "attributes", [], "any", false, false, false, 103), "get", [0 => "_route"], "method", false, false, false, 103), "recr_create_offer"))) ? ("#") : ($this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("recr_create_offer")));
         echo "\">Créer une
                                 opportunité</a></li>
                         <li class=\"text-dark\"><a class=\"dropdown-item \" href=\"";
-        // line 102
-        echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 102, $this->source); })()), "request", [], "any", false, false, false, 102), "attributes", [], "any", false, false, false, 102), "get", [0 => "_route"], "method", false, false, false, 102), "recr_offers"))) ? ("#") : ($this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("recr_offers")));
+        // line 105
+        echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 105, $this->source); })()), "request", [], "any", false, false, false, 105), "attributes", [], "any", false, false, false, 105), "get", [0 => "_route"], "method", false, false, false, 105), "recr_offers"))) ? ("#") : ($this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("recr_offers")));
         echo "\">Mes opportunités</a></li>
                         <li><a class=\"dropdown-item \" href=\"";
-        // line 103
-        echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 103, $this->source); })()), "request", [], "any", false, false, false, 103), "attributes", [], "any", false, false, false, 103), "get", [0 => "_route"], "method", false, false, false, 103), "recr_profil"))) ? ("#") : ($this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("recr_profil")));
+        // line 106
+        echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 106, $this->source); })()), "request", [], "any", false, false, false, 106), "attributes", [], "any", false, false, false, 106), "get", [0 => "_route"], "method", false, false, false, 106), "recr_profil"))) ? ("#") : ($this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("recr_profil")));
         echo "\">Mon profil</a>
                         </li>
                         <li><a class=\"dropdown-item \" href=\"#\">Déconnexion</a>
@@ -249,109 +262,151 @@ class __TwigTemplate_2860e1a8282f2be657a034e411366b3a5ce9c1f145c835dbb799bfabe37
     </nav>
 </header>
 ";
-        // line 113
+        // line 116
         $this->displayBlock('body', $context, $blocks);
-        // line 115
+        // line 118
         echo "<footer>
-    <div class=\"container-fluid bg-dark m-0\">
-        <div class=\"row\">
-            <div class=\"col-lg-8 col-12 text-white p-5\">
-                <span class=\"font-weight-bold h4 text-secondary\">Jobs Etudiants</span>
-                <span class=\"mt-3 small d-block\">
-                              Réalisé par:
-                        </span>
-                <ul class=\"font-weight-bold h6\">
-                    <li class=\"my-3\">L'université d'Abomey-calavi</li>
-                    <li>Le programme de bourses de la fondation Mastercard à l'UAC</li>
-                </ul>
+    <section id=\"footer\" class=\" bg-dark\">
+        <div class=\"container pt-5\">
+            <div class=\"row text-center text-xs-center text-sm-left text-md-left\">
+                <div class=\"col-xs-12 col-sm-4 col-md-4\">
+                    <a class=\" ml-lg-5 ml-3 mt-0 pt-0\" href=\"";
+        // line 123
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("index");
+        echo "\">
+                        <h1 class=\"text-white pb-3 pt-0 mt-0\">UAC JOBS</h1>
+
+                    </a>
+                </div>
+                <div class=\"col-xs-12 col-sm-4 col-md-4 text-center\">
+                    <ul class=\"list-unstyled quick-links\">
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Accueil</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">A propos</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">FAQ</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Contact</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">
+                                Partenaires
+                            </a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div class=\"col-xs-12 col-sm-4 col-md-4 text-center\">
+                    <ul class=\"list-unstyled quick-links\">
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Opportunités</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Actualités</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Galerie</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Trucs et astuces</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">
+                                Podcast employabilité
+                            </a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div class=\"col-12 text-center mt-5\">
+                    <ul class=\"list-unstyled list-inline social text-center\">
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-facebook fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-twitter fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-instagram fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-google-plus fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"
+                                                        target=\"_blank\"><i class=\"fa fa-envelope fa-1x\"></i></a></li>
+                    </ul>
+                </div>
+                <div class=\"col-xs-12 col-sm-4 col-md-4\">
+
+                </div>
             </div>
-            <div class=\"col-lg-4 col-12 pt-5\">
-                <div class=\"du-scholarship-item wow fadeInLeft\">
-                    <figure><img src=\"";
-        // line 130
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/logo1.png"), "html", null, true);
-        echo "\" width=250 alt=\"\"></figure>
+            <div class=\"row\">
+                <div class=\"col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5\">
+
                 </div>
-                <div class=\"du-scholarship-item wow fadeInLeft\">
-                    <figure><img src=\"";
-        // line 133
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/logo.png"), "html", null, true);
-        echo "\" width=\"150\" alt=\"\"></figure>
-                </div>
+                </hr>
             </div>
         </div>
-    </div>
+    </section>
     <div class=\"container-fluid bg-secondary py-2 text-center text-white\">
         Copyright 2020 &copy; Tous droits réservés
     </div>
 </footer>
 <script type=\"text/javascript\" src=\"";
-        // line 142
+        // line 190
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/jquery.js"), "html", null, true);
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 143
+        // line 191
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/bootstrap/bootstrap.min.js"), "html", null, true);
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 144
+        // line 192
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/jquery.easing.1.3.js"), "html", null, true);
         echo "\"></script>
 
 <!-- Feature box equal height JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 147
+        // line 195
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/jquery.equalheights.js"), "html", null, true);
         echo "\"></script>
 <!-- UI bottom to top JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 149
+        // line 197
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/jquery.ui.totop.js"), "html", null, true);
         echo "\"></script>
 <!-- Subscription JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 151
+        // line 199
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/sForm.js"), "html", null, true);
         echo "\"></script>
 <!-- Animation JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 153
+        // line 201
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/wow.js"), "html", null, true);
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 154
+        // line 202
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/device.min.js"), "html", null, true);
         echo "\"></script>
 <!-- Menu JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 156
+        // line 204
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/flexy-menu.js"), "html", null, true);
         echo "\"></script>
 <!-- Text rotator JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 158
+        // line 206
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/jquery.simple-text-rotator.min.js"), "html", null, true);
         echo "\"></script>
 <!-- Smooth Scroll JS -->
 
 <!-- Testimonila JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 162
+        // line 210
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/jquery.cubeportfolio.min.js"), "html", null, true);
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 163
+        // line 211
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/testimonials.js"), "html", null, true);
         echo "\"></script>
 <!-- Custom script -->
 <script type=\"text/javascript\" src=\"";
-        // line 165
+        // line 213
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/main.js"), "html", null, true);
         echo "\"></script>
 ";
-        // line 166
+        // line 214
         $this->displayBlock('js', $context, $blocks);
-        // line 167
+        // line 215
         echo "</body>
 </html>";
         
@@ -399,7 +454,7 @@ class __TwigTemplate_2860e1a8282f2be657a034e411366b3a5ce9c1f145c835dbb799bfabe37
 
     }
 
-    // line 113
+    // line 116
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -417,7 +472,7 @@ class __TwigTemplate_2860e1a8282f2be657a034e411366b3a5ce9c1f145c835dbb799bfabe37
 
     }
 
-    // line 166
+    // line 214
     public function block_js($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -447,7 +502,7 @@ class __TwigTemplate_2860e1a8282f2be657a034e411366b3a5ce9c1f145c835dbb799bfabe37
 
     public function getDebugInfo()
     {
-        return array (  421 => 166,  403 => 113,  384 => 27,  366 => 7,  355 => 167,  353 => 166,  349 => 165,  344 => 163,  340 => 162,  333 => 158,  328 => 156,  323 => 154,  319 => 153,  314 => 151,  309 => 149,  304 => 147,  298 => 144,  294 => 143,  290 => 142,  278 => 133,  272 => 130,  255 => 115,  253 => 113,  240 => 103,  236 => 102,  231 => 100,  223 => 95,  213 => 90,  207 => 89,  200 => 85,  195 => 83,  190 => 81,  175 => 73,  169 => 70,  165 => 69,  151 => 60,  145 => 57,  141 => 56,  136 => 54,  125 => 46,  117 => 45,  98 => 28,  96 => 27,  86 => 20,  81 => 18,  76 => 16,  71 => 14,  66 => 12,  61 => 10,  55 => 7,  47 => 1,);
+        return array (  476 => 214,  458 => 116,  439 => 27,  421 => 7,  410 => 215,  408 => 214,  404 => 213,  399 => 211,  395 => 210,  388 => 206,  383 => 204,  378 => 202,  374 => 201,  369 => 199,  364 => 197,  359 => 195,  353 => 192,  349 => 191,  345 => 190,  275 => 123,  268 => 118,  266 => 116,  253 => 106,  249 => 105,  244 => 103,  234 => 99,  228 => 97,  224 => 95,  222 => 94,  213 => 90,  207 => 89,  200 => 85,  195 => 83,  190 => 81,  175 => 73,  169 => 70,  165 => 69,  151 => 60,  145 => 57,  141 => 56,  136 => 54,  125 => 46,  117 => 45,  98 => 28,  96 => 27,  86 => 20,  81 => 18,  76 => 16,  71 => 14,  66 => 12,  61 => 10,  55 => 7,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -543,11 +598,14 @@ class __TwigTemplate_2860e1a8282f2be657a034e411366b3a5ce9c1f145c835dbb799bfabe37
                 <li class=\"{{ (app.request.attributes.get('_route') == 'recr_search')? 'active' }}\"><a href=\"{{ (app.request.attributes.get('_route') == 'recr_search')? '#' : path(\"recr_search\") }}\">Rechercher un profil étudiant</a></li>
                 <li class=\"{{ (app.request.attributes.get('_route') == 'recr_contact')? 'active' }}\"><a href=\"{{ (app.request.attributes.get('_route') == 'recr_contact')? '#' : path(\"recr_contact\") }}\">Contact</a></li>
                 <li class=\"dropdown \">
-                    <a class=\"dropdown-toggle bg-primary text-white\" href=\"#\" id=\"dropdownMenuLink3\"
+                    <a class=\"dropdown-toggle bg-primary text-white d-flex align-items-center\" href=\"#\" id=\"dropdownMenuLink3\"
                        data-toggle=\"dropdown\"
-                       aria-haspopup=\"true\" aria-expanded=\"false\">
-                        <img src=\"{{ asset('build/img/logo.png') }}\" class=\"img-fluid rounded-circle\" width=\"40\"/>
-                        <span>recruteur</span>
+                       aria-haspopup=\"true\" aria-expanded=\"false\">{% if app.user.picture==null %}
+                            <i class=\"fa fa-user text-secondary mr-3 p-3 rounded-circle bg-white\" style=\"font-size: 25px;\"></i>
+                        {% else %}
+                            <img src=\"{{ asset('build/img/darren.png') }}\" class=\"img-fluid rounded-circle\" width=\"40\"/>
+                        {% endif %}
+                        <span>{{ app.user.lastname }} {{ app.user.name }}</span>
                     </a>
 
                     <ul class=\"dropdown-menu w-100\" aria-labelledby=\"dropdownMenuLink3\">
@@ -567,28 +625,73 @@ class __TwigTemplate_2860e1a8282f2be657a034e411366b3a5ce9c1f145c835dbb799bfabe37
 {% block body %}
 {% endblock %}
 <footer>
-    <div class=\"container-fluid bg-dark m-0\">
-        <div class=\"row\">
-            <div class=\"col-lg-8 col-12 text-white p-5\">
-                <span class=\"font-weight-bold h4 text-secondary\">Jobs Etudiants</span>
-                <span class=\"mt-3 small d-block\">
-                              Réalisé par:
-                        </span>
-                <ul class=\"font-weight-bold h6\">
-                    <li class=\"my-3\">L'université d'Abomey-calavi</li>
-                    <li>Le programme de bourses de la fondation Mastercard à l'UAC</li>
-                </ul>
+    <section id=\"footer\" class=\" bg-dark\">
+        <div class=\"container pt-5\">
+            <div class=\"row text-center text-xs-center text-sm-left text-md-left\">
+                <div class=\"col-xs-12 col-sm-4 col-md-4\">
+                    <a class=\" ml-lg-5 ml-3 mt-0 pt-0\" href=\"{{ path('index') }}\">
+                        <h1 class=\"text-white pb-3 pt-0 mt-0\">UAC JOBS</h1>
+
+                    </a>
+                </div>
+                <div class=\"col-xs-12 col-sm-4 col-md-4 text-center\">
+                    <ul class=\"list-unstyled quick-links\">
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Accueil</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">A propos</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">FAQ</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Contact</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">
+                                Partenaires
+                            </a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div class=\"col-xs-12 col-sm-4 col-md-4 text-center\">
+                    <ul class=\"list-unstyled quick-links\">
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Opportunités</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Actualités</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Galerie</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Trucs et astuces</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">
+                                Podcast employabilité
+                            </a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div class=\"col-12 text-center mt-5\">
+                    <ul class=\"list-unstyled list-inline social text-center\">
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-facebook fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-twitter fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-instagram fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-google-plus fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"
+                                                        target=\"_blank\"><i class=\"fa fa-envelope fa-1x\"></i></a></li>
+                    </ul>
+                </div>
+                <div class=\"col-xs-12 col-sm-4 col-md-4\">
+
+                </div>
             </div>
-            <div class=\"col-lg-4 col-12 pt-5\">
-                <div class=\"du-scholarship-item wow fadeInLeft\">
-                    <figure><img src=\"{{ asset('build/img/logo1.png') }}\" width=250 alt=\"\"></figure>
+            <div class=\"row\">
+                <div class=\"col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5\">
+
                 </div>
-                <div class=\"du-scholarship-item wow fadeInLeft\">
-                    <figure><img src=\"{{ asset('build/img/logo.png') }}\" width=\"150\" alt=\"\"></figure>
-                </div>
+                </hr>
             </div>
         </div>
-    </div>
+    </section>
     <div class=\"container-fluid bg-secondary py-2 text-center text-white\">
         Copyright 2020 &copy; Tous droits réservés
     </div>

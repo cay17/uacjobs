@@ -152,8 +152,8 @@ class __TwigTemplate_1c74a36655f93cfac62da1c3493d742ffc03f0df7e2f27746a367e593db
             <div style=\"height: 180px\" class=\"bg-dark\">
                   <img src=\"";
         // line 49
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog3.jpg"), "html", null, true);
-        echo "\" class=\"w-100\" style=\"opacity: 0.4\"/>
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/tt.jpg"), "html", null, true);
+        echo "\" class=\"w-100\" style=\"opacity: 1\"/>
             </div>
       </div>
       <div style=\"padding-top: 100px;z-index: 88888;\">
@@ -171,90 +171,130 @@ class __TwigTemplate_1c74a36655f93cfac62da1c3493d742ffc03f0df7e2f27746a367e593db
 
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940\"
+                        <a href=\"";
+        // line 67
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog3.jpg"), "html", null, true);
+        echo "\"
                            class=\"fancybox\" rel=\"ligthbox\">
                               <img src=\"";
         // line 69
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog3.jpg"), "html", null, true);
         echo "\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
 
                         </a>
                   </div>
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940\"
+                        <a href=\"";
+        // line 77
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/transfer-admission.jpg"), "html", null, true);
+        echo "\"
                            class=\"fancybox\" rel=\"ligthbox\">
                               <img src=\"";
-        // line 77
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/page1_pic1.jpg"), "html", null, true);
+        // line 79
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/transfer-admission.jpg"), "html", null, true);
         echo "\"
                                    class=\"zoom img-fluid\" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940\"
+                        <a href=\"";
+        // line 87
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/etu.jpg"), "html", null, true);
+        echo "\"
                            class=\"fancybox\" rel=\"ligthbox\">
                               <img src=\"";
-        // line 85
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/page1_pic1.jpg"), "html", null, true);
+        // line 89
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/etu.jpg"), "html", null, true);
         echo "\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940\"
+                        <a href=\"";
+        // line 97
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/eco-student.jpg"), "html", null, true);
+        echo "\"
                            class=\"fancybox\" rel=\"ligthbox\">
                               <img src=\"";
-        // line 93
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/page1_pic1.jpg"), "html", null, true);
+        // line 99
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/eco-student.jpg"), "html", null, true);
         echo "\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940\"
-                           class=\"fancybox\" rel=\"ligthbox\">
-                              <img src=\"";
-        // line 101
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/page1_pic1.jpg"), "html", null, true);
+                        <a href=\"";
+        // line 107
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/team/teacher4.jpg"), "html", null, true);
         echo "\"
-                                   class=\"zoom img-fluid \" alt=\"\">
-                        </a>
-                  </div>
-
-                  <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940\"
                            class=\"fancybox\" rel=\"ligthbox\">
                               <img src=\"";
         // line 109
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/page1_pic1.jpg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/team/teacher4.jpg"), "html", null, true);
         echo "\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940\"
-                           class=\"fancybox\" rel=\"ligthbox\">
-                              <img src=\"";
+                        <a href=\"";
         // line 117
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/page1_pic1.jpg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/english.jpg"), "html", null, true);
+        echo "\"
+                           class=\"fancybox\" rel=\"ligthbox\">
+                              <img src=\"";
+        // line 119
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/english.jpg"), "html", null, true);
         echo "\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940\"
+                        <a href=\"";
+        // line 127
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/engineerning.jpg"), "html", null, true);
+        echo "\"
                            class=\"fancybox\" rel=\"ligthbox\">
                               <img src=\"";
-        // line 125
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/page1_pic1.jpg"), "html", null, true);
+        // line 129
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/engineerning.jpg"), "html", null, true);
         echo "\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
+                        </a>
+                  </div>
+
+                  <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
+                        <a href=\"";
+        // line 137
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/page1_pic4.jpg"), "html", null, true);
+        echo "\"
+                           class=\"fancybox\" rel=\"ligthbox\">
+                              <img src=\"";
+        // line 139
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/page1_pic4.jpg"), "html", null, true);
+        echo "\"
+                                   class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 
@@ -273,7 +313,7 @@ class __TwigTemplate_1c74a36655f93cfac62da1c3493d742ffc03f0df7e2f27746a367e593db
 
     }
 
-    // line 137
+    // line 153
     public function block_js($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -283,7 +323,7 @@ class __TwigTemplate_1c74a36655f93cfac62da1c3493d742ffc03f0df7e2f27746a367e593db
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "js"));
 
-        // line 138
+        // line 154
         echo "<script type=\"text/javascript\">
     \$(document).ready(function () {
         \$(\".fancybox\").fancybox({
@@ -321,7 +361,7 @@ class __TwigTemplate_1c74a36655f93cfac62da1c3493d742ffc03f0df7e2f27746a367e593db
 
     public function getDebugInfo()
     {
-        return array (  287 => 138,  277 => 137,  255 => 125,  244 => 117,  233 => 109,  222 => 101,  211 => 93,  200 => 85,  189 => 77,  178 => 69,  155 => 49,  150 => 46,  140 => 45,  121 => 44,  71 => 3,  61 => 2,  38 => 1,);
+        return array (  327 => 154,  317 => 153,  293 => 139,  288 => 137,  277 => 129,  272 => 127,  261 => 119,  256 => 117,  245 => 109,  240 => 107,  229 => 99,  224 => 97,  213 => 89,  208 => 87,  197 => 79,  192 => 77,  181 => 69,  176 => 67,  155 => 49,  150 => 46,  140 => 45,  121 => 44,  71 => 3,  61 => 2,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -374,7 +414,7 @@ class __TwigTemplate_1c74a36655f93cfac62da1c3493d742ffc03f0df7e2f27746a367e593db
 <div class=\"dream-university-subpage\">
       <div class=\"du-page-header du-breadcrumbs overflow-hidden p-0 position-absolute w-100\" style=\"z-index: -1\">
             <div style=\"height: 180px\" class=\"bg-dark\">
-                  <img src=\"{{ asset('build/img/blog3.jpg') }}\" class=\"w-100\" style=\"opacity: 0.4\"/>
+                  <img src=\"{{ asset('build/img/tt.jpg') }}\" class=\"w-100\" style=\"opacity: 1\"/>
             </div>
       </div>
       <div style=\"padding-top: 100px;z-index: 88888;\">
@@ -392,66 +432,82 @@ class __TwigTemplate_1c74a36655f93cfac62da1c3493d742ffc03f0df7e2f27746a367e593db
 
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940\"
+                        <a href=\"{{ asset('build/img/blog3.jpg') }}\"
                            class=\"fancybox\" rel=\"ligthbox\">
                               <img src=\"{{ asset('build/img/blog3.jpg') }}\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
 
                         </a>
                   </div>
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940\"
+                        <a href=\"{{ asset('build/img/transfer-admission.jpg') }}\"
                            class=\"fancybox\" rel=\"ligthbox\">
-                              <img src=\"{{ asset('build/img/page1_pic1.jpg') }}\"
+                              <img src=\"{{ asset('build/img/transfer-admission.jpg') }}\"
                                    class=\"zoom img-fluid\" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940\"
+                        <a href=\"{{ asset('build/img/etu.jpg') }}\"
                            class=\"fancybox\" rel=\"ligthbox\">
-                              <img src=\"{{ asset('build/img/page1_pic1.jpg') }}\"
+                              <img src=\"{{ asset('build/img/etu.jpg') }}\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940\"
+                        <a href=\"{{ asset('build/img/eco-student.jpg') }}\"
                            class=\"fancybox\" rel=\"ligthbox\">
-                              <img src=\"{{ asset('build/img/page1_pic1.jpg') }}\"
+                              <img src=\"{{ asset('build/img/eco-student.jpg') }}\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940\"
+                        <a href=\"{{ asset('build/img/team/teacher4.jpg') }}\"
                            class=\"fancybox\" rel=\"ligthbox\">
-                              <img src=\"{{ asset('build/img/page1_pic1.jpg') }}\"
+                              <img src=\"{{ asset('build/img/team/teacher4.jpg') }}\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940\"
+                        <a href=\"{{ asset('build/img/english.jpg') }}\"
                            class=\"fancybox\" rel=\"ligthbox\">
-                              <img src=\"{{ asset('build/img/page1_pic1.jpg') }}\"
+                              <img src=\"{{ asset('build/img/english.jpg') }}\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940\"
+                        <a href=\"{{ asset('build/img/engineerning.jpg') }}\"
                            class=\"fancybox\" rel=\"ligthbox\">
-                              <img src=\"{{ asset('build/img/page1_pic1.jpg') }}\"
+                              <img src=\"{{ asset('build/img/engineerning.jpg') }}\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 
                   <div class=\"col-lg-4 col-md-4 col-xs-6 thumb\">
-                        <a href=\"https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940\"
+                        <a href=\"{{ asset('build/img/page1_pic4.jpg') }}\"
                            class=\"fancybox\" rel=\"ligthbox\">
-                              <img src=\"{{ asset('build/img/page1_pic1.jpg') }}\"
+                              <img src=\"{{ asset('build/img/page1_pic4.jpg') }}\"
                                    class=\"zoom img-fluid \" alt=\"\">
+                              <h4 class=\"pb-0 mb-0 mt-2\">Rencontre entre les différents acteurs de l'université d'Abomey-calavi</h4>
+                              <p class=\"p-0 m-0 d-flex justify-content-end text-secondary\">10/02/2020 à 12h34</p>
                         </a>
                   </div>
 

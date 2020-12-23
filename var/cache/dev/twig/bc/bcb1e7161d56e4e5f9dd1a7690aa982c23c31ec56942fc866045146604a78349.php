@@ -126,7 +126,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                     <td class=\"text-right\">
                         <div class=\"btn-group\">
                             <button class=\"text-white border-0 py-2 bg-secondary p-3\"
-                                    title=\"Annuler la soumission\"><i class=\"fa fa-trash\"></i>
+                                    title=\"Annuler la soumission\"><i class=\"fa fa-trash-o\"></i>
                             </button>
                             <a href=\"";
         // line 23
@@ -141,10 +141,6 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
         echo "\"
                                class=\"text-white border-0 py-2 bg-primary ml-3 p-3\"
                                title=\"Modifier l'opportunité\"><i class=\"fa fa-pencil\"></i>
-                            </a>
-                            <a href=\"#\"
-                               class=\"text-white border-0 py-2 bg-primary ml-3 p-3\"
-                               title=\"Voir les soumissions\"><i class=\"fa fa-list\"></i>
                             </a>
                         </div>
                     </td>
@@ -162,7 +158,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                  style=\"visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;\">
                                 <!-- Team Thumb-->
                                 <div class=\"advisor_thumb\"><img src=\"";
-        // line 50
+        // line 46
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
         echo "\" alt=\"\"
                                                                 class=\"img-fluid\" width=\"250\">
@@ -176,7 +172,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
 
                                 <div class=\"single_advisor_details_info\">
                                     <a href=\"";
-        // line 61
+        // line 57
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
         echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
@@ -197,7 +193,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                  style=\"visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;\">
                                 <!-- Team Thumb-->
                                 <div class=\"advisor_thumb\"><img src=\"";
-        // line 79
+        // line 75
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
         echo "\" alt=\"\"
                                                                 class=\"img-fluid\" width=\"250\">
@@ -210,7 +206,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
                                     <a href=\"";
-        // line 89
+        // line 85
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
         echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
@@ -231,7 +227,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                  style=\"visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;\">
                                 <!-- Team Thumb-->
                                 <div class=\"advisor_thumb\"><img src=\"";
-        // line 107
+        // line 103
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
         echo "\" alt=\"\"
                                                                 class=\"img-fluid\" width=\"250\">
@@ -244,7 +240,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
                                     <a href=\"";
-        // line 117
+        // line 113
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
         echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
@@ -265,7 +261,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                  style=\"visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;\">
                                 <!-- Team Thumb-->
                                 <div class=\"advisor_thumb\"><img src=\"";
-        // line 135
+        // line 131
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
         echo "\" alt=\"\"
                                                                 class=\"img-fluid\" width=\"250\">
@@ -278,7 +274,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
                                     <a href=\"";
-        // line 145
+        // line 141
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
         echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
@@ -304,7 +300,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                  style=\"visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;\">
                                 <!-- Team Thumb-->
                                 <div class=\"advisor_thumb\"><img src=\"";
-        // line 168
+        // line 164
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
         echo "\" alt=\"\"
                                                                 class=\"img-fluid\" width=\"250\">
@@ -318,7 +314,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
 
                                 <div class=\"single_advisor_details_info\">
                                     <a href=\"";
-        // line 179
+        // line 175
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
         echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
@@ -343,7 +339,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                  style=\"visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;\">
                                 <!-- Team Thumb-->
                                 <div class=\"advisor_thumb\"><img src=\"";
-        // line 201
+        // line 197
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
         echo "\" alt=\"\"
                                                                 class=\"img-fluid\" width=\"250\">
@@ -356,7 +352,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
                                     <a href=\"";
-        // line 211
+        // line 207
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
         echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
@@ -381,7 +377,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                  style=\"visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;\">
                                 <!-- Team Thumb-->
                                 <div class=\"advisor_thumb\"><img src=\"";
-        // line 233
+        // line 229
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
         echo "\" alt=\"\"
                                                                 class=\"img-fluid\" width=\"250\">
@@ -394,7 +390,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
                                     <a href=\"";
-        // line 243
+        // line 239
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
         echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
@@ -419,7 +415,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                  style=\"visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;\">
                                 <!-- Team Thumb-->
                                 <div class=\"advisor_thumb\"><img src=\"";
-        // line 265
+        // line 261
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
         echo "\" alt=\"\"
                                                                 class=\"img-fluid\" width=\"250\">
@@ -432,7 +428,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
                                     <a href=\"";
-        // line 275
+        // line 271
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
         echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
@@ -457,7 +453,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                  style=\"visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;\">
                                 <!-- Team Thumb-->
                                 <div class=\"advisor_thumb\"><img src=\"";
-        // line 297
+        // line 293
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
         echo "\" alt=\"\"
                                                                 class=\"img-fluid\" width=\"250\">
@@ -470,7 +466,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
                                     <a href=\"";
-        // line 307
+        // line 303
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
         echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
@@ -495,7 +491,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                  style=\"visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;\">
                                 <!-- Team Thumb-->
                                 <div class=\"advisor_thumb\"><img src=\"";
-        // line 329
+        // line 325
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
         echo "\" alt=\"\"
                                                                 class=\"img-fluid\" width=\"250\">
@@ -508,7 +504,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
                                     <a href=\"";
-        // line 339
+        // line 335
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
         echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
@@ -533,7 +529,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                  style=\"visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;\">
                                 <!-- Team Thumb-->
                                 <div class=\"advisor_thumb\"><img src=\"";
-        // line 361
+        // line 357
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
         echo "\" alt=\"\"
                                                                 class=\"img-fluid\" width=\"250\">
@@ -546,7 +542,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
                                     <a href=\"";
-        // line 371
+        // line 367
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
         echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
@@ -571,7 +567,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                  style=\"visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;\">
                                 <!-- Team Thumb-->
                                 <div class=\"advisor_thumb\"><img src=\"";
-        // line 393
+        // line 389
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/darren.png"), "html", null, true);
         echo "\" alt=\"\"
                                                                 class=\"img-fluid\" width=\"250\">
@@ -584,7 +580,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                                 <!-- Team Details-->
                                 <div class=\"single_advisor_details_info\">
                                     <a href=\"";
-        // line 403
+        // line 399
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
         echo "\" class=\"text-black\">
                                         <h6>Sarah Dossou</h6>
@@ -638,7 +634,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
 
     public function getDebugInfo()
     {
-        return array (  588 => 403,  575 => 393,  550 => 371,  537 => 361,  512 => 339,  499 => 329,  474 => 307,  461 => 297,  436 => 275,  423 => 265,  398 => 243,  385 => 233,  360 => 211,  347 => 201,  322 => 179,  308 => 168,  282 => 145,  269 => 135,  248 => 117,  235 => 107,  214 => 89,  201 => 79,  180 => 61,  166 => 50,  140 => 27,  133 => 23,  116 => 8,  106 => 7,  94 => 5,  89 => 4,  79 => 3,  60 => 2,  37 => 1,);
+        return array (  584 => 399,  571 => 389,  546 => 367,  533 => 357,  508 => 335,  495 => 325,  470 => 303,  457 => 293,  432 => 271,  419 => 261,  394 => 239,  381 => 229,  356 => 207,  343 => 197,  318 => 175,  304 => 164,  278 => 141,  265 => 131,  244 => 113,  231 => 103,  210 => 85,  197 => 75,  176 => 57,  162 => 46,  140 => 27,  133 => 23,  116 => 8,  106 => 7,  94 => 5,  89 => 4,  79 => 3,  60 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -663,7 +659,7 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                     <td class=\"text-right\">
                         <div class=\"btn-group\">
                             <button class=\"text-white border-0 py-2 bg-secondary p-3\"
-                                    title=\"Annuler la soumission\"><i class=\"fa fa-trash\"></i>
+                                    title=\"Annuler la soumission\"><i class=\"fa fa-trash-o\"></i>
                             </button>
                             <a href=\"{{ path('recr_offer') }}\"
                                class=\"text-white border-0 py-2 bg-primary ml-3 p-3\"
@@ -672,10 +668,6 @@ class __TwigTemplate_e225b9aa8e83a24371550a3890968f08c28d47d6668b586238658f25f83
                             <a href=\"{{ path(\"recr_create_offer\") }}\"
                                class=\"text-white border-0 py-2 bg-primary ml-3 p-3\"
                                title=\"Modifier l'opportunité\"><i class=\"fa fa-pencil\"></i>
-                            </a>
-                            <a href=\"#\"
-                               class=\"text-white border-0 py-2 bg-primary ml-3 p-3\"
-                               title=\"Voir les soumissions\"><i class=\"fa fa-list\"></i>
                             </a>
                         </div>
                     </td>

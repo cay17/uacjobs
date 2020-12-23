@@ -154,35 +154,12 @@ class __TwigTemplate_fddcefdf910f26f42646cd87300d36824e51bf64e588d222a3b51a4dc08
                         </li>
                     </ul>
                 </li>
-                <li class=\"dropdown ";
-        // line 68
-        echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 68, $this->source); })()), "request", [], "any", false, false, false, 68), "attributes", [], "any", false, false, false, 68), "get", [0 => "_route"], "method", false, false, false, 68), "stages"))) ? ("active") : (""));
-        echo " ";
-        echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 68, $this->source); })()), "request", [], "any", false, false, false, 68), "attributes", [], "any", false, false, false, 68), "get", [0 => "_route"], "method", false, false, false, 68), "emplois"))) ? ("active") : (""));
-        echo "\">
-                    <a class=\"dropdown-toggle\" href=\"#\" id=\"dropdownMenuLink1\"
-                       data-toggle=\"dropdown\"
-                       aria-haspopup=\"true\" aria-expanded=\"false\">
-                        Opportunités
-                    </a>
-
-                    <ul class=\"dropdown-menu w-100\" aria-labelledby=\"dropdownMenuLink1\">
-                        <li class=\"text-dark\"><a class=\"dropdown-item \"
-                                                 href=\"";
-        // line 77
-        echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 77, $this->source); })()), "request", [], "any", false, false, false, 77), "attributes", [], "any", false, false, false, 77), "get", [0 => "_route"], "method", false, false, false, 77), "stages"))) ? ("#") : ($this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("stages")));
-        echo "\">Stages</a>
-                        </li>
-                        <li><a class=\"dropdown-item \"
-                               href=\"";
-        // line 80
-        echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 80, $this->source); })()), "request", [], "any", false, false, false, 80), "attributes", [], "any", false, false, false, 80), "get", [0 => "_route"], "method", false, false, false, 80), "emplois"))) ? ("#") : ($this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("emplois")));
-        echo "\">Emplois</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class=\"dropdown ";
+";
+        // line 74
+        echo "
+";
         // line 84
+        echo "                <li class=\"dropdown ";
         echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 84, $this->source); })()), "request", [], "any", false, false, false, 84), "attributes", [], "any", false, false, false, 84), "get", [0 => "_route"], "method", false, false, false, 84), "trucs"))) ? ("active") : (""));
         echo " ";
         echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 84, $this->source); })()), "request", [], "any", false, false, false, 84), "attributes", [], "any", false, false, false, 84), "get", [0 => "_route"], "method", false, false, false, 84), "podcast"))) ? ("active") : (""));
@@ -496,7 +473,7 @@ class __TwigTemplate_fddcefdf910f26f42646cd87300d36824e51bf64e588d222a3b51a4dc08
 
     public function getDebugInfo()
     {
-        return array (  470 => 219,  452 => 121,  433 => 31,  415 => 7,  404 => 220,  402 => 219,  398 => 218,  393 => 216,  389 => 215,  382 => 211,  377 => 209,  372 => 207,  368 => 206,  363 => 204,  358 => 202,  353 => 200,  347 => 197,  343 => 196,  339 => 195,  269 => 128,  262 => 123,  260 => 121,  251 => 115,  247 => 114,  242 => 112,  237 => 110,  233 => 109,  228 => 107,  224 => 106,  216 => 101,  209 => 97,  202 => 93,  186 => 84,  179 => 80,  173 => 77,  159 => 68,  152 => 64,  146 => 61,  140 => 58,  124 => 49,  115 => 43,  102 => 32,  100 => 31,  90 => 24,  85 => 22,  80 => 20,  75 => 18,  70 => 16,  65 => 14,  55 => 7,  47 => 1,);
+        return array (  447 => 219,  429 => 121,  410 => 31,  392 => 7,  381 => 220,  379 => 219,  375 => 218,  370 => 216,  366 => 215,  359 => 211,  354 => 209,  349 => 207,  345 => 206,  340 => 204,  335 => 202,  330 => 200,  324 => 197,  320 => 196,  316 => 195,  246 => 128,  239 => 123,  237 => 121,  228 => 115,  224 => 114,  219 => 112,  214 => 110,  210 => 109,  205 => 107,  201 => 106,  193 => 101,  186 => 97,  179 => 93,  162 => 84,  159 => 74,  152 => 64,  146 => 61,  140 => 58,  124 => 49,  115 => 43,  102 => 32,  100 => 31,  90 => 24,  85 => 22,  80 => 20,  75 => 18,  70 => 16,  65 => 14,  55 => 7,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -568,22 +545,22 @@ class __TwigTemplate_fddcefdf910f26f42646cd87300d36824e51bf64e588d222a3b51a4dc08
                         </li>
                     </ul>
                 </li>
-                <li class=\"dropdown {{ (app.request.attributes.get('_route') == 'stages')? 'active' }} {{ (app.request.attributes.get('_route') == 'emplois')? 'active' }}\">
-                    <a class=\"dropdown-toggle\" href=\"#\" id=\"dropdownMenuLink1\"
-                       data-toggle=\"dropdown\"
-                       aria-haspopup=\"true\" aria-expanded=\"false\">
-                        Opportunités
-                    </a>
+{#                <li class=\"dropdown {{ (app.request.attributes.get('_route') == 'stages')? 'active' }} {{ (app.request.attributes.get('_route') == 'emplois')? 'active' }}\">#}
+{#                    <a class=\"dropdown-toggle\" href=\"#\" id=\"dropdownMenuLink1\"#}
+{#                       data-toggle=\"dropdown\"#}
+{#                       aria-haspopup=\"true\" aria-expanded=\"false\">#}
+{#                        Opportunités#}
+{#                    </a>#}
 
-                    <ul class=\"dropdown-menu w-100\" aria-labelledby=\"dropdownMenuLink1\">
-                        <li class=\"text-dark\"><a class=\"dropdown-item \"
-                                                 href=\"{{ (app.request.attributes.get('_route') == 'stages')? '#' : path(\"stages\") }}\">Stages</a>
-                        </li>
-                        <li><a class=\"dropdown-item \"
-                               href=\"{{ (app.request.attributes.get('_route') == 'emplois')? '#' : path(\"emplois\") }}\">Emplois</a>
-                        </li>
-                    </ul>
-                </li>
+{#                    <ul class=\"dropdown-menu w-100\" aria-labelledby=\"dropdownMenuLink1\">#}
+{#                        <li class=\"text-dark\"><a class=\"dropdown-item \"#}
+{#                                                 href=\"{{ (app.request.attributes.get('_route') == 'stages')? '#' : path(\"stages\") }}\">Stages</a>#}
+{#                        </li>#}
+{#                        <li><a class=\"dropdown-item \"#}
+{#                               href=\"{{ (app.request.attributes.get('_route') == 'emplois')? '#' : path(\"emplois\") }}\">Emplois</a>#}
+{#                        </li>#}
+{#                    </ul>#}
+{#                </li>#}
                 <li class=\"dropdown {{ (app.request.attributes.get('_route') == 'trucs')? 'active' }} {{ (app.request.attributes.get('_route') == 'podcast')? 'active' }} {{ (app.request.attributes.get('_route') == 'faq')? 'active' }}\">
                     <a class=\"dropdown-toggle\" href=\"#\" id=\"dropdownMenuLink2\"
                        data-toggle=\"dropdown\"

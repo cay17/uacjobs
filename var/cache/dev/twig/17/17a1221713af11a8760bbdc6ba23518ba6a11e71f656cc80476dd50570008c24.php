@@ -88,19 +88,12 @@ class __TwigTemplate_81fb02b82d84b5ce2ce0cf474547e273255ef6adfec4877d1c048c61f8a
         echo "<div class=\"dream-university-subpage\">
 
       <!-- Begin breadcrumbs-->
-      <div class=\"du-page-header du-breadcrumbs overflow-hidden p-0 w-100\" style=\"z-index: -1\">
-            <div style=\"height: 80px\" class=\"bg-dark\">
-                  <img src=\"";
-        // line 9
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog3.jpg"), "html", null, true);
-        echo "\" class=\"w-100\" style=\"opacity: 0.4\"/>
-            </div>
-      </div>
+
       <!-- End breadcrumbs-->
 
 
       <!-- Begin Blog single -->
-      <div class=\"du-subpage-content\">
+      <div class=\"du-subpage-content\" style=\"background-color: rgba(218,218,218,0.2)\">
             <div class=\"du-single-page\">
 
                   <!-- Begin Single Post -->
@@ -111,7 +104,7 @@ class __TwigTemplate_81fb02b82d84b5ce2ce0cf474547e273255ef6adfec4877d1c048c61f8a
                               <div class=\"row\">
                                     <div class=\"col-12\">
                                           <div class=\"d-lg-flex justify-content-between align-items-center mb-3\">
-                                                <h3 class=\"text-secondary\">Recrutement d'un agronome à la FSA</h3>
+                                                <h2 class=\"text-secondary\">Recrutement d'un agronome à la FSA</h2>
                                                 <div class=\"\">
                                                       <button class=\"btn bg-secondary text-white\">Postuler</button>
                                                 </div>
@@ -119,10 +112,10 @@ class __TwigTemplate_81fb02b82d84b5ce2ce0cf474547e273255ef6adfec4877d1c048c61f8a
                                           <div class=\"box-container post\">
                                                 <img alt=\"image\" class=\"w-100 img-fluid\"
                                                      src=\"";
-        // line 34
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog/single-post.jpg"), "html", null, true);
+        // line 30
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/tt.jpg"), "html", null, true);
         echo "\">
-                                                <div class=\"ptb-30\">
+                                                <div class=\"ptb-30\" style=\"font-size: medium\">
                                                       <div class=\"d-flex justify-content-lg-between align-items-lg-baseline\">
                                                             <div>
                                                                   <p class=\"serif italic pull-left d-block\">Date:
@@ -301,7 +294,7 @@ class __TwigTemplate_81fb02b82d84b5ce2ce0cf474547e273255ef6adfec4877d1c048c61f8a
 
     public function getDebugInfo()
     {
-        return array (  123 => 34,  95 => 9,  88 => 4,  78 => 3,  59 => 2,  36 => 1,);
+        return array (  116 => 30,  88 => 4,  78 => 3,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -312,16 +305,12 @@ class __TwigTemplate_81fb02b82d84b5ce2ce0cf474547e273255ef6adfec4877d1c048c61f8a
 <div class=\"dream-university-subpage\">
 
       <!-- Begin breadcrumbs-->
-      <div class=\"du-page-header du-breadcrumbs overflow-hidden p-0 w-100\" style=\"z-index: -1\">
-            <div style=\"height: 80px\" class=\"bg-dark\">
-                  <img src=\"{{ asset('build/img/blog3.jpg') }}\" class=\"w-100\" style=\"opacity: 0.4\"/>
-            </div>
-      </div>
+
       <!-- End breadcrumbs-->
 
 
       <!-- Begin Blog single -->
-      <div class=\"du-subpage-content\">
+      <div class=\"du-subpage-content\" style=\"background-color: rgba(218,218,218,0.2)\">
             <div class=\"du-single-page\">
 
                   <!-- Begin Single Post -->
@@ -332,15 +321,15 @@ class __TwigTemplate_81fb02b82d84b5ce2ce0cf474547e273255ef6adfec4877d1c048c61f8a
                               <div class=\"row\">
                                     <div class=\"col-12\">
                                           <div class=\"d-lg-flex justify-content-between align-items-center mb-3\">
-                                                <h3 class=\"text-secondary\">Recrutement d'un agronome à la FSA</h3>
+                                                <h2 class=\"text-secondary\">Recrutement d'un agronome à la FSA</h2>
                                                 <div class=\"\">
                                                       <button class=\"btn bg-secondary text-white\">Postuler</button>
                                                 </div>
                                           </div>
                                           <div class=\"box-container post\">
                                                 <img alt=\"image\" class=\"w-100 img-fluid\"
-                                                     src=\"{{ asset('build/img/blog/single-post.jpg') }}\">
-                                                <div class=\"ptb-30\">
+                                                     src=\"{{ asset('build/img/tt.jpg') }}\">
+                                                <div class=\"ptb-30\" style=\"font-size: medium\">
                                                       <div class=\"d-flex justify-content-lg-between align-items-lg-baseline\">
                                                             <div>
                                                                   <p class=\"serif italic pull-left d-block\">Date:

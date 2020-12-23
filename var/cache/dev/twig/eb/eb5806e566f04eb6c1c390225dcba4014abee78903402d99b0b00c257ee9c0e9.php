@@ -92,8 +92,8 @@ class __TwigTemplate_e49f64333b8c5330a41c59b7e411a212a078994266e8695cfa6c28cb5e5
 \t\t<div style=\"height: 180px\" class=\"bg-dark\">
 \t\t\t<img src=\"";
         // line 9
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog3.jpg"), "html", null, true);
-        echo "\" class=\"w-100\" style=\"opacity: 0.4\"/>
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/tt.jpg"), "html", null, true);
+        echo "\" class=\"w-100\" style=\"opacity: 1\"/>
 \t\t</div>
 \t</div>
 \t<div style=\"padding-top: 100px;z-index: 88888;\">
@@ -191,9 +191,7 @@ class __TwigTemplate_e49f64333b8c5330a41c59b7e411a212a078994266e8695cfa6c28cb5e5
 <div class=\"du-newsletter\">
 \t<div class=\"container\">
 \t\t<h2 class=\"wow fadeInUp\">Abonnez-vous à notre newsletter</h2>
-\t\t<p class=\"wow fadeInUp\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero
-\t\t\tscelerisque ligula sagittis faucibus eget quis lacus. <br>Suspendisse sodales sed orci ac
-\t\t\tfeugiat. </p>
+\t\t<p class=\"wow fadeInUp\">Afin de ne rater aucune de nos dernières actualités  </p>
 \t\t<div class=\"row\">
 \t\t\t<div class=\"col-lg-12 wow fadeInUp\">
 \t\t\t\t<form id=\"newsletter\" accept-charset=\"utf-8\">
@@ -242,7 +240,7 @@ class __TwigTemplate_e49f64333b8c5330a41c59b7e411a212a078994266e8695cfa6c28cb5e5
 \t<!-- Begin breadcrumbs-->
 \t<div class=\"du-page-header du-breadcrumbs overflow-hidden p-0 position-absolute w-100\"  style=\"z-index: -1\">
 \t\t<div style=\"height: 180px\" class=\"bg-dark\">
-\t\t\t<img src=\"{{ asset('build/img/blog3.jpg') }}\" class=\"w-100\" style=\"opacity: 0.4\"/>
+\t\t\t<img src=\"{{ asset('build/img/tt.jpg') }}\" class=\"w-100\" style=\"opacity: 1\"/>
 \t\t</div>
 \t</div>
 \t<div style=\"padding-top: 100px;z-index: 88888;\">
@@ -340,9 +338,7 @@ class __TwigTemplate_e49f64333b8c5330a41c59b7e411a212a078994266e8695cfa6c28cb5e5
 <div class=\"du-newsletter\">
 \t<div class=\"container\">
 \t\t<h2 class=\"wow fadeInUp\">Abonnez-vous à notre newsletter</h2>
-\t\t<p class=\"wow fadeInUp\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero
-\t\t\tscelerisque ligula sagittis faucibus eget quis lacus. <br>Suspendisse sodales sed orci ac
-\t\t\tfeugiat. </p>
+\t\t<p class=\"wow fadeInUp\">Afin de ne rater aucune de nos dernières actualités  </p>
 \t\t<div class=\"row\">
 \t\t\t<div class=\"col-lg-12 wow fadeInUp\">
 \t\t\t\t<form id=\"newsletter\" accept-charset=\"utf-8\">

@@ -86,7 +86,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="{{ (app.request.attributes.get('_route') == 'etu_search')? 'active' }}"><a href="{{ (app.request.attributes.get('_route') == 'etu_search')? '#' : path("etu_search") }}">Rechercher</a></li>
+                <li class="{{ (app.request.attributes.get('_route') == 'etu_search')? 'active' }}"><a href="{{ (app.request.attributes.get('_route') == 'etu_search')? '#' : path("etu_search") }}">Rechercher une opportunité</a></li>
                 <li class="{{ (app.request.attributes.get('_route') == 'etu_contact')? 'active' }}"><a href="{{ (app.request.attributes.get('_route') == 'etu_contact')? '#' : path("etu_contact") }}">Contact</a></li>
                 <li class="active dropdown">
                     <a class="dropdown-toggle bg-primary text-white d-flex align-items-center" href="#" id="dropdownMenuLink3"
@@ -116,28 +116,73 @@
 {% block body %}
 {% endblock %}
 <footer>
-    <div class="container-fluid bg-dark m-0">
-        <div class="row">
-            <div class="col-lg-8 col-12 text-white p-5">
-                <span class="font-weight-bold h4 text-secondary">Jobs Etudiants</span>
-                <span class="mt-3 small d-block">
-                              Réalisé par:
-                        </span>
-                <ul class="font-weight-bold h6">
-                    <li class="my-3">L'université d'Abomey-calavi</li>
-                    <li>Le programme de bourses de la fondation Mastercard à l'UAC</li>
-                </ul>
+    <section id="footer" class=" bg-dark">
+        <div class="container pt-5">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a class=" ml-lg-5 ml-3 mt-0 pt-0" href="{{ path('index') }}">
+                        <h1 class="text-white pb-3 pt-0 mt-0">UAC JOBS</h1>
+
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+                    <ul class="list-unstyled quick-links">
+                        <li class="nav-item"><a href="" class="text-white h6">Accueil</a></li>
+                        <br><br>
+                        <li class="nav-item"><a href="" class="text-white h6">A propos</a></li>
+                        <br><br>
+                        <li class="nav-item"><a href="" class="text-white h6">FAQ</a></li>
+                        <br><br>
+                        <li class="nav-item"><a href="" class="text-white h6">Contact</a></li>
+                        <br><br>
+                        <li class="nav-item"><a href="" class="text-white h6">
+                                Partenaires
+                            </a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+                    <ul class="list-unstyled quick-links">
+                        <li class="nav-item"><a href="" class="text-white h6">Opportunités</a></li>
+                        <br><br>
+                        <li class="nav-item"><a href="" class="text-white h6">Actualités</a></li>
+                        <br><br>
+                        <li class="nav-item"><a href="" class="text-white h6">Galerie</a></li>
+                        <br><br>
+                        <li class="nav-item"><a href="" class="text-white h6">Trucs et astuces</a></li>
+                        <br><br>
+                        <li class="nav-item"><a href="" class="text-white h6">
+                                Podcast employabilité
+                            </a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="#" class="text-secondary"><i
+                                        class="fa fa-facebook fa-1x"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary"><i
+                                        class="fa fa-twitter fa-1x"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary"><i
+                                        class="fa fa-instagram fa-1x"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary"><i
+                                        class="fa fa-google-plus fa-1x"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary"
+                                                        target="_blank"><i class="fa fa-envelope fa-1x"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+
+                </div>
             </div>
-            <div class="col-lg-4 col-12 pt-5">
-                <div class="du-scholarship-item wow fadeInLeft">
-                    <figure><img src="{{ asset('build/img/logo1.png') }}" width=250 alt=""></figure>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+
                 </div>
-                <div class="du-scholarship-item wow fadeInLeft">
-                    <figure><img src="{{ asset('build/img/logo.png') }}" width="150" alt=""></figure>
-                </div>
+                </hr>
             </div>
         </div>
-    </div>
+    </section>
     <div class="container-fluid bg-secondary py-2 text-center text-white">
         Copyright 2020 &copy; Tous droits réservés
     </div>

@@ -90,8 +90,8 @@ class __TwigTemplate_ec75186aa36818c315af24361f1f38a033923b0f2f2e6ac00c35cf66e13
             <div style=\"height: 180px\" class=\"bg-dark\">
                   <img src=\"";
         // line 7
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog3.jpg"), "html", null, true);
-        echo "\" class=\"w-100\" style=\"opacity: 0.4\"/>
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/tt.jpg"), "html", null, true);
+        echo "\" class=\"w-100\" style=\"opacity: 1\"/>
             </div>
       </div>
       <div style=\"padding-top: 100px;z-index: 88888;\">
@@ -236,7 +236,7 @@ class __TwigTemplate_ec75186aa36818c315af24361f1f38a033923b0f2f2e6ac00c35cf66e13
 <div class=\"dream-university-subpage\">
       <div class=\"du-page-header du-breadcrumbs overflow-hidden p-0 position-absolute w-100\" style=\"z-index: -1\">
             <div style=\"height: 180px\" class=\"bg-dark\">
-                  <img src=\"{{ asset('build/img/blog3.jpg') }}\" class=\"w-100\" style=\"opacity: 0.4\"/>
+                  <img src=\"{{ asset('build/img/tt.jpg') }}\" class=\"w-100\" style=\"opacity: 1\"/>
             </div>
       </div>
       <div style=\"padding-top: 100px;z-index: 88888;\">

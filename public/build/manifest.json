@@ -215,6 +215,8 @@
   "build/cms/js/class/news.js": "/build/cms/js/class/news.js",
   "build/cms/js/class/newsletter-list.js": "/build/cms/js/class/newsletter-list.js",
   "build/cms/js/class/newsletter.js": "/build/cms/js/class/newsletter.js",
+  "build/cms/js/class/offer-list.js": "/build/cms/js/class/offer-list.js",
+  "build/cms/js/class/offer.js": "/build/cms/js/class/offer.js",
   "build/cms/js/class/partenaire-list.js": "/build/cms/js/class/partenaire-list.js",
   "build/cms/js/class/partenaire.js": "/build/cms/js/class/partenaire.js",
   "build/cms/js/class/podcast-list.js": "/build/cms/js/class/podcast-list.js",
@@ -3940,6 +3942,8 @@
   "build/vendor/summernote/test/base/module/VideoDialog.spec.js": "/build/vendor/summernote/test/base/module/VideoDialog.spec.js",
   "build/vendor/summernote/test/chaidom.js": "/build/vendor/summernote/test/chaidom.js",
   "build/vendor/summernote/yarn.lock": "/build/vendor/summernote/yarn.lock",
-  "build/cms/js/class/offer.js": "/build/cms/js/class/offer.js",
-  "build/cms/js/class/offer-list.js": "/build/cms/js/class/offer-list.js"
+  "build/img/tt.jpg": "/build/img/tt.jpg",
+  "build/img/maxime-dacruz.jpg.crdownload": "/build/img/maxime-dacruz.jpg.crdownload",
+  "build/img/maxime-dacruz.jpg": "/build/img/maxime-dacruz.jpg",
+  "build/img/images.jpeg": "/build/img/images.jpeg"
 }

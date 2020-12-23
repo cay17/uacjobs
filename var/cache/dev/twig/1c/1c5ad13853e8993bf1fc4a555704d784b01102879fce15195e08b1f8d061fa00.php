@@ -92,7 +92,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
         // line 7
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/et.jpg"), "html", null, true);
         echo "');background-repeat: no-repeat;background-size: cover;height: 580px;z-index: 0\">
-            <div class=\"du-featured-text d-flex justify-content-center h-100\" style=\"background-color: rgba(0,0,0,0.4)\">
+            <div class=\"du-featured-text d-flex justify-content-center h-100\" style=\"background-color: rgba(0,0,0,0.3)\">
                   <!--welcome-message-->
                   <header class=\"container mt-lg-5\">
                         <h1 class=\"text-white text-center mb-4\">Rechercher parmi les opportunités disponibles</h1>
@@ -310,7 +310,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                 <div class=\"d-flex justify-content-end\">
                                                       <a href=\"";
         // line 200
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("offer");
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
                                                             En savoir plus
@@ -342,7 +342,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                 <div class=\"d-flex justify-content-end\">
                                                       <a href=\"";
         // line 226
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("offer");
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
                                                             En savoir plus
@@ -374,7 +374,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                 <div class=\"d-flex justify-content-end\">
                                                       <a href=\"";
         // line 252
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("offer");
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
                                                             En savoir plus
@@ -406,7 +406,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                 <div class=\"d-flex justify-content-end\">
                                                       <a href=\"";
         // line 278
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("offer");
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
                                                             En savoir plus
@@ -438,7 +438,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                 <div class=\"d-flex justify-content-end\">
                                                       <a href=\"";
         // line 304
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("offer");
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
                                                             En savoir plus
@@ -470,7 +470,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                 <div class=\"d-flex justify-content-end\">
                                                       <a href=\"";
         // line 330
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("offer");
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
                                                             En savoir plus
@@ -623,7 +623,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
 
       <div class=\"du-featured-photo bg-dark position-absolute w-100\"
            style=\"background-image: url('{{ asset('build/img/et.jpg') }}');background-repeat: no-repeat;background-size: cover;height: 580px;z-index: 0\">
-            <div class=\"du-featured-text d-flex justify-content-center h-100\" style=\"background-color: rgba(0,0,0,0.4)\">
+            <div class=\"du-featured-text d-flex justify-content-center h-100\" style=\"background-color: rgba(0,0,0,0.3)\">
                   <!--welcome-message-->
                   <header class=\"container mt-lg-5\">
                         <h1 class=\"text-white text-center mb-4\">Rechercher parmi les opportunités disponibles</h1>
@@ -815,7 +815,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                             organised by The Kindergarten Starters.</p>
                                                 </div>
                                                 <div class=\"d-flex justify-content-end\">
-                                                      <a href=\"{{ path('offer') }}\"
+                                                      <a href=\"{{ path('app_login') }}\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
                                                             En savoir plus
                                                       </a>
@@ -841,7 +841,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                             organised by The Kindergarten Starters.</p>
                                                 </div>
                                                 <div class=\"d-flex justify-content-end\">
-                                                      <a href=\"{{ path('offer') }}\"
+                                                      <a href=\"{{ path('app_login') }}\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
                                                             En savoir plus
                                                       </a>
@@ -867,7 +867,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                             organised by The Kindergarten Starters.</p>
                                                 </div>
                                                 <div class=\"d-flex justify-content-end\">
-                                                      <a href=\"{{ path('offer') }}\"
+                                                      <a href=\"{{ path('app_login') }}\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
                                                             En savoir plus
                                                       </a>
@@ -893,7 +893,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                             organised by The Kindergarten Starters.</p>
                                                 </div>
                                                 <div class=\"d-flex justify-content-end\">
-                                                      <a href=\"{{ path('offer') }}\"
+                                                      <a href=\"{{ path('app_login') }}\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
                                                             En savoir plus
                                                       </a>
@@ -919,7 +919,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                             organised by The Kindergarten Starters.</p>
                                                 </div>
                                                 <div class=\"d-flex justify-content-end\">
-                                                      <a href=\"{{ path('offer') }}\"
+                                                      <a href=\"{{ path('app_login') }}\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
                                                             En savoir plus
                                                       </a>
@@ -945,7 +945,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                             organised by The Kindergarten Starters.</p>
                                                 </div>
                                                 <div class=\"d-flex justify-content-end\">
-                                                      <a href=\"{{ path('offer') }}\"
+                                                      <a href=\"{{ path('app_login') }}\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
                                                             En savoir plus
                                                       </a>

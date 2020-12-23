@@ -92,8 +92,8 @@ class __TwigTemplate_b3f072a1e184074ad7b2780d18624eac1ff4d876b5a0d6732148ef6d264
 \t\t<div style=\"height: 180px\" class=\"bg-dark\">
 \t\t\t<img src=\"";
         // line 9
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog3.jpg"), "html", null, true);
-        echo "\" class=\"w-100\" style=\"opacity: 0.4\"/>
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/tt.jpg"), "html", null, true);
+        echo "\" class=\"w-100\" style=\"opacity: 1\"/>
 \t\t</div>
 \t</div>
 \t<div style=\"padding-top: 100px;z-index: 88888;\">
@@ -132,7 +132,7 @@ class __TwigTemplate_b3f072a1e184074ad7b2780d18624eac1ff4d876b5a0d6732148ef6d264
 \t\t\t\t\t\t\t<div class=\"row\">
 
 \t\t\t\t\t\t\t\t<div class=\"col-12 col-lg-8 wow fadeInRight\">
-\t\t\t\t\t\t\t\t\t<p class=\"text-justify\">
+\t\t\t\t\t\t\t\t\t<p class=\"text-justify\" style=\"font-size: medium\">
 \t\t\t\t\t\t\t\t\t\tAenean cursus fermentum euismod. Cras sodales nibh sed egestas adipiscing. Vestibulum sit amet eros sapien. Vestibulum quis dapibus sem. Fusce a lacinia nisl. Mauris sagittis egestas justo. Praesent tempus quis nibh nec imperdiet.
 \t\t\t\t\t\t\t\t\t\tAenean cursus fermentum euismod. Cras sodales nibh sed egestas adipiscing. Vestibulum sit amet eros sapien. Vestibulum quis dapibus sem. Fusce a lacinia nisl. Mauris sagittis egestas justo. Praesent tempus quis nibh nec imperdiet.
 \t\t\t\t\t\t\t\t\t\tAenean cursus fermentum euismod. Cras sodales nibh sed egestas adipiscing. Vestibulum sit amet eros sapien. Vestibulum quis dapibus sem. Fusce a lacinia nisl. Mauris sagittis egestas justo. Praesent tempus quis nibh nec imperdiet.
@@ -164,9 +164,9 @@ class __TwigTemplate_b3f072a1e184074ad7b2780d18624eac1ff4d876b5a0d6732148ef6d264
 \t\t\t\t\t<div class=\"row\">
 
 \t\t\t\t\t\t<div class=\"principal-photo col-md-4 wow fadeInLeft\">
-\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"";
+\t\t\t\t\t\t\t<img class=\"img-fluid rounded-lg\" src=\"";
         // line 77
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/principla.png"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/maxime-dacruz.jpg"), "html", null, true);
         echo "\" alt=\"image\">
 \t\t\t\t\t\t</div>
 
@@ -246,7 +246,7 @@ class __TwigTemplate_b3f072a1e184074ad7b2780d18624eac1ff4d876b5a0d6732148ef6d264
 \t<!-- Begin breadcrumbs-->
 \t<div class=\"du-page-header du-breadcrumbs overflow-hidden p-0 position-absolute w-100\"  style=\"z-index: -1\">
 \t\t<div style=\"height: 180px\" class=\"bg-dark\">
-\t\t\t<img src=\"{{ asset('build/img/blog3.jpg') }}\" class=\"w-100\" style=\"opacity: 0.4\"/>
+\t\t\t<img src=\"{{ asset('build/img/tt.jpg') }}\" class=\"w-100\" style=\"opacity: 1\"/>
 \t\t</div>
 \t</div>
 \t<div style=\"padding-top: 100px;z-index: 88888;\">
@@ -285,7 +285,7 @@ class __TwigTemplate_b3f072a1e184074ad7b2780d18624eac1ff4d876b5a0d6732148ef6d264
 \t\t\t\t\t\t\t<div class=\"row\">
 
 \t\t\t\t\t\t\t\t<div class=\"col-12 col-lg-8 wow fadeInRight\">
-\t\t\t\t\t\t\t\t\t<p class=\"text-justify\">
+\t\t\t\t\t\t\t\t\t<p class=\"text-justify\" style=\"font-size: medium\">
 \t\t\t\t\t\t\t\t\t\tAenean cursus fermentum euismod. Cras sodales nibh sed egestas adipiscing. Vestibulum sit amet eros sapien. Vestibulum quis dapibus sem. Fusce a lacinia nisl. Mauris sagittis egestas justo. Praesent tempus quis nibh nec imperdiet.
 \t\t\t\t\t\t\t\t\t\tAenean cursus fermentum euismod. Cras sodales nibh sed egestas adipiscing. Vestibulum sit amet eros sapien. Vestibulum quis dapibus sem. Fusce a lacinia nisl. Mauris sagittis egestas justo. Praesent tempus quis nibh nec imperdiet.
 \t\t\t\t\t\t\t\t\t\tAenean cursus fermentum euismod. Cras sodales nibh sed egestas adipiscing. Vestibulum sit amet eros sapien. Vestibulum quis dapibus sem. Fusce a lacinia nisl. Mauris sagittis egestas justo. Praesent tempus quis nibh nec imperdiet.
@@ -314,7 +314,7 @@ class __TwigTemplate_b3f072a1e184074ad7b2780d18624eac1ff4d876b5a0d6732148ef6d264
 \t\t\t\t\t<div class=\"row\">
 
 \t\t\t\t\t\t<div class=\"principal-photo col-md-4 wow fadeInLeft\">
-\t\t\t\t\t\t\t<img class=\"img-fluid\" src=\"{{ asset('build/img/principla.png') }}\" alt=\"image\">
+\t\t\t\t\t\t\t<img class=\"img-fluid rounded-lg\" src=\"{{ asset('build/img/maxime-dacruz.jpg') }}\" alt=\"image\">
 \t\t\t\t\t\t</div>
 
 \t\t\t\t\t\t<div class=\"col-md-8 wow fadeInRight blockquote\">

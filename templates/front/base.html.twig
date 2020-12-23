@@ -65,22 +65,22 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown {{ (app.request.attributes.get('_route') == 'stages')? 'active' }} {{ (app.request.attributes.get('_route') == 'emplois')? 'active' }}">
-                    <a class="dropdown-toggle" href="#" id="dropdownMenuLink1"
-                       data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">
-                        Opportunités
-                    </a>
+{#                <li class="dropdown {{ (app.request.attributes.get('_route') == 'stages')? 'active' }} {{ (app.request.attributes.get('_route') == 'emplois')? 'active' }}">#}
+{#                    <a class="dropdown-toggle" href="#" id="dropdownMenuLink1"#}
+{#                       data-toggle="dropdown"#}
+{#                       aria-haspopup="true" aria-expanded="false">#}
+{#                        Opportunités#}
+{#                    </a>#}
 
-                    <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuLink1">
-                        <li class="text-dark"><a class="dropdown-item "
-                                                 href="{{ (app.request.attributes.get('_route') == 'stages')? '#' : path("stages") }}">Stages</a>
-                        </li>
-                        <li><a class="dropdown-item "
-                               href="{{ (app.request.attributes.get('_route') == 'emplois')? '#' : path("emplois") }}">Emplois</a>
-                        </li>
-                    </ul>
-                </li>
+{#                    <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuLink1">#}
+{#                        <li class="text-dark"><a class="dropdown-item "#}
+{#                                                 href="{{ (app.request.attributes.get('_route') == 'stages')? '#' : path("stages") }}">Stages</a>#}
+{#                        </li>#}
+{#                        <li><a class="dropdown-item "#}
+{#                               href="{{ (app.request.attributes.get('_route') == 'emplois')? '#' : path("emplois") }}">Emplois</a>#}
+{#                        </li>#}
+{#                    </ul>#}
+{#                </li>#}
                 <li class="dropdown {{ (app.request.attributes.get('_route') == 'trucs')? 'active' }} {{ (app.request.attributes.get('_route') == 'podcast')? 'active' }} {{ (app.request.attributes.get('_route') == 'faq')? 'active' }}">
                     <a class="dropdown-toggle" href="#" id="dropdownMenuLink2"
                        data-toggle="dropdown"
