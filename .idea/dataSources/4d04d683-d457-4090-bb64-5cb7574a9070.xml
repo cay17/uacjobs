@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="app.db">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.15">
+    <root id="1">
+      <ServerVersion>3.31.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="articles"/>
+    <table id="7" parent="2" name="doctrine_migration_versions"/>
+    <table id="8" parent="2" name="faq"/>
+    <table id="9" parent="2" name="faq_categorie"/>
+    <table id="10" parent="2" name="galery"/>
+    <table id="11" parent="2" name="media_object"/>
+    <table id="12" parent="2" name="message"/>
+    <table id="13" parent="2" name="newsletter"/>
+    <table id="14" parent="2" name="newsletter_message"/>
+    <table id="15" parent="2" name="opportunities"/>
+    <table id="16" parent="2" name="partenaire"/>
+    <table id="17" parent="2" name="podcast"/>
+    <table id="18" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="19" parent="2" name="sqlite_sequence">
+      <System>1</System>
+    </table>
+    <table id="20" parent="2" name="users"/>
+    <column id="21" parent="6" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="22" parent="6" name="type">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="6" name="title">
+      <Position>3</Position>
+      <DataType>VARCHAR(1024)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="6" name="content">
+      <Position>4</Position>
+      <DataType>CLOB|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="25" parent="6" name="slug">
+      <Position>5</Position>
+      <DataType>VARCHAR(1024)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="6" name="creat_at">
+      <Position>6</Position>
+      <DataType>DATETIME|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="27" parent="6" name="status">
+      <Position>7</Position>
+      <DataType>BOOLEAN|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <index id="28" parent="6" name="UNIQ_BFDD3168989D9B62">
+      <ColNames>slug</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="29" parent="6">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="30" parent="7" name="version">
+      <Position>1</Position>
+      <DataType>VARCHAR(191)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="7" name="executed_at">
+      <Position>2</Position>
+      <DataType>DATETIME|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="32" parent="7" name="execution_time">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <index id="33" parent="7" name="sqlite_autoindex_doctrine_migration_versions_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>version</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="34" parent="7">
+      <ColNames>version</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_doctrine_migration_versions_1</UnderlyingIndexName>
+    </key>
+    <column id="35" parent="8" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="36" parent="8" name="categorie_id">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="8" name="creat_at">
+      <Position>3</Position>
+      <DataType>DATETIME|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="8" name="status">
+      <Position>4</Position>
+      <DataType>BOOLEAN|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="39" parent="8" name="question">
+      <Position>5</Position>
+      <DataType>CLOB|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="8" name="reponse">
+      <Position>6</Position>
+      <DataType>CLOB|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="41" parent="8" name="IDX_E8FF75CCBCF5E72D">
+      <ColNames>categorie_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="42" parent="8">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="43" parent="8" name="FK_E8FF75CCBCF5E72D">
+      <ColNames>categorie_id</ColNames>
+      <RefTableName>faq_categorie</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="44" parent="9" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="45" parent="9" name="name">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="9" name="creat_at">
+      <Position>3</Position>
+      <DataType>DATETIME|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="47" parent="9">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="48" parent="10" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="49" parent="10" name="file_id">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="50" parent="10" name="creat_at">
+      <Position>3</Position>
+      <DataType>DATETIME|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="51" parent="10" name="title">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <index id="52" parent="10" name="IDX_B5D532093CB796C">
+      <ColNames>file_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="53" parent="10">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="54" parent="10" name="FK_B5D532093CB796C">
+      <ColNames>file_id</ColNames>
+      <RefTableName>media_object</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="55" parent="11" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="56" parent="11" name="file_path">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <key id="57" parent="11">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="58" parent="12" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="59" parent="12" name="reponse_id">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="60" parent="12" name="name">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="12" name="object">
+      <Position>4</Position>
+      <DataType>VARCHAR(1024)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="12" name="receipt_at">
+      <Position>5</Position>
+      <DataType>DATETIME|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="12" name="message">
+      <Position>6</Position>
+      <DataType>CLOB|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="12" name="email">
+      <Position>7</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="65" parent="12" name="UNIQ_B6BD307FCF18BB82">
+      <ColNames>reponse_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="66" parent="12">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="67" parent="12" name="FK_B6BD307FCF18BB82">
+      <ColNames>reponse_id</ColNames>
+      <RefTableName>message</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="68" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="69" parent="13" name="email">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="70" parent="13">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="71" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="72" parent="14" name="content">
+      <Position>2</Position>
+      <DataType>CLOB|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="14" name="object">
+      <Position>3</Position>
+      <DataType>VARCHAR(1024)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="14" name="creat_at">
+      <Position>4</Position>
+      <DataType>DATETIME|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="75" parent="14">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="76" parent="15" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="77" parent="15" name="user_id">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="78" parent="15" name="picture_id">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="79" parent="15" name="type">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="80" parent="15" name="title">
+      <Position>5</Position>
+      <DataType>VARCHAR(2048)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="15" name="description">
+      <Position>6</Position>
+      <DataType>CLOB|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="82" parent="15" name="qualifications">
+      <Position>7</Position>
+      <DataType>CLOB|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="83" parent="15" name="creat_at">
+      <Position>8</Position>
+      <DataType>DATETIME|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="84" parent="15" name="link_postuler">
+      <Position>9</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <index id="85" parent="15" name="UNIQ_406D4DB0EE45BDBF">
+      <ColNames>picture_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="86" parent="15" name="IDX_406D4DB0A76ED395">
+      <ColNames>user_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="87" parent="15">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="88" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="89" parent="16" name="logo_id">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="90" parent="16" name="name">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="16" name="type">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="16" name="description">
+      <Position>5</Position>
+      <DataType>CLOB|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="16" name="facebook">
+      <Position>6</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="16" name="twitter">
+      <Position>7</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="95" parent="16" name="linkedin">
+      <Position>8</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="96" parent="16" name="web">
+      <Position>9</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <index id="97" parent="16" name="UNIQ_32FFA373F98F144A">
+      <ColNames>logo_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="98" parent="16">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="99" parent="16" name="FK_32FFA373F98F144A">
+      <ColNames>logo_id</ColNames>
+      <RefTableName>media_object</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="100" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="101" parent="17" name="title">
+      <Position>2</Position>
+      <DataType>VARCHAR(1024)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="17" name="lien">
+      <Position>3</Position>
+      <DataType>VARCHAR(1024)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="17" name="creat_at">
+      <Position>4</Position>
+      <DataType>DATETIME|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="104" parent="17" name="status">
+      <Position>5</Position>
+      <DataType>BOOLEAN|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="17" name="description">
+      <Position>6</Position>
+      <DataType>CLOB|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <key id="106" parent="17">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="107" parent="18" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="108" parent="18" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="109" parent="18" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="110" parent="18" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="111" parent="18" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="112" parent="19" name="name">
+      <Position>1</Position>
+    </column>
+    <column id="113" parent="19" name="seq">
+      <Position>2</Position>
+    </column>
+    <column id="114" parent="20" name="id">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="115" parent="20" name="picture_id">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="116" parent="20" name="name">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="117" parent="20" name="lastname">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="118" parent="20" name="mail">
+      <Position>5</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="119" parent="20" name="slug">
+      <Position>6</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="120" parent="20" name="biographie">
+      <Position>7</Position>
+      <DataType>CLOB|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="121" parent="20" name="linkedin">
+      <Position>8</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="122" parent="20" name="facebook">
+      <Position>9</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="123" parent="20" name="twitter">
+      <Position>10</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="124" parent="20" name="entreprise">
+      <Position>11</Position>
+      <DataType>VARCHAR(255)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="125" parent="20" name="is_verified">
+      <Position>12</Position>
+      <DataType>BOOLEAN|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="126" parent="20" name="roles">
+      <Position>13</Position>
+      <DataType>CLOB|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="127" parent="20" name="status">
+      <Position>14</Position>
+      <DataType>BOOLEAN|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="128" parent="20" name="password">
+      <Position>15</Position>
+      <DataType>CLOB|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <index id="129" parent="20" name="UNIQ_1483A5E9EE45BDBF">
+      <ColNames>picture_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="130" parent="20">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="131" parent="20" name="FK_1483A5E9EE45BDBF">
+      <ColNames>picture_id</ColNames>
+      <RefTableName>media_object</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

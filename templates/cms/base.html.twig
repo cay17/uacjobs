@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="author" content="Tics Master">
+    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="{{ asset('build/img/logo.png') }}">
+    <link href="{{ asset('build/css/bootstrap.min.css') }}" rel="stylesheet">
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="{{ asset('build/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/vendor/material-design-icons-3.0.1/iconfont/material-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/vendor/mdb/css/mdb.min.css') }}"/>
+    {% block css %}
+    {% endblock %}
+    <style>
+        .nav-pills .nav-link {
+            color: white;
+        }
+
+        .nav-pills .nav-link.active {
+            background-color: #fe0000;
+        }
+
+        .btn-outline-primary {
+            border-color: #2a8c28 !important;
+        }
+
+        .btn-outline-primary span, .btn-outline-primary i {
+            color: #2a8c28;
+        !important;
+        }
+    </style>
+    <link rel="stylesheet" href="{{ asset('build/css/style.css') }}"/>
+    <title>{% block title %}{% endblock %} | CMS</title>
+</head>
+<body data-api-domain-name="http://127.0.0.1:8000">
+<header>
+
+</header>
+<main>
+    <div class="d-flex justify-content-stretch">
+        <div class="nav pt-3 flex-column nav-pills d-md-block shadow-sm d-none js-sidebar"
+             style="background-color: rgba(42,140,40,1)" role="tablist"
+             aria-orientation="vertical">
+            <ul class="list-inline mb-5 mt-4 d-none d-md-block">
+                <li class="list-inline-item d-flex justify-content-center">
+                    <h2 class="text-white"><img src="{{ asset('build/img/logo.png') }}" class="img-fluid" width="120"/>
+                    </h2>
+                </li>
+            </ul>
+            <a class="nav-link {{ (app.request.attributes.get('_route') == 'cms_index')? 'active' }} text-sm-center text-lg-left mb-2 mt-0 rounded-0 pl-md-3"
+               href="{{ (app.request.attributes.get('_route') == 'cms_index')? '#' : path("cms_index") }}">
+                <ul class="list-inline d-flex align-items-center mb-2 mt-2">
+                    <li class="list-inline-item">
+                        <i class="material-icons" style="font-size: 25px;width: 25px ">dashboard</i>
+                    </li>
+                    <li class="list-inline-item d-md-inline-block d-none text-uppercase font-weight-bold font-candara">
+                        Tableau de bord
+                    </li>
+                </ul>
+            </a>
+            <a class="pl-md-3 nav-link {{ (app.request.attributes.get('_route') == 'cms_article')? 'active' }} text-sm-center text-lg-left mb-2 mt-0 rounded-0"
+               href="{{ (app.request.attributes.get('_route') == 'cms_article')? '#' : path("cms_article") }}">
+                <ul class="list-inline d-flex align-items-center mb-2 mt-2">
+                    <li class="list-inline-item">
+                        <i class="fa fa-newspaper-o" style="font-size: 25px;width: 25px "></i>
+                    </li>
+                    <li class="list-inline-item d-md-inline-block d-none text-uppercase font-weight-bold font-candara">
+                        Articles
+                    </li>
+                </ul>
+            </a>
+            <a class="pl-md-3 nav-link {{ (app.request.attributes.get('_route') == 'cms_opportunites')? 'active' }} text-sm-center text-lg-left mb-2 mt-0 rounded-0"
+               href="{{ (app.request.attributes.get('_route') == 'cms_opportunites')? '#' : path("cms_opportunites") }}">
+                <ul class="list-inline d-flex align-items-center mb-2 mt-2">
+                    <li class="list-inline-item">
+                        <i class="fa fa-suitcase" style="font-size: 25px;width: 25px"></i>
+                    </li>
+                    <li class="list-inline-item d-md-inline-block d-none text-uppercase font-weight-bold font-candara">
+                        Opportunités
+                    </li>
+                </ul>
+            </a>
+            <a class="pl-md-3 nav-link {{ (app.request.attributes.get('_route') == 'cms_podcast')? 'active' }} text-sm-center text-lg-left mb-2 mt-0 rounded-0"
+               href="{{ (app.request.attributes.get('_route') == 'cms_podcast')? '#' : path("cms_podcast") }}">
+                <ul class="list-inline d-flex align-items-center mb-2 mt-2">
+                    <li class="list-inline-item">
+                        <i class="fa fa-microphone" style="font-size: 25px;width: 25px "></i>
+                    </li>
+                    <li class="list-inline-item d-md-inline-block d-none text-uppercase font-weight-bold font-candara">
+                        Podcast Employabilité
+                    </li>
+                </ul>
+            </a>
+            <a class="pl-md-3 nav-link {{ (app.request.attributes.get('_route') == 'cms_messages')? 'active' }} text-sm-center text-lg-left mb-2 mt-0 rounded-0"
+               href="{{ (app.request.attributes.get('_route') == 'cms_messages')? '#' : path("cms_messages") }}">
+                <ul class="list-inline d-flex align-items-center mb-2 mt-2">
+                    <li class="list-inline-item">
+                        <i class="fa fa-envelope" style="font-size: 25px;width: 25px "></i>
+                    </li>
+                    <li class="list-inline-item d-md-inline-block d-none text-uppercase font-weight-bold font-candara">
+                        Messages
+                    </li>
+                </ul>
+            </a>
+            <a class="pl-md-3 nav-link {{ (app.request.attributes.get('_route') == 'cms_faq')? 'active' }} text-sm-center text-lg-left mb-2 mt-0 rounded-0"
+               href="{{ (app.request.attributes.get('_route') == 'cms_faq')? '#' : path("cms_faq") }}">
+                <ul class="list-inline d-flex align-items-center mb-2 mt-2">
+                    <li class="list-inline-item">
+                        <i class="fa fa-question" style="font-size: 25px;width: 25px "></i>
+                    </li>
+                    <li class="list-inline-item d-md-inline-block d-none text-uppercase font-weight-bold font-candara">
+                        Faq
+                    </li>
+                </ul>
+            </a>
+            <a class="pl-md-3 nav-link {{ (app.request.attributes.get('_route') == 'cms_galerie')? 'active' }} text-sm-center text-lg-left mb-2 mt-0 rounded-0"
+               href="{{ (app.request.attributes.get('_route') == 'cms_galerie')? '#' : path("cms_galerie") }}">
+                <ul class="list-inline d-flex align-items-center mb-2 mt-2">
+                    <li class="list-inline-item">
+                        <i class="fa fa-photo" style="font-size: 25px;width: 25px "></i>
+                    </li>
+                    <li class="list-inline-item d-md-inline-block d-none text-uppercase font-weight-bold font-candara">
+                        Galerie
+                    </li>
+                </ul>
+            </a>
+            <a class="pl-md-3 nav-link {{ (app.request.attributes.get('_route') == 'cms_partenaires')? 'active' }} text-sm-center text-lg-left mb-2 mt-0 rounded-0"
+               href="{{ (app.request.attributes.get('_route') == 'cms_partenaires')? '#' : path("cms_partenaires") }}">
+                <ul class="list-inline d-flex align-items-center mb-2 mt-2">
+                    <li class="list-inline-item">
+                        <i class="fa fa-handshake-o" style="font-size: 22px;width: 25px "></i>
+                    </li>
+                    <li class="list-inline-item d-md-inline-block d-none text-uppercase font-weight-bold font-candara">
+                        Partenaires
+                    </li>
+                </ul>
+            </a>
+            <a class="pl-md-3 nav-link {{ (app.request.attributes.get('_route') == 'cms_comptes')? 'active' }} text-sm-center text-lg-left mb-2 mt-0 rounded-0"
+               href="{{ (app.request.attributes.get('_route') == 'cms_comptes')? '#' : path("cms_comptes") }}">
+                <ul class="list-inline d-flex align-items-center mb-2 mt-2">
+                    <li class="list-inline-item">
+                        <i class="fa fa-users" style="font-size: 25px;width: 25px "></i>
+                    </li>
+                    <li class="list-inline-item d-md-inline-block d-none text-uppercase font-weight-bold font-candara">
+                        Utilisateurs
+                    </li>
+                </ul>
+            </a>
+            <a class="pl-md-3 nav-link {{ (app.request.attributes.get('_route') == 'cms_newsletter')? 'active' }} text-sm-center text-lg-left mb-2 mt-0 rounded-0"
+               href="{{ (app.request.attributes.get('_route') == 'cms_newsletter')? '#' : path("cms_newsletter") }}">
+                <ul class="list-inline d-flex align-items-center mb-2 mt-2">
+                    <li class="list-inline-item">
+                        <i class="fa fa-paper-plane-o" style="font-size: 25px;width: 25px "></i>
+                    </li>
+                    <li class="list-inline-item d-md-inline-block d-none text-uppercase font-weight-bold font-candara">
+                        Newsletters
+                    </li>
+                </ul>
+            </a>
+            <hr class="mt-md-5">
+            <a class="pl-md-3 nav-link text-sm-center text-lg-left mb-2 mt-0 rounded-0 align-self-end" href="{{ path('app_logout') }}">
+                <ul class="list-inline d-flex align-items-center mb-2 mt-2">
+                    <li class="list-inline-item">
+                        <i class="fa fa-sign-out" aria-hidden="true" style="font-size: 25px;width: 25px "></i>
+                    </li>
+                    <li class="list-inline-item d-md-inline-block d-none text-uppercase font-weight-bold font-candara">
+                        Déconnexion
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <section class="container-fluid p-0 m-0  bg-center" style="flex-grow: 0">
+            <nav class="navbar navbar-light navbar-expand justify-content-between pb-0 bg-white shadow-sm">
+                <a class="navbar-brand btn bg-primary text-white d-none d-md-block" href="#">
+                    Voir le site
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item py-2">
+                        <a class="nav-link text-center d-flex align-items-center" href="#">
+                            <span class=" text-secondary font-weight-bold text-uppercase">{% if app.user.roles[0]=="ROLE_ADMIN" %}
+                                    administrateur
+                                {% else %}
+                                    éditeur
+                                {% endif %}
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <button type="button"
+                        class="d-lg-none d-block btn bg-light d-inline-block p-2 shadow-none js-side-bar-btn">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <div class=" p-lg-5 pt-3 px-3 mb-lg-5">
+                {% block main %}
+                {% endblock %}
+            </div>
+        </section>
+    </div>
+</main>
+<footer>
+    <div class="container-fluid pr-0 pl-0 position-relative">
+        <p class="bg-dark pt-1 pb-1 mb-0 text-center text-white mr-0 w-100" style="font-size: small">
+            Copyright © 2020 Tous droits réservés
+        </p>
+    </div>
+</footer>
+<script src="{{ asset('build/vendor/mdb/js/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('build/vendor/mdb/js/mdb.js') }}"></script>
+<script type="text/javascript" src="{{ asset('build/vendor/popper/popper.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('build/js/jquery-3.4.1.js') }}"></script>
+<script type="text/javascript" src="{{ asset('build/js/bootstrap/bootstrap.min.js') }}"></script>
+{% block js_vendors %}
+{% endblock %}
+<script>
+    $(() => {
+        $('.js-side-bar-btn').click(() => {
+            $('.js-sidebar').toggleClass('d-none');
+        })
+    });
+</script>
+{% block js %}
+{% endblock %}
+</body>
+</html>

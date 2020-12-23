@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <canvas id="canvas" width="300" height="300">
+
+    </canvas>
+    <canvas id="canvas1" width="600" height="600">
+
+    </canvas>
+    <script type="text/javascript" defer>
+      function action() {
+
+
+        // On recupére la référence de la balise mon_canvas qu'on place dans une variable nommée canvas
+
+        var canvas = document.querySelector('#canvas');
+
+        // On récupère le contexte 2d du canvas
+
+        var context = canvas.getContext('2d');
+
+        var canvas1 = document.querySelector('#canvas1');
+
+        // On récupère le contexte 2d du canvas
+
+        var context1 = canvas1.getContext('2d');
+
+        // On trace l'image monImage dans le contexte du canvas
+
+        context.drawImage(monImage,0,0); // On trace l'image monImage dans le contexte du canvas
+
+
+        // On donne les coordonnées x,y du pixel à analyser
+
+        var x = 0;
+
+        var y = 0;
+
+        // On stocke dans rgba l'ensemble des intensités du pixel
+for(x=0;x<300;x++){
+  for(y=0;y<300;y++){
+    var rgba = context.getImageData(x,y,x+1,y+1);
+
+    // On stocke dans red la première valeur trouvée, d'index 0
+
+    var red = rgba.data[0];
+
+    // On stocke dans green la deuxième, d'index 1
+
+    var green = rgba.data[1];
+
+    // On stocke dans bleu la troisième, d'index 2
+
+    var blue = rgba.data[2];
+    // console.log(red<150))
+    //  if(230<red && red<=255){
+    //   if(230<green && green<=255 && 230<blue && blue<=255){
+    //     red=255;
+    //     green=255;
+    //     blue=255
+    //   }
+    //  }if(200<red && red<=255){
+    //   if(0<green && green<=100 || 0<blue && blue<=100){
+    //     red=255;
+    //     green=0;
+    //     blue=0
+    //   }
+    //  }if(0<red && red<=50){
+    //   if(0<green && green<=50 && 0<blue && blue<=50){
+    //     red=50;
+    //     green=50;
+    //     blue=50
+    //   }
+    //  }
+red-=30;
+blue-=30;
+green-=30;
+if(red<0)red=0;
+if(red>255)red=255;
+if(green<0)green=0;
+if(green>255)green=255;
+if(blue<0)blue=0;
+if(blue>255)blue=255;
+    context1.fillStyle='rgba('+red+','+green+','+blue+',1)';
+    context1.fillRect(x,y,1,1);
+
+  }
+}
+        console.log('ok');
+      }
+
+
+      // On crée un nouvel objet de classe Image
+
+      var monImage = new Image();
+
+      // On impose la valeur de l'attribut src : l'image doit être au même endroit que le fichier js
+
+      monImage.src = "http://localhost/adult-adventure-backpack-442559.jpg";
+      monImage.crossOrigin = 'anonymous';
+      // Lorsque l'image est chargée, on lance la fonction action.
+      monImage.onload = action;
+    </script>
+  </body>
+</html>

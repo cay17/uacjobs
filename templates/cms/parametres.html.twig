@@ -1,0 +1,332 @@
+{% extends 'cms/base.html.twig' %}
+{% block css %}
+    <link rel="stylesheet"
+          href="{{ asset('build/vendors/bootstrap-4.5.2/bootstrap-4.5.2-examples/floating-labels/floating-labels.css') }}"/>
+    <style>
+        .rt li.active{
+            background-color: #399C47!important;
+            color: white!important;
+            border: none!important;
+        }
+        .rt li{
+            background-color: white;
+            color: black;
+            border: 1px solid rgba(0,0,0,0.2);
+        }
+    </style>
+{% endblock %}
+{% block js_vendors %}
+    <script type="text/javascript" src="{{ asset('build/vendors/jquery-cookie/jquery.cookie.js') }}"></script>
+    <script type='text/javascript'
+            src="{{ asset("build/vendors/jquery-validation/dist/jquery.validate.js") }}"></script>
+    <script type="text/javascript" src="{{ asset('build/js/api/api.js') }}"></script>
+{% endblock %}
+{% block js %}
+    <script>
+        $(() => {
+            if (/modifier-un-compte/.test(window.location.pathname)) {
+                (async function () {
+                    try {
+                        const menuAPI = new Api(($('body').data('apiDomainName') + '/api/users/'));
+                        let currentUser = await menuAPI.getItem($.cookie('edit_user_id'));
+                        $('#name').val(currentUser.name);
+                        $('#firstname').val(currentUser.lastname);
+                        $('#tel').val(currentUser.telephone);
+                        $('#role').val(currentUser.role);
+                        $('#email').val(currentUser.mail);
+                    } catch
+                        (e) {
+                        console.log(e);
+                    }
+                }());
+                $('.new-account').validate({
+                    rules: {
+                        name: {
+                            required: true
+                        },
+                        firstname: {
+                            required: true
+                        },
+                        email: {
+                            email: true
+                        },
+                        tel: {
+                            required: true
+                        },
+                        role: {
+                            required: true
+                        }
+                    },
+                    messages: {
+                        name: {
+                            required: "Ecrivez un  nom"
+                        },
+                        firstname: {
+                            required: "Ecrivez un  prenom"
+                        },
+                        email: {
+                            email: "Ecrivez un  email"
+                        },
+                        tel: {
+                            required: "Ecrivez un  numéro de téléphone"
+                        },
+                        role: {
+                            required: "Choisissez un role"
+                        },
+                    },
+                    errorElement: "em",
+                    errorPlacement: function (error, element) {
+                        $(element).addClass("is-invalid");
+                        error.addClass("invalid-feedback");
+                        error.addClass("help-block");
+                        error.insertAfter(element);
+                    },
+                    success: function (label, element) {
+                        $(element).removeClass("is-invalid");
+                        $(element).addClass("is-valid");
+                    },
+                    highlight: function (element) {
+                        $(element).removeClass("is-valid");
+                        $(element).addClass("is-invalid");
+                        $(element).addClass("border-danger");
+                    },
+                    unhighlight: function (element) {
+                        $(element).removeClass("border-danger");
+                        $(element).addClass("border-success");
+                    },
+                    submitHandler: function (form) {
+                        let data = {
+                            id: parseInt($.cookie('edit_user_id')),
+                            name: form['name'].value,
+                            lastname: form['firstname'].value,
+                            mail: form['email'].value,
+                            role: form['role'].value,
+                            telephone: form['tel'].value,
+                        };
+                        console.log(data);
+                        (async function () {
+                            try {
+                                let menu = new Api(($('body').data('apiDomainName') + '/api/users/'));
+                                let out = await menu.put(data);
+                                form.reset();
+                                $('.toast').remove('text-danger');
+                                $('.toast-header').remove('bg-danger');
+
+                                $('.toast').addClass('text-success');
+                                $('.toast-header').addClass('bg-primary');
+
+                                $('.toast .toast-body').html('<i class="fa fa-check-circle"></i> Menu enregistré.');
+                                $('.toast').toast('show');
+                                window.location.pathname = '/menus';
+                            } catch (error) {
+                                $('.toast').remove('text-success');
+                                $('.toast-header').remove('bg-primary');
+
+                                $('.toast').addClass('text-danger');
+                                $('.toast-header').addClass('bg-danger');
+
+                                $('.toast .toast-body').html('<i class="fa fa-warning"></i> Menu non enregistré.');
+                                $('.toast').toast('show');
+                            }
+                        }());
+
+                    }
+                });
+            } else
+                $('.new-account').validate({
+                    rules: {
+                        name: {
+                            required: true
+                        },
+                        firstname: {
+                            required: true
+                        },
+                        email: {
+                            email: true
+                        },
+                        tel: {
+                            required: true
+                        },
+                        role: {
+                            required: true
+                        }
+                    },
+                    messages: {
+                        name: {
+                            required: "Ecrivez un  nom"
+                        },
+                        firstname: {
+                            required: "Ecrivez un  prenom"
+                        },
+                        email: {
+                            email: "Ecrivez un  email"
+                        },
+                        tel: {
+                            required: "Ecrivez un  numéro de téléphone"
+                        },
+                        role: {
+                            required: "Choisissez un role"
+                        },
+                    },
+                    errorElement: "em",
+                    errorPlacement: function (error, element) {
+                        $(element).addClass("is-invalid");
+                        error.addClass("invalid-feedback");
+                        error.addClass("help-block");
+                        error.insertAfter(element);
+                    },
+                    success: function (label, element) {
+                        $(element).removeClass("is-invalid");
+                        $(element).addClass("is-valid");
+                    },
+                    highlight: function (element) {
+                        $(element).removeClass("is-valid");
+                        $(element).addClass("is-invalid");
+                        $(element).addClass("border-danger");
+                    },
+                    unhighlight: function (element) {
+                        $(element).removeClass("border-danger");
+                        $(element).addClass("border-success");
+                    },
+                    submitHandler: function (form) {
+                        let data = {
+                            name: form['name'].value,
+                            lastname: form['firstname'].value,
+                            mail: form['email'].value,
+                            role: form['role'].value,
+                            telephone: form['tel'].value,
+                            status: true
+                        };
+                        (async function () {
+                            try {
+                                let menu = new Api(($('body').data('apiDomainName') + '/api/users'));
+                                let out = await menu.post(data);
+                                form.reset();
+                                $('.toast').remove('text-danger');
+                                $('.toast-header').remove('bg-danger');
+
+                                $('.toast').addClass('text-success');
+                                $('.toast-header').addClass('bg-primary');
+
+                                $('.toast .toast-body').html('<i class="fa fa-check-circle"></i> Utilisateur enregistré.');
+                                $('.toast').toast('show');
+
+                            } catch (error) {
+                                $('.toast').remove('text-success');
+                                $('.toast-header').remove('bg-primary');
+
+                                $('.toast').addClass('text-danger');
+                                $('.toast-header').addClass('bg-danger');
+
+                                $('.toast .toast-body').html('<i class="fa fa-warning"></i> Utilisateur non enregistré.');
+                                $('.toast').toast('show');
+                            }
+                        }());
+                    }
+                });
+        });
+    </script>
+{% endblock %}
+{% block main %}
+    <div aria-live="polite" aria-atomic="true" style="position: relative;  z-index: 1070">
+        <div style="position: absolute; top: 0; right: 0;">
+            <div class="toast text-success bg-secondary text-center" role="alert" aria-live="assertive"
+                 aria-atomic="true">
+                <div class="toast-header bg-primary d-flex justify-content-end">
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body bg-transparent">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mx-md-5">
+        <div class="bg-white p-md-5 p-2 mx-md-5 card">
+            <h2 class="h1 font-weight-bold font-candara font-weight-bold text-primary mb-3" style="font-size: xx-large">
+                Paramètres</h2>
+            <div class="form-row">
+                <div class="col-lg-12 d-flex justify-content-start align-items-center">
+                    <img alt="" src="{{ asset('build/img/1,iol.svg') }}" width="50" class=" mr-3">
+                    <span class=" font-candara font-weight-bold text-uppercase">{{ app.user.pharmacies.name }}</span>
+                    <i class="fa fa-pencil text-primary ml-2"></i>
+                </div>
+            </div>
+            <div class=" bg-center mt-5 rounded-lg">
+                <div class="form-row mb-0 pb-0">
+                    <ul role="tablist" class="nav nav-tabs rt list-unstyled col-lg-12 d-md-flex d-inline align-items-center text-center">
+                        <li class="nav-item" style="flex: 1 1 auto">
+                            <a class="nav-link active font-candara font-weight-bold py-3" id="home-tab" data-toggle="tab" href="#loc" role="tab" aria-controls="home" aria-selected="true">Localisation</a>
+                        </li>
+                        <li class="nav-item" style="flex: 1 1 auto">
+                            <a class="nav-link font-candara font-weight-bold py-3" id="home-tab" data-toggle="tab" href="#adr" role="tab" aria-controls="home" aria-selected="true">Adresse et informations</a>
+                        </li>
+                        <li class="nav-item" style="flex: 1 1 auto">
+                            <a class="nav-link font-candara font-weight-bold py-3" id="home-tab" data-toggle="tab" href="#inf" role="tab" aria-controls="home" aria-selected="true">Infos de connexion</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content mb-3 px-5 mt-5 mb-5">
+                    <div class="tab-pane active" id="loc" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="">
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-12 font-candara font-weight-bold" for="no">Long</label>
+                                <input class="col-lg-10 col-12 font-candara form-control text-right" id="no" name="long" type="text" placeholder="17'25°125">
+                            </div>
+                            <div class="form-group row">
+                                <label class="font-candara col-lg-2 col-12 font-weight-bold" for="no">Lat</label>
+                                <input class="col-lg-10 col-12 font-candara form-control text-right" id="no" name="lat" type="text" placeholder="17'25°125">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="adr" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="">
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-12 font-candara font-weight-bold" for="no">Nom</label>
+                                <input class="col-lg-10 col-12 font-candara form-control text-right" value="{{ app.user.pharmacies.name }}" id="no" name="long" type="text" placeholder="Pharmacie ivoire">
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-12 font-candara font-weight-bold"  for="no">Referent de la pharmacie</label>
+                                <input class="col-lg-10 col-12 font-candara form-control text-right" value="{{ app.user.pharmacies.referent }}" id="no" name="long" type="text" placeholder="John Doe">
+                            </div>
+                            <div class="form-group row">
+                                <label class="font-candara col-lg-2 col-12 font-weight-bold" for="no" >Num référent</label>
+                                <input class="col-lg-10 col-12 font-candara form-control text-right" value="{{ app.user.pharmacies.numTelReferent }}" id="no" name="lat" type="tel" placeholder="+22968457125">
+                            </div>
+                            <div class="form-group row">
+                                <label class="font-candara col-lg-2 col-12 font-weight-bold" for="no">Email référent</label>
+                                <input class="col-lg-10 col-12 font-candara form-control text-right" value="{{ app.user.pharmacies.emailReferent }}" id="no" name="lat" type="email" placeholder="pharmacie@gmail.com">
+                            </div>
+                            <div class="form-group row">
+                                <label class="font-candara col-lg-2 col-12 font-weight-bold" for="no">Adresse de la pharmacie</label>
+                                <input class="col-lg-10 col-12 font-candara form-control text-right" id="no" name="lat" type="text" placeholder="Ouidah rue 2256 03bp 2015">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="inf" role="tabpanel" aria-labelledby="messages-tab">
+                        <div class="">
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-12 font-candara font-weight-bold" for="no">Id connexion</label>
+                                <input class="col-lg-10 col-12 font-candara form-control text-right" id="no" name="long" disabled type="text" value="{{ app.user.username }}">
+                            </div>
+                            <div class="form-group row">
+                                <label class="font-candara col-lg-2 col-12 font-weight-bold" for="no">Mot de passe</label>
+                                <input class="col-lg-10 col-12 font-candara form-control text-right" id="no" name="pass" type="password" placeholder="••••••••••">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 btn-group btn-group-sm d-flex justify-content-between" role="group">
+                <button type="submit" class="btn text-white pt-3 pb-2 bg-primary mr-2 js-toast-onclick"
+                        data-success-message="<i class='fa fa-check-circle'></i> Médicament ajouté.">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    <span class="d-none d-md-inline-block font-candara h6">
+                        Enregistrer
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+{% endblock %}

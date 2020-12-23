@@ -1,0 +1,121 @@
+{% extends 'cms/base.html.twig' %}
+{% block css %}
+    <link rel="stylesheet"
+          href="{{ asset('build/css/floating-labels.css') }}"/>
+{% endblock %}
+{% block js_vendors %}
+    <script type="text/javascript" src="{{ asset('build/vendor/jquery-cookie/jquery.cookie.js') }}"></script>
+    <script type='text/javascript'
+            src="{{ asset("build/vendor/jquery-validation/dist/jquery.validate.js") }}"></script>
+    <script type="text/javascript" src="{{ asset('build/js/api/api.js') }}"></script>
+{% endblock %}
+{% block js %}
+    <script type="text/javascript">
+
+    </script>
+    <script type="text/javascript">
+        $(() => {
+        })
+        ;
+    </script>
+{% endblock %}
+{% block main %}
+    <div aria-live="polite" aria-atomic="true" style="position: relative;  z-index: 1070">
+        <div style="position: absolute; top: 0; right: 0;">
+            <div class="toast bg-secondary text-center" role="alert" aria-live="assertive"
+                 aria-atomic="true">
+                <div class="toast-header d-flex justify-content-end">
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body bg-white">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-between align-items-center">
+        <h2 class="h2 text-dark" style="font-size: x-large">Ajouter un compte</h2>
+        <a class="btn btn-link" href="{{ path('cms_comptes') }}">
+            <i class="fa fa-chevron-circle-left"></i>
+            <span class="d-none d-lg-inline">Retour</span>
+        </a>
+    </div>{{ form_start(registrationForm,{'attr' : {'class' : 'row pb-5 mx-xl-3','action' : path('app_register_admin')}}) }}
+    <div class="col-12">
+        {% for flashError in app.flashes('verify_email_error') %}
+            <div class="alert alert-danger" role="alert">{{ flashError }}</div>
+        {% endfor %}
+        <div class="col-12 alert-danger rounded-lg pt-1">{{ form_errors(registrationForm.plainPassword) }}</div>
+    </div>
+    <div class="col-12 col-lg-6">
+        <label class="font-weight-bold" style="opacity: 0.7">Nom</label>
+        <div class="input-group">
+            <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                <i class="fa fa-user"></i>
+            </div>
+            {{ form_widget(registrationForm.name) }}
+        </div>
+    </div>
+    <div class="col-12 col-lg-6">
+        <label class="font-weight-bold" style="opacity: 0.7">Prénoms</label>
+        <div class="input-group">
+            <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                <i class="fa fa-user"></i>
+            </div>
+            {{ form_widget(registrationForm.lastname) }}
+        </div>
+    </div>
+    <div class="col-12 mt-3">
+        <label class="font-weight-bold" style="opacity: 0.7">Email</label>
+        <div class="input-group">
+            <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                <i class="fa fa-envelope-o"></i>
+            </div>
+            {{ form_widget(registrationForm.mail) }}
+        </div>
+    </div>
+    <div class="input-group mt-3 col-12">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="menu">Rôles</label>
+        </div>
+        <select class="custom-select" id="menu" name="role" required>
+            <option value="ROLE_EDITEUR">Editeur</option>
+            <option value="ROLE_ADMIN">Administrateur</option>
+        </select>
+    </div>
+    <div class="col-12 mt-3">
+        <label class="font-weight-bold" style="opacity: 0.7">Mot de passe</label>
+        <div class="input-group">
+            <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                <i class="fa fa-eye-slash"></i>
+            </div>
+            {{ form_widget(registrationForm.plainPassword.first) }}
+        </div>
+    </div>
+    <div class="col-12 mt-3">
+        <label class="font-weight-bold" style="opacity: 0.7">Confirmer le mot de passe</label>
+        <div class="input-group">
+            <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                <i class="fa fa-eye-slash"></i>
+            </div>
+            {{ form_widget(registrationForm.plainPassword.second) }}
+        </div>
+    </div>
+    <div class="col-12 form-group d-none mt-3">
+        {{ form_widget(registrationForm.agreeTerms,{'attr' : {'checked' : 'checked'}}) }}
+        <label class="font-weight-bold" style="opacity: 0.7">Confirmer le mot de passe</label>
+    </div>
+    <div class="col-12 form-group mt-3 d-none">
+        {{ form_widget(registrationForm.entreprise,{'attr':{'required':'false','value':'none'}}) }}
+        <label class="font-weight-bold" style="opacity: 0.7">Confirmer le mot de passe</label>
+    </div>
+    <div class="col-12 mt-3" role="group">
+    <button type="submit" class="btn btn-outline-primary mr-2 btn-block">
+        <i class="fa fa-floppy-o" aria-hidden="true"></i>
+        <span class="d-none d-md-inline-block">
+                        Enregistrer
+                    </span>
+    </button>
+    </div>
+    {{ form_end(registrationForm) }}
+{% endblock %}

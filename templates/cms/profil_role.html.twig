@@ -1,0 +1,118 @@
+{% extends 'cms/base.html.twig' %}
+{% block js_vendors %}
+    <script type="text/javascript" src="{{ asset('build/vendors/jquery-cookie/jquery.cookie.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('build/js/api/api.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('build/cms/js/class/profil.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('build/cms/js/class/profil-list.js') }}"></script>
+{% endblock %}
+{% block js %}
+    <script type="text/javascript">
+        $(() => {
+            alert("11");
+            (new ProfilList('.tbody-menu')).getProfilList().then(() => {
+            });
+            alert("12");
+            $('.js-checked-all').change(function () {
+                if (this.checked) {
+                    $('.js-checkbox').prop("checked", true);
+                    $('.js-delete-checked').removeClass('disabled');
+                } else {
+                    $('.js-delete-checked').addClass('disabled');
+                    $('.js-checkbox').prop("checked", false);
+                }
+            });
+            $('.js-delete-checked').on('click', () => {
+                $('.js-checkbox:checked').each((index) => {
+                    (async function () {
+                        try {
+                            let api = new Api(($('body').data('apiDomainName') + '/api/profils/')),
+                                selector = '.js-checkbox:checked';
+                            await api.delete($($(selector)[index]).data('id'));
+                            $('#' + $($(selector)[index]).data('id')).remove();
+                        } catch (error) {
+                            console.log(error);
+                        }
+                    }());
+                });
+            });
+        });
+    </script>
+{% endblock %}
+{% block main %}
+    <h2 class="h2 text-dark">Profil</h2>
+    <div class="btn-group btn-group-sm d-flex justify-content-between" role="group">
+        <button type="button" class="btn btn-outline-primary disabled mr-2">
+            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+            <span class="d-none d-md-inline-block">
+                        Activer
+                    </span>
+        </button>
+        <button type="button" class="btn btn-outline-primary disabled mr-2">
+            <i class="fa fa-ban" aria-hidden="true"></i>
+            <span class="d-none d-md-inline-block">
+                        Désactiver
+                    </span>
+        </button>
+        <a href="{{ path('cms_create_role') }}" type="button" class="btn btn-outline-primary">
+            <i class="fa fa-user-plus" aria-hidden="true"></i>
+            <span class="d-none d-md-inline-block">
+                        Créer un profil
+                    </span>
+        </a>
+    </div>
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="table-responsive">
+                <table class="table table-striped text-center">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th>
+                            <input class="form-check-input ml-1 mt-n3"
+                                   type="checkbox"/>
+                        </th>
+                        <th colspan="3">Profil</th>
+                        <th>Actions</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody class="tbody-menu">
+
+                    </tbody>
+                    <tbody class="data-article d-none bg-primary">
+                    <tr>
+                        <th scope="row"></th>
+                        <td colspan="6" class="text-center not-element">Aucun élément</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <ul class="pagination justify-content-end">
+                <li class="page-item active">
+                    <button class="page-link disabled">
+                        1
+                    </button>
+                </li>
+                <li class="page-item">
+                    <button class="page-link disabled">
+                        sur
+                    </button>
+                </li>
+                <li class="page-item">
+                    <button class="page-link">
+                        1
+                    </button>
+                </li>
+                <li class="page-item">
+                    <button class="page-link">
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </button>
+                </li>
+                <li class="page-item">
+                    <button class="page-link">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}

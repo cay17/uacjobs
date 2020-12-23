@@ -1,0 +1,86 @@
+{% extends 'registration/base.html.twig' %}
+
+{% block name %}recruteurs{% endblock %}
+
+{% block body %}
+
+    {{ form_start(registrationForm,{'attr' : {'class' : 'row pb-5 mx-xl-3','action' : path('app_register_recruteur')}}) }}
+    <div class="col-12">
+        {% for flashError in app.flashes('verify_email_error') %}
+            <div class="alert alert-danger" role="alert">{{ flashError }}</div>
+        {% endfor %}
+            <div class="col-12 alert-danger rounded-lg pt-1">{{ form_errors(registrationForm.plainPassword) }}</div>
+    </div>
+    <div class="col-12 col-lg-6">
+        <label class="font-weight-bold" style="opacity: 0.7">Nom</label>
+        <div class="input-group">
+            <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                <i class="fa fa-user"></i>
+            </div>
+            {{ form_widget(registrationForm.name) }}
+        </div>
+    </div>
+    <div class="col-12 col-lg-6">
+        <label class="font-weight-bold" style="opacity: 0.7">Prénoms</label>
+        <div class="input-group">
+            <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                <i class="fa fa-user"></i>
+            </div>
+            {{ form_widget(registrationForm.lastname) }}
+        </div>
+    </div>
+    <div class="col-12 mt-3">
+        <label class="font-weight-bold" style="opacity: 0.7">Email</label>
+        <div class="input-group">
+            <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                <i class="fa fa-envelope-o"></i>
+            </div>
+            {{ form_widget(registrationForm.mail) }}
+        </div>
+    </div>
+    <div class="col-12 mt-3">
+        <label class="font-weight-bold" style="opacity: 0.7">Nom de l'entreprise</label>
+        <div class="input-group">
+            <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                <i class="fa fa-building-o"></i>
+            </div>
+            {{ form_widget(registrationForm.entreprise) }}
+        </div>
+    </div>
+    <div class="col-12 mt-3">
+        <label class="font-weight-bold" style="opacity: 0.7">Mot de passe</label>
+        <div class="input-group">
+            <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                <i class="fa fa-eye-slash"></i>
+            </div>
+            {{ form_widget(registrationForm.plainPassword.first) }}
+        </div>
+    </div>
+    <div class="col-12 mt-3">
+        <label class="font-weight-bold" style="opacity: 0.7">Confirmer le mot de passe</label>
+        <div class="input-group">
+            <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                <i class="fa fa-eye-slash"></i>
+            </div>
+            {{ form_widget(registrationForm.plainPassword.second) }}
+        </div>
+    </div>
+    <div class="col-12 form-group mt-3">
+        {{ form_widget(registrationForm.agreeTerms) }}
+        <label class="font-weight-bold" style="opacity: 0.7">Confirmer le mot de passe</label>
+    </div>
+
+    <div class="col-12 col-lg-6 mt-2">
+        <a href="{{ path('app_login') }}" class="btn-block text-center text-secondary bg-white rounded-pill"
+           style="border: 1px solid;padding: 0.75rem 0">
+            <span class="h6">Retour</span>
+        </a>
+    </div>
+    <div class="col-12 col-lg-6 mt-2">
+        <button type="submit" class="btn-block text-uppercase text-white bg-secondary rounded-pill"
+                style="border: 1px solid;padding: 0.75rem 0">
+            <span class="h6">Se connecter</span>
+        </button>
+    </div>
+    {{ form_end(registrationForm) }}
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends 'recruteur/base.html.twig' %}
+{% block title %}Créer une opportunité{% endblock %}
+{% block body %}
+<div class="dream-university-subpage py-5" style="background-color: rgba(218,218,218,0.2)">
+
+      <div class=" py-5 container bg-white px-5 shadow-lg">
+            <section id="content" class="">
+                  <h2 class="text-secondary">Créer une opportunité</h2>
+                  <form class="row">
+                        <div class="col-12 form-group">
+                              <div class="custom-file">
+                                    <label for="pic" class="custom-file-label">Ajoutez une image</label>
+                                    <input type="file" name="title" id="pic" class="custom-file-input">
+                              </div>
+                        </div>
+                        <div class="form-group col-12 col-lg-6">
+                              <label for="title">Titre de l'opportunité</label>
+                              <input type="text" name="title" id="title" class="form-control">
+                        </div>
+                        <div class="form-group col-12 col-lg-6">
+                              <label for="type">Type de l'opportunité</label>
+                              <select name="type" id="type" class="custom-select">
+                                    <option disabled selected></option>
+                                    <option>Stages</option>
+                                    <option>Emplois</option>
+                                    <option>Bourses</option>
+                              </select>
+                        </div>
+                        <div class="form-group col-12">
+                              <label for="title">Lien pour postuler</label>
+                              <input type="text" name="title" id="title" class="form-control">
+                        </div>
+                        <div class="form-group col-12">
+                              <label for="descr">Description de l'opportunité</label>
+                              <textarea type="text" name="descr" id="descr" class="form-control" rows="05"></textarea>
+                        </div>
+                        <div class="form-group col-12">
+                              <label for="cond">Compétences et qualifications</label>
+                              <textarea type="text" name="descr" id="cond" class="form-control" rows="05"></textarea>
+                        </div>
+                        <div class="form-group col-12">
+                              <button class="btn bg-secondary text-white">Enregistrer</button>
+                        </div>
+                  </form>
+            </section>
+      </div>
+</div>
+{% endblock %}

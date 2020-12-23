@@ -1,0 +1,145 @@
+{% extends 'cms/base.html.twig' %}
+{% block css %}
+    <link rel="stylesheet"
+          href="{{ asset('build/css/floating-labels.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('build/vendor/summernote/dist/summernote-bs4.min.css') }}"/>
+{% endblock %}
+{% block js_vendors %}
+    <script type="text/javascript" src="{{ asset('build/vendor/jquery-cookie/jquery.cookie.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('build/vendor/summernote/dist/summernote-bs4.min.js') }}"></script>
+    <script type='text/javascript'
+            src="{{ asset("build/vendor/jquery-validation/dist/jquery.validate.js") }}"></script>
+    <script type="text/javascript" src="{{ asset('build/js/api/api.js') }}"></script>
+{% endblock %}
+{% block js %}
+    <script type="text/javascript">
+
+    </script>
+    <script type="text/javascript">
+        $(() => {
+            $(() => {
+
+                $('.js-summernote').summernote({
+                    placeholder: 'Écrivez votre message ici',
+                    tabsize: 2,
+                    height: 350
+                });
+            });
+                $('.new-article').validate({
+                    rules: {
+                        title: {
+                            required: true
+                        },
+                        content: {
+                            required: true
+                        }
+                    },
+                    messages: {
+                        title: {
+                            required: "Ecrivez un  titre"
+                        },
+                        content: {
+                            required: "Ecrivez le contenu de votre article"
+                        }
+                    },
+                    errorElement: "em",
+                    errorPlacement: function (error, element) {
+                        $(element).addClass("is-invalid");
+                        error.addClass("invalid-feedback");
+                        error.addClass("help-block");
+                        error.insertAfter(element);
+                    },
+                    success: function (label, element) {
+                        $(element).removeClass("is-invalid");
+                        $(element).addClass("is-valid");
+                    },
+                    highlight: function (element) {
+                        $(element).removeClass("is-valid");
+                        $(element).addClass("is-invalid");
+                        $(element).addClass("border-danger");
+                    },
+                    unhighlight: function (element) {
+                        $(element).removeClass("border-danger");
+                        $(element).addClass("border-success");
+                    },
+                    submitHandler: function (form) {
+                        let data = {
+                            content: form['content'].value,
+                            object: form['object'].value
+                        };
+                        //console.log(data);
+                        (async function () {
+                            try {
+                                let article = new Api(($('body').data('apiDomainName') + '/api/newsletter_messages'));
+                                let out = await article.post(data);
+                                console.log(data);
+                                form.reset();
+                                $('.toast').remove('text-danger');
+                                $('.toast-header').remove('bg-danger');
+
+                                $('.toast').addClass('text-success');
+                                $('.toast-header').addClass('bg-primary');
+
+                                $('.toast .toast-body').html('<i class="fa fa-check-circle"></i> Mail envoyé.');
+                                $('.toast').toast('show');
+
+                            } catch (error) {
+                                $('.toast').remove('text-success');
+                                $('.toast-header').remove('bg-primary');
+
+                                $('.toast').addClass('text-danger');
+                                $('.toast-header').addClass('bg-danger');
+
+                                $('.toast .toast-body').html('<i class="fa fa-warning"></i> Mail non envoyé.');
+                                $('.toast').toast('show');
+                            }
+                        }());
+                    }
+                });
+        })
+        ;
+    </script>
+{% endblock %}
+{% block main %}
+    <div aria-live="polite" aria-atomic="true" style="position: relative;  z-index: 1070">
+        <div style="position: absolute; top: 0; right: 0;">
+            <div class="toast bg-secondary text-center" role="alert" aria-live="assertive"
+                 aria-atomic="true">
+                <div class="toast-header d-flex justify-content-end">
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body bg-white">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-between align-items-center">
+        <h2 class="h2 text-dark" style="font-size: x-large">Envoyer un mail aux abonnés de la newsletter</h2>
+        <a class="btn btn-link" href="{{ path('cms_newsletter') }}">
+            <i class="fa fa-chevron-circle-left"></i>
+            <span class="d-none d-lg-inline">Retour</span>
+        </a>
+    </div>
+    <form class="new-article">
+
+        <div class="form-label-group">
+            <input type="text" id="object" class="form-control" placeholder="Objet" name="object"
+                   required autofocus>
+            <label for="object">Objet</label>
+        </div>
+        <div class="form-group">
+            <textarea name="content" class="form-control js-summernote" id="content"></textarea>
+        </div>
+        <input type="hidden" name="id">
+        <div class="btn-group btn-group-sm d-flex justify-content-between" role="group">
+            <button class="btn btn-outline-primary mr-2 js-toast-onclick">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                <span class="d-none d-md-inline-block">
+                        Envoyer
+                    </span>
+            </button>
+        </div>
+    </form>
+{% endblock %}

@@ -1,0 +1,68 @@
+{% extends 'security/base.html.twig' %}
+
+{% block body %}
+
+    <form class="row pb-5 mx-xl-3" method="post">
+        <div class="col-12">
+            {% if error %}
+                <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+            {% endif %}
+        </div>
+        <div class="col-12">
+            {% if app.user %}
+                <div class="mb-3">
+                    Vous êtes connectés en tant que {{ app.user.username }}, <a href="{{ path('app_logout') }}">Se déconnecter</a>
+                </div>
+            {% endif %}
+        </div>
+        <div class="col-12">
+            <label class="font-weight-bold" style="opacity: 0.7">Adresse email</label>
+            <div class="input-group">
+                <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                    <i class="fa fa-user"></i>
+                </div>
+                <input class="form-control border-left-0"  value="{{ last_username }}" name="username" id="inputUsername" required autofocus type="email"/>
+            </div>
+        </div>
+
+        <input type="hidden" name="_csrf_token"
+               value="{{ csrf_token('authenticate') }}"
+        >
+
+        <div class="col-12 mt-3">
+            <label class="font-weight-bold" style="opacity: 0.7">Mot de passe</label>
+            <div class="input-group">
+                <div class="input-group-append text-black-50 d-flex align-items-center px-3 border border-right-0">
+                    <i class="fa fa-eye-slash"></i>
+                </div>
+                <input class="form-control border-left-0" type="password" required name="password" id="inputPassword" />
+            </div>
+        </div>
+        <div class="col-12 mt-1">
+            <p class="text-right"><a class="font-weight-bold"><u>J'ai oublié mon mot de
+                        passe</u></a></p>
+        </div>
+        <div class="col-12 col-lg-6 mt-2">
+            <a href="{{ path('index') }}" class="btn-block text-center text-secondary bg-white rounded-pill"
+               style="border: 1px solid;padding: 0.75rem 0">
+                <span class="h6">Retour</span>
+            </a>
+        </div>
+        <div class="col-12 col-lg-6 mt-2">
+            <button type="submit" class="btn-block text-uppercase text-white bg-secondary rounded-pill"
+                    style="border: 1px solid;padding: 0.75rem 0">
+                <span class="h6">Se connecter</span>
+            </button>
+        </div>
+    </form>
+    {#
+        Uncomment this section and add a remember_me option below your firewall to activate remember me functionality.
+        See https://symfony.com/doc/current/security/remember_me.html
+
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" name="_remember_me"> Remember me
+            </label>
+        </div>
+    #}
+{% endblock %}

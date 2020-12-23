@@ -1,0 +1,51 @@
+<?php //App_Entity_MediaObject
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\MediaObject',
+                'id',
+                'contentUrl',
+                'file',
+                'filePath',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'contentUrl' => $o[2],
+                    'file' => $o[3],
+                    'filePath' => $o[4],
+                ],
+            ],
+            'groups' => [
+                1 => [
+                    'galery',
+                    'media_object_read',
+                ],
+                [
+                    'galery',
+                    'media_object_read',
+                ],
+                [
+                    'galery',
+                    'media_object_read',
+                ],
+                [
+                    'galery',
+                    'media_object_read',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

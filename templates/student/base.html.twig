@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UAC Jobs | {% block title %}{% endblock %}</title>
+
+    <!-- Bootstrap -->
+    <link href="{{ asset('build/css/bootstrap.min.css') }}" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{{ asset('build/css/style.css') }}">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="{{ asset('build/css/animate.css') }}">
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="{{ asset('build/fonts/font-awesome.css') }}">
+    <!-- Menu -->
+    <link href="{{ asset('build/css/flexy-menu.css') }}" rel="stylesheet">
+    <!-- Testimonial CSS -->
+    <link href="{{ asset('build/css/cubeportfolio.min.css') }}" rel="stylesheet">
+
+
+    <!-- Font  -->
+    <link href='http://fonts.googleapis.com/css?family=Passion+One:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet'
+          type='text/css'>
+    {% block css %} {% endblock %}
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+    <nav class="navbar p-0 navbar-expand-xl d-flex justify-content-between align-items-center">
+        <div class="">
+            <a class=" ml-lg-5 ml-3 mt-0 d-flex align-items-center" href="{{ path('etu_index') }}">
+                <h1 class="text-primary py-3">UAC JOBS</h1>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="flexy-menu orange d-lg-flex justify-content-xl-end justify-content-lg-between text-center align-items-center">
+                <li class="dropdown {{ (app.request.attributes.get('_route') == 'etu_publication')? 'active' }} {{ (app.request.attributes.get('_route') == 'etu_news')? 'active' }} {{ (app.request.attributes.get('_route') == 'etu_galerie')? 'active' }}">
+                    <a class="dropdown-toggle" href="{{ path('etu_index') }}" id="dropdownMenuLink"
+                       data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Acceuil
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li class="text-dark"><a class="dropdown-item "
+                                                 href="{{ (app.request.attributes.get('_route') == 'etu_news')? '#' : path("etu_news") }}">Actualités</a>
+                        </li>
+                        <li><a class="dropdown-item " href="{{ (app.request.attributes.get('_route') == 'etu_publication')? '#' : path("etu_publication") }}">Publications</a></li>
+                        <li><a class="dropdown-item  text-dark" href="{{ (app.request.attributes.get('_route') == 'etu_galerie')? '#' : path("etu_galerie") }}">Galerie</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown {{ (app.request.attributes.get('_route') == 'etu_stages')? 'active' }} {{ (app.request.attributes.get('_route') == 'etu_emplois')? 'active' }}">
+                    <a class="dropdown-toggle" href="#" id="dropdownMenuLink1"
+                       data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Opportunités
+                    </a>
+
+                    <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuLink1">
+                        <li class="text-dark"><a class="dropdown-item "
+                                                 href="{{ (app.request.attributes.get('_route') == 'etu_stages')? '#' : path("etu_stages") }}">Stages</a></li>
+                        <li><a class="dropdown-item " href="{{ (app.request.attributes.get('_route') == 'etu_emplois')? '#' : path("etu_emplois") }}">Emplois</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown {{ (app.request.attributes.get('_route') == 'etu_trucs')? 'active' }} {{ (app.request.attributes.get('_route') == 'etu_podcast')? 'active' }} {{ (app.request.attributes.get('_route') == 'etu_faq')? 'active' }}">
+                    <a class="dropdown-toggle" href="#" id="dropdownMenuLink2"
+                       data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        ressources éducatives
+                    </a>
+
+                    <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuLink2">
+                        <li class="text-dark"><a class="dropdown-item " href="{{ (app.request.attributes.get('_route') == 'etu_trucs')? '#' : path("etu_trucs") }}">Trucs et
+                                astuces</a></li>
+                        <li><a class="dropdown-item " href="{{ (app.request.attributes.get('_route') == 'etu_podcast')? '#' : path("etu_podcast") }}">Podcast Employabilité</a>
+                        </li>
+                        <li><a class="dropdown-item " href="{{ (app.request.attributes.get('_route') == 'etu_faq')? '#' : path("etu_faq") }}">Foire aux questions</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="{{ (app.request.attributes.get('_route') == 'etu_search')? 'active' }}"><a href="{{ (app.request.attributes.get('_route') == 'etu_search')? '#' : path("etu_search") }}">Rechercher</a></li>
+                <li class="{{ (app.request.attributes.get('_route') == 'etu_contact')? 'active' }}"><a href="{{ (app.request.attributes.get('_route') == 'etu_contact')? '#' : path("etu_contact") }}">Contact</a></li>
+                <li class="active dropdown">
+                    <a class="dropdown-toggle bg-primary text-white d-flex align-items-center" href="#" id="dropdownMenuLink3"
+                       data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        {% if app.user.picture==null %}
+                        <i class="fa fa-user text-secondary mr-3 p-3 rounded-circle bg-white" style="font-size: 25px;"></i>
+                        {% else %}
+                        <img src="{{ asset('build/img/darren.png') }}" class="img-fluid rounded-circle" width="40"/>
+                        {% endif %}
+                        <span>{{ app.user.lastname }} {{ app.user.name }}</span>
+                    </a>
+
+                    <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuLink3">
+                        <li class="text-dark"><a class="dropdown-item " href="{{ (app.request.attributes.get('_route') == 'etu_soumissions')? '#' : path("etu_soumissions") }}">Mes
+                                soumissions</a></li>
+                        <li><a class="dropdown-item " href="{{ (app.request.attributes.get('_route') == 'etu_profil')? '#' : path("etu_profil") }}">Mon profil</a>
+                        </li>
+                        <li><a class="dropdown-item " href="{{ path('app_logout') }}">Déconnexion</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+{% block body %}
+{% endblock %}
+<footer>
+    <div class="container-fluid bg-dark m-0">
+        <div class="row">
+            <div class="col-lg-8 col-12 text-white p-5">
+                <span class="font-weight-bold h4 text-secondary">Jobs Etudiants</span>
+                <span class="mt-3 small d-block">
+                              Réalisé par:
+                        </span>
+                <ul class="font-weight-bold h6">
+                    <li class="my-3">L'université d'Abomey-calavi</li>
+                    <li>Le programme de bourses de la fondation Mastercard à l'UAC</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-12 pt-5">
+                <div class="du-scholarship-item wow fadeInLeft">
+                    <figure><img src="{{ asset('build/img/logo1.png') }}" width=250 alt=""></figure>
+                </div>
+                <div class="du-scholarship-item wow fadeInLeft">
+                    <figure><img src="{{ asset('build/img/logo.png') }}" width="150" alt=""></figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-secondary py-2 text-center text-white">
+        Copyright 2020 &copy; Tous droits réservés
+    </div>
+</footer>
+<script type="text/javascript" src="{{ asset('build/js/jquery.js') }}"></script>
+<script type="text/javascript" src="{{ asset('build/js/bootstrap/bootstrap.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('build/js/library/jquery.easing.1.3.js') }}"></script>
+
+<!-- Feature box equal height JS -->
+<script type="text/javascript" src="{{ asset('build/js/library/jquery.equalheights.js') }}"></script>
+<!-- UI bottom to top JS -->
+<script type="text/javascript" src="{{ asset('build/js/library/jquery.ui.totop.js') }}"></script>
+<!-- Subscription JS -->
+<script type="text/javascript" src="{{ asset('build/js/library/sForm.js') }}"></script>
+<!-- Animation JS -->
+<script type="text/javascript" src="{{ asset('build/js/library/wow.js') }}"></script>
+<script type="text/javascript" src="{{ asset('build/js/library/device.min.js') }}"></script>
+<!-- Menu JS -->
+<script type="text/javascript" src="{{ asset('build/js/library/flexy-menu.js') }}"></script>
+<!-- Text rotator JS -->
+<script type="text/javascript" src="{{ asset('build/js/library/jquery.simple-text-rotator.min.js') }}"></script>
+<!-- Smooth Scroll JS -->
+
+<!-- Testimonila JS -->
+<script type="text/javascript" src="{{ asset('build/js/library/jquery.cubeportfolio.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('build/js/library/testimonials.js') }}"></script>
+<!-- Custom script -->
+<script type="text/javascript" src="{{ asset('build/js/main.js') }}"></script>
+{% block js %}{% endblock %}
+</body>
+</html>

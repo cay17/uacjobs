@@ -1,0 +1,124 @@
+{%extends 'recruteur/base.html.twig'%}
+{% block title %}Contact {%endblock %}
+{% block body %}
+<div class="dream-university-subpage">
+
+	<!-- Begin breadcrumbs-->
+	<div class="du-page-header du-breadcrumbs overflow-hidden p-0 position-absolute w-100"  style="z-index: -1">
+		<div style="height: 180px" class="bg-dark">
+			<img src="{{ asset('build/img/blog3.jpg') }}" class="w-100" style="opacity: 0.4"/>
+		</div>
+	</div>
+	<div style="padding-top: 100px;z-index: 88888;">
+		<div class="container bg-primary py-5">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 text-center du-title">
+					<div class="du-breadcrumb-title"><h1 class="text-white text-center">Contact</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End breadcrumbs-->
+	
+	
+	<!-- Begin Contact -->
+	<div class="du-subpage-content">
+		<div class="du-contact">
+
+			<!-- Begin choose us -->
+			<section class="contact ptb-50">
+
+				
+
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 text-left">
+							<h3 class="text-secondary">Contacter un conseiller emploi</h3>
+							<p >Morbi condimentum, nunc non ornare dignissim, tellus eros molestie turpis, eu vehicula metus quam
+								ac tellus aenean cursus massa in nulla suscipit lacinia in at eros.Morbi condimentum, nunc non ornare dignissim, tellus eros molestie turpis, eu vehicula metus quam
+								ac tellus aenean cursus massa in nulla suscipit lacinia in at eros.</p>
+								
+						</div>
+					</div>
+					
+					<section class="du-contact-form">
+
+						<div class="row">
+							<div class="col-md-9">
+								<div class="row du-contact-form">
+									<form class="row px-3">
+
+										<div class="form-group col-md-4">
+											<input type="text" class="form-control" placeholder="Name *"> 
+										</div> 
+
+										<div class="form-group col-md-4">
+											<input type="email" class="form-control" placeholder="Email *"> 
+										</div> 
+
+										<div class="form-group col-md-4">
+											<input type="text" class="form-control" placeholder="Subject"> 
+										</div> 
+
+										<div class="col-md-12"> 
+											<textarea class="form-control" rows="9" placeholder="Message">
+											</textarea> 
+											<button type="submit" class="btn-default du-common-property">Send message</button> 
+										</div> 
+									</form> 
+
+								</div> 
+							</div>
+							<div class="col-md-3">
+
+								<div class="widget">
+	                                <h3 class="widget-title">Retrouvez-nous sur les réseaux sociaux</h3>
+
+	                                <ul class="social social-boxed">
+	                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	                                    <li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+	                                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+	                                </ul><!-- /.social-->
+	                            </div><!-- /.widget -->
+							</div>
+						</div>					
+					</section>			
+				</div>
+			</section>
+			<!-- End contact-->
+
+
+			
+			
+		</div><!-- /.du-contact -->
+	</div><!-- /.du-subpage content -->
+	<!-- End Contact -->
+
+
+</div>
+
+
+<div class="du-newsletter">
+	<div class="container">
+		<h2 class="wow fadeInUp">Abonnez-vous à notre newsletter</h2>
+		<p class="wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero
+			scelerisque ligula sagittis faucibus eget quis lacus. <br>Suspendisse sodales sed orci ac
+			feugiat. </p>
+		<div class="row">
+			<div class="col-lg-12 wow fadeInUp">
+				<form id="newsletter" accept-charset="utf-8">
+					<div class="success">Your subscribe request has been sent!</div>
+					<label class="email">
+						<input type="email" value="Entrez votre email:">
+						<span class="error">*This is not a valid email address.</span>
+					</label><br>
+					<a href="#" data-type="submit">Souscrire</a>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+{%endblock%}

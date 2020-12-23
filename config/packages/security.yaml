@@ -1,0 +1,40 @@
+security:
+  encoders:
+    App\Entity\Users:
+        algorithm: auto
+
+  # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
+  providers:
+    app_user_provider:
+      entity:
+        class: App\Entity\Users
+        property: mail
+    # used to reload user from session & other features (e.g. switch_user)
+  firewalls:
+    dev:
+      pattern: ^/(_(profiler|wdt)|css|images|js)/
+      security: false
+    main:
+      anonymous: true
+      lazy: true
+      guard:
+          authenticators:
+              - App\Security\AppCustomAuthentificatorAuthenticator
+          entry_point: App\Security\AppCustomAuthentificatorAuthenticator
+      logout:
+          path: app_logout
+          # where to redirect after logout
+          target: app_login
+
+      # activate different ways to authenticate
+      # https://symfony.com/doc/current/security.html#firewalls-authentication
+
+      # https://symfony.com/doc/current/security/impersonating_user.html
+      # switch_user: true
+
+  # Easy way to control access for large sections of your site
+  # Note: Only the *first* access control that matches will be used
+  access_control:
+    - { path: ^/etudiant, roles: [ROLE_ETUDIANT,ROLE_ADMIN] }
+    - { path: ^/recruteur, roles: [ROLE_RECRUTEUR,ROLE_ADMIN] }
+    - { path: ^/backend, roles: [ROLE_ADMIN,ROLE_EDITEUR] }

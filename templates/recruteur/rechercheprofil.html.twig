@@ -1,0 +1,235 @@
+{% extends 'recruteur/base.html.twig' %}
+{% block title %}Recherche{% endblock %}
+{% block css %}
+      <link href="{{ asset('build/css/profilitem.css') }}" rel="stylesheet">
+{% endblock %}
+{% block body %}
+<div class="container-fluid p-0 m-0">
+
+      <div class="">
+            <div class="px-md-5 px-3 pt-5 pb-2" style="background-color: rgba(218,218,218,0.4)">
+                  <form class="row">
+                        <div class="col-12 col-md-10 input-group">
+                              <div class="input-group-append d-flex align-items-center bg-white border pl-3 border-right-0">
+                                    <i class="fa fa-search text-black-50"></i>
+                              </div>
+                              <input type="search" class="form-control py-4 rounded-0 border-left-0"
+                                     placeholder="Mot clé, métiers, compétences"/>
+                        </div>
+                        <div class="col-12 col-md-2 mt-3 mt-md-0">
+                              <button class="btn-block h-100 bg-secondary text-white py-2 py-md-0"
+                                      style="border: 1px solid #fe0000;"><span class="text-uppercase">Rechercher</span>
+                              </button>
+                        </div>
+                  </form>
+                  <div class="col-12 col-md-5 mt-2">
+                        <p class="text-black-50 font-italic" style="font-size: small">Exemples de mots-clés:
+                              informatique, agriculture, recrutement, etc</p>
+                  </div>
+            </div>
+      </div>
+      <!-- End breadcrumbs-->
+
+
+      <!-- Begin Event -->
+      <div class="du-subpage-content container-fluid">
+            <div class="row">
+
+                  <!-- Begin choose us -->
+                  <section class="col-12 py-5">
+
+                        <div class="container">
+                              <p class="text-black-50">Aucun résultat. Réessayez avec d'aures mots-clés</p>
+                              <div class="container">
+                                    <div class="row">
+                                          <!-- Single Advisor-->
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s"
+                                                     style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                                      <!-- Team Thumb-->
+                                                      <div class="advisor_thumb"><img src="{{ asset('build/img/darren.png') }}" alt=""
+                                                                                      class="img-fluid" width="250">
+                                                            <!-- Social Info-->
+                                                            <div class="social-info"><a href="#"><i
+                                                                    class="fa fa-facebook"></i></a><a href="#"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#"><i
+                                                                    class="fa fa-linkedin"></i></a></div>
+                                                      </div>
+                                                      <!-- Team Details-->
+                                                      <a href="cv.html" class="text-black">
+                                                            <div class="single_advisor_details_info">
+                                                                  <h6>Sarah Dossou</h6>
+                                                                  <p class="designation">Informaticien</p>
+                                                            </div>
+                                                      </a>
+                                                </div>
+                                          </div>
+                                          <!-- Single Advisor-->
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s"
+                                                     style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                                      <!-- Team Thumb-->
+                                                      <div class="advisor_thumb"><img src="{{ asset('build/img/darren.png') }}" alt=""
+                                                                                      class="img-fluid" width="250">
+                                                            <!-- Social Info-->
+                                                            <div class="social-info"><a href="#"><i
+                                                                    class="fa fa-facebook"></i></a><a href="#"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#"><i
+                                                                    class="fa fa-linkedin"></i></a></div>
+                                                      </div>
+                                                      <!-- Team Details-->
+                                                      <a href="cv.html" class="text-black">
+                                                            <div class="single_advisor_details_info">
+                                                                  <h6>Bathelemy Bessan</h6>
+                                                                  <p class="designation">Designer</p>
+                                                            </div>
+                                                      </a>
+                                                </div>
+                                          </div>
+                                          <!-- Single Advisor-->
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s"
+                                                     style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                                      <!-- Team Thumb-->
+                                                      <div class="advisor_thumb"><img src="{{ asset('build/img/darren.png') }}" alt=""
+                                                                                      class="img-fluid" width="250">
+                                                            <!-- Social Info-->
+                                                            <div class="social-info"><a href="#"><i
+                                                                    class="fa fa-facebook"></i></a><a href="#"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#"><i
+                                                                    class="fa fa-linkedin"></i></a></div>
+                                                      </div>
+                                                      <!-- Team Details-->
+                                                      <a href="cv.html" class="text-black">
+                                                            <div class="single_advisor_details_info">
+                                                                  <h6>Razack Metobo</h6>
+                                                                  <p class="designation">Développer</p>
+                                                            </div>
+                                                      </a>
+                                                </div>
+                                          </div>
+                                          <!-- Single Advisor-->
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s"
+                                                     style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                                      <!-- Team Thumb-->
+                                                      <div class="advisor_thumb"><img src="{{ asset('build/img/darren.png') }}" alt=""
+                                                                                      class="img-fluid" width="250">
+                                                            <!-- Social Info-->
+                                                            <div class="social-info"><a href="#"><i
+                                                                    class="fa fa-facebook"></i></a><a href="#"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#"><i
+                                                                    class="fa fa-linkedin"></i></a></div>
+                                                      </div>
+                                                      <!-- Team Details-->
+                                                      <a href="cv.html" class="text-black">
+                                                            <div class="single_advisor_details_info">
+                                                                  <h6>Nicolas Gbegnon</h6>
+                                                                  <p class="designation">Analyste</p>
+                                                            </div>
+                                                      </a>
+                                                </div>
+                                          </div>
+
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s"
+                                                     style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                                      <!-- Team Thumb-->
+                                                      <div class="advisor_thumb"><img src="{{ asset('build/img/darren.png') }}" alt=""
+                                                                                      class="img-fluid" width="250">
+                                                            <!-- Social Info-->
+                                                            <div class="social-info"><a href="#"><i
+                                                                    class="fa fa-facebook"></i></a><a href="#"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#"><i
+                                                                    class="fa fa-linkedin"></i></a></div>
+                                                      </div>
+                                                      <!-- Team Details-->
+                                                      <a href="cv.html" class="text-black">
+                                                            <div class="single_advisor_details_info">
+                                                                  <h6>Sarah Dossou</h6>
+                                                                  <p class="designation">Informaticien</p>
+                                                            </div>
+                                                      </a>
+                                                </div>
+                                          </div>
+                                          <!-- Single Advisor-->
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s"
+                                                     style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                                      <!-- Team Thumb-->
+                                                      <div class="advisor_thumb"><img src="{{ asset('build/img/darren.png') }}" alt=""
+                                                                                      class="img-fluid" width="250">
+                                                            <!-- Social Info-->
+                                                            <div class="social-info"><a href="#"><i
+                                                                    class="fa fa-facebook"></i></a><a href="#"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#"><i
+                                                                    class="fa fa-linkedin"></i></a></div>
+                                                      </div>
+                                                      <!-- Team Details-->
+                                                      <a href="cv.html" class="text-black">
+                                                            <div class="single_advisor_details_info">
+                                                                  <h6>Bathelemy Bessan</h6>
+                                                                  <p class="designation">Designer</p>
+                                                            </div>
+                                                      </a>
+                                                </div>
+                                          </div>
+                                          <!-- Single Advisor-->
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s"
+                                                     style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                                      <!-- Team Thumb-->
+                                                      <div class="advisor_thumb"><img src="{{ asset('build/img/darren.png') }}" alt=""
+                                                                                      class="img-fluid" width="250">
+                                                            <!-- Social Info-->
+                                                            <div class="social-info"><a href="#"><i
+                                                                    class="fa fa-facebook"></i></a><a href="#"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#"><i
+                                                                    class="fa fa-linkedin"></i></a></div>
+                                                      </div>
+                                                      <!-- Team Details-->
+                                                      <a href="cv.html" class="text-black">
+                                                            <div class="single_advisor_details_info">
+                                                                  <h6>Razack Metobo</h6>
+                                                                  <p class="designation">Développer</p>
+                                                            </div>
+                                                      </a>
+                                                </div>
+                                          </div>
+                                          <!-- Single Advisor-->
+                                          <div class="col-12 col-sm-6 col-lg-3">
+                                                <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s"
+                                                     style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                                      <!-- Team Thumb-->
+                                                      <div class="advisor_thumb"><img src="{{ asset('build/img/darren.png') }}" alt=""
+                                                                                      class="img-fluid" width="250">
+                                                            <!-- Social Info-->
+                                                            <div class="social-info"><a href="#"><i
+                                                                    class="fa fa-facebook"></i></a><a href="#"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#"><i
+                                                                    class="fa fa-linkedin"></i></a></div>
+                                                      </div>
+                                                      <!-- Team Details-->
+                                                      <a href="cv.html" class="text-black">
+                                                            <div class="single_advisor_details_info">
+                                                                  <h6>Nicolas Gbegnon</h6>
+                                                                  <p class="designation">Analyste</p>
+                                                            </div>
+                                                      </a>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+
+                  <!-- End event -->
+
+
+            </div><!-- /.du-event -->
+      </div><!-- /.du-subpage content -->
+      <!-- End Evnet -->
+
+
+</div>
+{% endblock %}

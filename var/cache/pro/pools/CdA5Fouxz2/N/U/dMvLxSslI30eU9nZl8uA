@@ -1,0 +1,47 @@
+<?php //App_Entity_Galery
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Galery',
+                'id',
+                'file',
+                'creatAt',
+                'title',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'file' => $o[2],
+                    'creatAt' => $o[3],
+                    'title' => $o[4],
+                ],
+            ],
+            'groups' => [
+                1 => [
+                    'galery',
+                ],
+                [
+                    'galery',
+                ],
+                [
+                    'galery',
+                ],
+                [
+                    'galery',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

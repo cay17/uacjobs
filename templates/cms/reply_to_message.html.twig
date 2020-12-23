@@ -1,0 +1,164 @@
+{% extends 'cms/base.html.twig' %}
+{% block css %}
+    <link rel="stylesheet" href="{{ asset('build/vendor/summernote/dist/summernote-bs4.min.css') }}"/>
+{% endblock %}
+{% block js_vendors %}
+    <script type="text/javascript" src="{{ asset('build/vendor/summernote/dist/summernote-bs4.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('build/vendor/jquery-cookie/jquery.cookie.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('build/js/api/api.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('build/cms/js/class/message.js') }}">
+    </script> <script type='text/javascript' src="{{ asset("build/vendor/jquery-validation/dist/jquery.validate.js") }}"></script>
+{% endblock %}
+{% block js %}
+    <script type="text/javascript">
+        $(() => {
+            $('.js-summernote').summernote({
+                placeholder: 'Écrivez votre message ici',
+                tabsize: 2,
+                height: 100
+            });
+        });
+            (async function () {
+                try {
+                    const menuAPI = new Api(($('body').data('apiDomainName') + '/api/messages/'));
+                    let currentMessage = await menuAPI.getItem($.cookie('edit_message_id'));
+                    let r = currentMessage.receiptAt.split('T');
+                    let date= r[0] + ' à ' + r[1].split('+')[0];
+                    $('.tbody-menu').append(' <tr id="' + currentMessage.id + '"><td>'  + currentMessage.name + '</td><td>'  + currentMessage.message + '</td><td>'  + currentMessage.object + '</td><td>'  + date + '</td></tr>'
+                    );
+                } catch
+                    (e) {
+                    console.log(e);
+                }
+            }());
+            $('.new-response').validate({
+                rules: {
+                    editordata: {
+                        required: true
+                    }
+                },
+                messages: {
+                    editordata: {
+                        required: "Ecrivez le contenu de votre article"
+                    }
+                },
+                errorElement: "em",
+                errorPlacement: function (error, element) {
+                    $(element).addClass("is-invalid");
+                    error.addClass("invalid-feedback");
+                    error.addClass("help-block");
+                    error.insertAfter(element);
+                },
+                success: function (label, element) {
+                    $(element).removeClass("is-invalid");
+                    $(element).addClass("is-valid");
+                },
+                highlight: function (element) {
+                    $(element).removeClass("is-valid");
+                    $(element).addClass("is-invalid");
+                    $(element).addClass("border-danger");
+                },
+                unhighlight: function (element) {
+                    $(element).removeClass("border-danger");
+                    $(element).addClass("border-success");
+                },
+                submitHandler: function (form) {
+
+
+                    //console.log(data);
+                    (async function () {
+                        try {
+                            const menuAPI = new Api(($('body').data('apiDomainName') + '/api/messages/'));
+                            const menuAPI2 = new Api(($('body').data('apiDomainName') + '/api/messages'));
+                            let currentMessage = await menuAPI.getItem($.cookie('edit_message_id'));
+                            let data = {
+                                    message : form['editordata'].value,
+                                    receiptAt : "2019-08-12 08:12:20"
+                            };
+                            let out = await menuAPI2.post(data);
+                            let data2 = {
+                                id : currentMessage.id,
+                                reponse : "/api/messages/" + out.id
+                            };
+                            out = await menuAPI.put(data2);
+                            form.reset();
+                            $('.toast').remove('text-danger');
+                            $('.toast-header').remove('bg-danger');
+
+                            $('.toast').addClass('text-success');
+                            $('.toast-header').addClass('bg-primary');
+
+                            $('.toast .toast-body').html('<i class="fa fa-check-circle"></i> Réponse enregistré.');
+                            $('.toast').toast('show');
+                            window.location.pathname = '/articles';
+                            console.log(out);
+
+                        } catch (error) {
+                            $('.toast').remove('text-success');
+                            $('.toast-header').remove('bg-primary');
+
+                            $('.toast').addClass('text-danger');
+                            $('.toast-header').addClass('bg-danger');
+
+                            $('.toast .toast-body').html('<i class="fa fa-warning"></i> Réponse non enregistré.');
+                            $('.toast').toast('show');
+                        }
+                    }());
+                }
+            });
+            console.log('Le formulaire n\'est pas activé');
+    </script>
+{% endblock %}
+{% block main %}
+    <div aria-live="polite" aria-atomic="true" style="position: relative;  z-index: 1070">
+        <div style="position: absolute; top: 0; right: 0;">
+            <div class="toast text-success bg-secondary text-center" role="alert" aria-live="assertive"
+                 aria-atomic="true">
+                <div class="toast-header bg-primary d-flex justify-content-end">
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body bg-transparent">
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="h2 text-dark summernote">Répondre à</h2>
+    <div class="row mt-3">
+        <div class="col-12">
+            <div class="table-responsive">
+                <table class="table table-striped text-center">
+                    <thead  class="shadow-lg" style="background-color: rgba(42,140,40,0.6)">
+                    <tr>
+                        <th colspan="2">Message</th>
+                        <th>Objet</th>
+                        <th>Date et heure de réception</th>
+                    </tr>
+                    </thead>
+                    <tbody class="tbody-menu">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <form class="new-response" novalidate="novalidate">
+        <div class="form-group">
+            <textarea name="editordata" class="form-control js-summernote"></textarea>
+        </div>
+        <div class="btn-group btn-group-sm d-flex justify-content-between" role="group">
+            <button type="submit" class="btn btn-outline-primary mr-2">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                <span class="d-none d-md-inline-block">
+                        Envoyer
+                    </span>
+            </button>
+            <a class="btn btn-outline-dark mr-2" href="{{ path('cms_messages') }}">
+                <i class="fa fa-times" aria-hidden="true"></i>
+                <span class="d-none d-md-inline-block">
+                        Annuler
+                    </span>
+            </a>
+        </div>
+    </form>
+{% endblock %}
