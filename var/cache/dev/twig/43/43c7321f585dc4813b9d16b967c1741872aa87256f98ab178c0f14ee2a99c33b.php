@@ -241,10 +241,16 @@ class __TwigTemplate_7d080f50c772b2768456f41c1c1dfd2482600101a97dbaa866a8d3eab71
                                     <div class=\"tab-content p30\" style=\"height: 730px;\">
                                           <div id=\"tab1\" class=\"tab-pane active\">
                                                 <div class=\"btn-group\">
-                                                      <a href=\"editcv.html\"
+                                                      <a href=\"";
+        // line 133
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_edit_cv");
+        echo "\"
                                                          class=\"btn bg-primary mr-2 text-white py-2 font-weight-bold\"><i
                                                               class=\"fa fa-pencil mr-2\"></i> Editer mon cv</a>
-                                                      <a href=\"cv.html\"
+                                                      <a href=\"";
+        // line 136
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\"
                                                          class=\"mr-2 btn bg-primary text-white py-2 font-weight-bold\"><i
                                                               class=\"fa fa-eye mr-2\"></i> Voir en plein écran</a>
                                                       <a href=\"#\"
@@ -623,7 +629,7 @@ class __TwigTemplate_7d080f50c772b2768456f41c1c1dfd2482600101a97dbaa866a8d3eab71
 
     public function getDebugInfo()
     {
-        return array (  260 => 147,  127 => 17,  116 => 8,  106 => 7,  94 => 5,  89 => 4,  79 => 3,  60 => 2,  37 => 1,);
+        return array (  266 => 147,  252 => 136,  246 => 133,  127 => 17,  116 => 8,  106 => 7,  94 => 5,  89 => 4,  79 => 3,  60 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -760,10 +766,10 @@ class __TwigTemplate_7d080f50c772b2768456f41c1c1dfd2482600101a97dbaa866a8d3eab71
                                     <div class=\"tab-content p30\" style=\"height: 730px;\">
                                           <div id=\"tab1\" class=\"tab-pane active\">
                                                 <div class=\"btn-group\">
-                                                      <a href=\"editcv.html\"
+                                                      <a href=\"{{ path('etu_edit_cv') }}\"
                                                          class=\"btn bg-primary mr-2 text-white py-2 font-weight-bold\"><i
                                                               class=\"fa fa-pencil mr-2\"></i> Editer mon cv</a>
-                                                      <a href=\"cv.html\"
+                                                      <a href=\"{{ path('etu_cv') }}\"
                                                          class=\"mr-2 btn bg-primary text-white py-2 font-weight-bold\"><i
                                                               class=\"fa fa-eye mr-2\"></i> Voir en plein écran</a>
                                                       <a href=\"#\"

@@ -2,70 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ddd3f22-011e-46c9-9fa6-8c1c4ba1384c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/tt.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/cv-full.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/cv-full.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/css/cv-full.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/css/cv-full.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/etudiantController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/etudiantController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/about.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/actualites.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/actualites.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/article.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/article.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/emplois.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/emplois.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/faq.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/faq.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/galery.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/galery.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/front/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/opportunitesitem.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/opportunitesitem.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/partenaires.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/partenaires.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/podcast.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/podcast.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/publications.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/publications.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/stages.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/stages.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/front/trucs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/front/trucs.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/about.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/actualites.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/actualites.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/article.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/article.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/emplois.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/emplois.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/faq.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/faq.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/galery.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/galery.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/opportunitesitem.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/opportunitesitem.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/podcast.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/podcast.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/publications.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/publications.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/soumissionslist.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/soumissionslist.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/stages.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/stages.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/recruteur/trucs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/trucs.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/about.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/actualites.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/actualites.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/article.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/article.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/cv.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/cv.pdf.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/emplois.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/emplois.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/faq.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/faq.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/galery.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/galery.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/opportunitesitem.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/opportunitesitem.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/podcast.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/podcast.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/publications.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/publications.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/stages.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/stages.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student/trucs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/trucs.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/recruteur/rechercheprofil.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/recruteur/rechercheprofil.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/student/profil.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student/profil.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/var/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/1a/fe/27fe1a" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/1a/fe/27fe1a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/17/17a1221713af11a8760bbdc6ba23518ba6a11e71f656cc80476dd50570008c24.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/17/17a1221713af11a8760bbdc6ba23518ba6a11e71f656cc80476dd50570008c24.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1c/1c5ad13853e8993bf1fc4a555704d784b01102879fce15195e08b1f8d061fa00.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/1c/1c5ad13853e8993bf1fc4a555704d784b01102879fce15195e08b1f8d061fa00.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/23/23f21b352c12316a6c5433ca55df327b21e1832b3620ca63a947aa91c69d42ff.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/23/23f21b352c12316a6c5433ca55df327b21e1832b3620ca63a947aa91c69d42ff.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/4c/4c1013ebc5ca5428d730ce7ba0f925510340e472866552251fbe1ec94f583d20.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/4c/4c1013ebc5ca5428d730ce7ba0f925510340e472866552251fbe1ec94f583d20.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/55/553e37fc56a412f2de8dc0e7b157916e46993548b407564ffd992cab72d91b77.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/55/553e37fc56a412f2de8dc0e7b157916e46993548b407564ffd992cab72d91b77.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/59/59a0aff47b51140ff0544255e9ed0d33c71a2eef68fdf6da316808523026d692.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/59/59a0aff47b51140ff0544255e9ed0d33c71a2eef68fdf6da316808523026d692.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/68/682b66d0848f9c482be833a01a1af3ce26bb31dc5e7689c9390bcce0b2dd2fa1.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/68/682b66d0848f9c482be833a01a1af3ce26bb31dc5e7689c9390bcce0b2dd2fa1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/81/819b47560e9dbfba5652eb928b92e0b34301f8072d0a24b16d1931491cce5b2e.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/81/819b47560e9dbfba5652eb928b92e0b34301f8072d0a24b16d1931491cce5b2e.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/bc/bcb1e7161d56e4e5f9dd1a7690aa982c23c31ec56942fc866045146604a78349.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/bc/bcb1e7161d56e4e5f9dd1a7690aa982c23c31ec56942fc866045146604a78349.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c0/c0c585c288e4d172248819025151d0351f29b415528bdb1bd3df5d6251514571.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c0/c0c585c288e4d172248819025151d0351f29b415528bdb1bd3df5d6251514571.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c5/c55bc89a1fd65dfb998f37d5bf87cf1cbb4a2ed0a89215477f0b29663a27ddd2.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c5/c55bc89a1fd65dfb998f37d5bf87cf1cbb4a2ed0a89215477f0b29663a27ddd2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/eb/eb5806e566f04eb6c1c390225dcba4014abee78903402d99b0b00c257ee9c0e9.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/eb/eb5806e566f04eb6c1c390225dcba4014abee78903402d99b0b00c257ee9c0e9.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/f8/f800e116ab148218dda90099d6d07c2ffcf2b2cf3f148ddb349bc7a5fcd78572.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/f8/f800e116ab148218dda90099d6d07c2ffcf2b2cf3f148ddb349bc7a5fcd78572.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fe/fe9bb38a2372f31e51c756b5781c4b6b4ac8163fdf078c1d11c2a9996c88d082.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/fe/fe9bb38a2372f31e51c756b5781c4b6b4ac8163fdf078c1d11c2a9996c88d082.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/25/256ca85d8df9ea4817356007e7d7625e16524aaa8e5a6abd730ca0d01240dca0.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/25/256ca85d8df9ea4817356007e7d7625e16524aaa8e5a6abd730ca0d01240dca0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/28/28657615506f24694aa3b3da00897df0422eb1d3356c9d55541ea0b41e57523a.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/28/28657615506f24694aa3b3da00897df0422eb1d3356c9d55541ea0b41e57523a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/2b/2b00c2b993a028aa764355d1b0c6a2d056b8e6232212e512e4aa6d83ba5c6513.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/2b/2b00c2b993a028aa764355d1b0c6a2d056b8e6232212e512e4aa6d83ba5c6513.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/43/43c7321f585dc4813b9d16b967c1741872aa87256f98ab178c0f14ee2a99c33b.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/43/43c7321f585dc4813b9d16b967c1741872aa87256f98ab178c0f14ee2a99c33b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/7b/7b559c27bae150ab80d443223829cfc6fbdb18113449109ebd31499db45b74ef.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/7b/7b559c27bae150ab80d443223829cfc6fbdb18113449109ebd31499db45b74ef.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/85/859ce1b81a1e05403c72cd011443d9668a7abdca4922023d9bcc3dfd8bb9fdb4.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/85/859ce1b81a1e05403c72cd011443d9668a7abdca4922023d9bcc3dfd8bb9fdb4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c3/c3a7fd5f0ddd817814a14ff0f5dd42137bbfe16c504bc68f38b82d2ec2b4ba25.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c3/c3a7fd5f0ddd817814a14ff0f5dd42137bbfe16c504bc68f38b82d2ec2b4ba25.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/f2/f2a1be2e22deacb6df5e6cfd1a222282908a1dc755024495f37b38506f4a53a5.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/f2/f2a1be2e22deacb6df5e6cfd1a222282908a1dc755024495f37b38506f4a53a5.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/log/dev.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,13 +65,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/front/index.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/recruteur/rechercheprofil.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="329" column="81" selection-start-line="329" selection-start-column="81" selection-end-line="329" selection-end-column="81" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="322">
+              <caret line="229" column="41" lean-forward="true" selection-start-line="229" selection-start-column="41" selection-end-line="229" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -174,8 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/cms/galery.html.twig" />
-        <option value="$PROJECT_DIR$/templates/cms/edit_opportunities.html.twig" />
         <option value="$PROJECT_DIR$/assets/cms/js/class/offer.js" />
         <option value="$PROJECT_DIR$/templates/recruteur/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/student/index.html.twig" />
@@ -225,6 +172,8 @@
         <option value="$PROJECT_DIR$/templates/front/about.html.twig" />
         <option value="$PROJECT_DIR$/templates/front/opportunitesitem.html.twig" />
         <option value="$PROJECT_DIR$/templates/front/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/student/profil.html.twig" />
+        <option value="$PROJECT_DIR$/templates/recruteur/rechercheprofil.html.twig" />
       </list>
     </option>
   </component>
@@ -481,7 +430,7 @@
       <workItem from="1601129355771" duration="51035000" />
       <workItem from="1608032706204" duration="5613000" />
       <workItem from="1608050079492" duration="83121000" />
-      <workItem from="1608586607824" duration="45271000" />
+      <workItem from="1608586607824" duration="49412000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1608709734974</created>
@@ -490,11 +439,18 @@
       <option name="project" value="LOCAL" />
       <updated>1608709734974</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1608734570156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608734570156</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246212000" />
+    <option name="totallyTimeSpent" value="250353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -549,41 +505,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/recruteur/soumissionslist.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/recruteur/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="91" column="93" selection-start-line="91" selection-start-column="93" selection-end-line="91" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/student/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="88" column="222" selection-start-line="88" selection-start-column="222" selection-end-line="88" selection-end-column="222" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/front/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="82" column="23" selection-start-line="67" selection-start-column="18" selection-end-line="82" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/front/actualites.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/front/article.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
@@ -952,11 +873,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/front/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="329" column="81" selection-start-line="329" selection-start-column="81" selection-end-line="329" selection-end-column="81" />
+        <state relative-caret-position="255">
+          <caret line="27" column="94" selection-start-line="27" selection-start-column="94" selection-end-line="27" selection-end-column="94" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/etudiantController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/cmsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student/profil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="135" column="78" selection-start-line="135" selection-start-column="78" selection-end-line="135" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/soumissionslist.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recruteur/rechercheprofil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="229" column="41" lean-forward="true" selection-start-line="229" selection-start-column="41" selection-end-line="229" selection-end-column="41" />
         </state>
       </provider>
     </entry>

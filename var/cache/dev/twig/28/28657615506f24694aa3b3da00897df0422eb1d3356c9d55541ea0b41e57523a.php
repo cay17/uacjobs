@@ -136,7 +136,7 @@ class __TwigTemplate_15a9c306de8f49b1989bb188cc9f1cd2cb7306eb71f28c61527e1c0b626
         // line 14
         echo "    <script type=\"text/javascript\">
         Dropzone.autoDiscover = false;
-        \$(() => {
+        \$(() =>     {
             (new GaleryList('.tbody-menu', '.mbody', '.gbody')).getGaleryList().then(() => {
             });
             \$('.js-checked-all').change(function () {
@@ -342,7 +342,7 @@ class __TwigTemplate_15a9c306de8f49b1989bb188cc9f1cd2cb7306eb71f28c61527e1c0b626
 {% block js %}
     <script type=\"text/javascript\">
         Dropzone.autoDiscover = false;
-        \$(() => {
+        \$(() =>     {
             (new GaleryList('.tbody-menu', '.mbody', '.gbody')).getGaleryList().then(() => {
             });
             \$('.js-checked-all').change(function () {

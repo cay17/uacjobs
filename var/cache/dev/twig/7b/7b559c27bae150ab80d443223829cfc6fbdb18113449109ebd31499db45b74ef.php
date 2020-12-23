@@ -164,7 +164,10 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"";
+        // line 59
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Sarah Dossou</h6>
                                                                   <p class=\"designation\">Informaticien</p>
@@ -189,7 +192,10 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"";
+        // line 81
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Bathelemy Bessan</h6>
                                                                   <p class=\"designation\">Designer</p>
@@ -214,7 +220,10 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"";
+        // line 103
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Razack Metobo</h6>
                                                                   <p class=\"designation\">Développer</p>
@@ -239,7 +248,10 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"";
+        // line 125
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Nicolas Gbegnon</h6>
                                                                   <p class=\"designation\">Analyste</p>
@@ -264,7 +276,10 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"";
+        // line 147
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Sarah Dossou</h6>
                                                                   <p class=\"designation\">Informaticien</p>
@@ -289,7 +304,10 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"";
+        // line 169
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Bathelemy Bessan</h6>
                                                                   <p class=\"designation\">Designer</p>
@@ -314,7 +332,10 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"";
+        // line 191
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Razack Metobo</h6>
                                                                   <p class=\"designation\">Développer</p>
@@ -339,7 +360,10 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"";
+        // line 213
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_cv");
+        echo "\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Nicolas Gbegnon</h6>
                                                                   <p class=\"designation\">Analyste</p>
@@ -382,7 +406,7 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
 
     public function getDebugInfo()
     {
-        return array (  332 => 204,  307 => 182,  282 => 160,  257 => 138,  232 => 116,  207 => 94,  182 => 72,  157 => 50,  112 => 7,  102 => 6,  89 => 4,  79 => 3,  60 => 2,  37 => 1,);
+        return array (  365 => 213,  353 => 204,  337 => 191,  325 => 182,  309 => 169,  297 => 160,  281 => 147,  269 => 138,  253 => 125,  241 => 116,  225 => 103,  213 => 94,  197 => 81,  185 => 72,  169 => 59,  157 => 50,  112 => 7,  102 => 6,  89 => 4,  79 => 3,  60 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -445,7 +469,7 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Sarah Dossou</h6>
                                                                   <p class=\"designation\">Informaticien</p>
@@ -467,7 +491,7 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Bathelemy Bessan</h6>
                                                                   <p class=\"designation\">Designer</p>
@@ -489,7 +513,7 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Razack Metobo</h6>
                                                                   <p class=\"designation\">Développer</p>
@@ -511,7 +535,7 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Nicolas Gbegnon</h6>
                                                                   <p class=\"designation\">Analyste</p>
@@ -533,7 +557,7 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Sarah Dossou</h6>
                                                                   <p class=\"designation\">Informaticien</p>
@@ -555,7 +579,7 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Bathelemy Bessan</h6>
                                                                   <p class=\"designation\">Designer</p>
@@ -577,7 +601,7 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Razack Metobo</h6>
                                                                   <p class=\"designation\">Développer</p>
@@ -599,7 +623,7 @@ class __TwigTemplate_1ec4f84bb4cb76b529413140691a558828562d6d12d4901d175f1776923
                                                                     class=\"fa fa-linkedin\"></i></a></div>
                                                       </div>
                                                       <!-- Team Details-->
-                                                      <a href=\"cv.html\" class=\"text-black\">
+                                                      <a href=\"{{ path('etu_cv') }}\" class=\"text-black\">
                                                             <div class=\"single_advisor_details_info\">
                                                                   <h6>Nicolas Gbegnon</h6>
                                                                   <p class=\"designation\">Analyste</p>

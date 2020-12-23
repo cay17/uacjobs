@@ -117,8 +117,8 @@ class __TwigTemplate_8b18cfc866e4a10fd4a0747d06f03b9562036a2da6632cb80099ae5102c
             <div style=\"height: 180px\" class=\"bg-dark\">
                   <img src=\"";
         // line 12
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/blog3.jpg"), "html", null, true);
-        echo "\" class=\"w-100\" style=\"opacity: 0.4\"/>
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/tt.jpg"), "html", null, true);
+        echo "\" class=\"w-100\" style=\"opacity: 1\"/>
             </div>
       </div>
       <div style=\"padding-top: 100px;z-index: 88888;\">
@@ -692,7 +692,7 @@ class __TwigTemplate_8b18cfc866e4a10fd4a0747d06f03b9562036a2da6632cb80099ae5102c
       <!-- Begin breadcrumbs-->
       <div class=\"du-page-header du-breadcrumbs overflow-hidden p-0 position-absolute w-100\" style=\"z-index: -1\">
             <div style=\"height: 180px\" class=\"bg-dark\">
-                  <img src=\"{{ asset('build/img/blog3.jpg') }}\" class=\"w-100\" style=\"opacity: 0.4\"/>
+                  <img src=\"{{ asset('build/img/tt.jpg') }}\" class=\"w-100\" style=\"opacity: 1\"/>
             </div>
       </div>
       <div style=\"padding-top: 100px;z-index: 88888;\">

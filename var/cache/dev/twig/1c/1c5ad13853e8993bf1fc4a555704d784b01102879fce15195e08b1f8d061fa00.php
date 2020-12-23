@@ -112,9 +112,10 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                             <i class=\"fa fa-circle text-black-50\"></i>
                                                       </div>
                                                       <select class=\"custom-select h-100 border-0 rounded-0\" id=\"menu\" name=\"menu\">
-                                                            <option value=\"actualites\">Actualités</option>
-                                                            <option value=\"publications\">Publications</option>
-                                                            <option value=\"trucs-et-astuces\">Trucs et astuces</option>
+                                                            <option value=\"\" disabled selected>Type d'opportunités</option>
+                                                            <option value=\"actualites\">Emplois</option>
+                                                            <option value=\"publications\">Stages</option>
+                                                            <option value=\"trucs-et-astuces\">Bourses</option>
                                                       </select>
                                                 </div>
                                           </div>
@@ -169,7 +170,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                               <div class=\"du-feature-box maxheight bg-secondary border-0\">
                                     <div class=\"badge bg-custom\">
                                           <img src=\"";
-        // line 84
+        // line 85
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/page1_icon3.png"), "html", null, true);
         echo "\" alt=\"\">
                                     </div>
@@ -206,7 +207,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                       <span class=\"font-weight-bold text-primary\">9 Nov 2020, 17h20</span>
                                                 </div>
                                                 <a href=\"";
-        // line 118
+        // line 119
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
         echo "\"
                                                    class=\"ml-auto du-common-property border-0 text-secondary\"><u>Lire
@@ -214,7 +215,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                           </div>
                                     </div>
                                     <figure style=\"height:200px\" class=\"overflow-hidden\"><img src=\"";
-        // line 123
+        // line 124
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/uac.jpg"), "html", null, true);
         echo "\" alt=\"\">
                                     </figure>
@@ -233,7 +234,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                       <span class=\"font-weight-bold text-primary\">9 Nov 2020, 17h20</span>
                                                 </div>
                                                 <a href=\"";
-        // line 139
+        // line 140
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
         echo "\"
                                                    class=\"ml-auto du-common-property border-0 text-secondary\"><u>Lire
@@ -241,7 +242,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                           </div>
                                     </div>
                                     <figure style=\"height:200px\" class=\"overflow-hidden\"><img src=\"";
-        // line 144
+        // line 145
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/pharmecy.jpg"), "html", null, true);
         echo "\"
                                                                                               alt=\"\">
@@ -261,7 +262,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                       <span class=\"font-weight-bold text-primary\">9 Nov 2020, 17h20</span>
                                                 </div>
                                                 <a href=\"";
-        // line 161
+        // line 162
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article");
         echo "\"
                                                    class=\"ml-auto du-common-property border-0 text-secondary\"><u>Lire
@@ -269,7 +270,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                           </div>
                                     </div>
                                     <figure style=\"height:200px\" class=\"overflow-hidden\"><img src=\"";
-        // line 166
+        // line 167
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/page1_pic1.jpg"), "html", null, true);
         echo "\"
                                                                                               alt=\"\">
@@ -293,7 +294,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                     <div class=\"du-caption-box row\">
                                           <figure style=\"height: min-content\" class=\"overflow-hidden col-lg-4 col-12\"><img
                                                   class=\"mt-2 h-100\" src=\"";
-        // line 187
+        // line 188
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/uac.jpg"), "html", null, true);
         echo "\" alt=\"\"></figure>
                                           <div class=\"du-caption col-lg-8 col-12 justify-content-between d-flex flex-column\">
@@ -309,7 +310,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                 </div>
                                                 <div class=\"d-flex justify-content-end\">
                                                       <a href=\"";
-        // line 200
+        // line 201
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
@@ -325,7 +326,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                     <div class=\"du-caption-box row\">
                                           <figure style=\"height: min-content\" class=\"overflow-hidden col-lg-4 col-12\"><img
                                                   class=\"mt-2 h-100\" src=\"";
-        // line 213
+        // line 214
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/uac.jpg"), "html", null, true);
         echo "\" alt=\"\"></figure>
                                           <div class=\"du-caption col-lg-8 col-12 justify-content-between d-flex flex-column\">
@@ -341,7 +342,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                 </div>
                                                 <div class=\"d-flex justify-content-end\">
                                                       <a href=\"";
-        // line 226
+        // line 227
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
@@ -357,7 +358,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                     <div class=\"du-caption-box row\">
                                           <figure style=\"height: min-content\" class=\"overflow-hidden col-lg-4 col-12\"><img
                                                   class=\"mt-2 h-100\" src=\"";
-        // line 239
+        // line 240
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/uac.jpg"), "html", null, true);
         echo "\" alt=\"\"></figure>
                                           <div class=\"du-caption col-lg-8 col-12 justify-content-between d-flex flex-column\">
@@ -373,7 +374,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                 </div>
                                                 <div class=\"d-flex justify-content-end\">
                                                       <a href=\"";
-        // line 252
+        // line 253
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
@@ -389,7 +390,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                     <div class=\"du-caption-box row\">
                                           <figure style=\"height: min-content\" class=\"overflow-hidden col-lg-4 col-12\"><img
                                                   class=\"mt-2 h-100\" src=\"";
-        // line 265
+        // line 266
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/uac.jpg"), "html", null, true);
         echo "\" alt=\"\"></figure>
                                           <div class=\"du-caption col-lg-8 col-12 justify-content-between d-flex flex-column\">
@@ -405,7 +406,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                 </div>
                                                 <div class=\"d-flex justify-content-end\">
                                                       <a href=\"";
-        // line 278
+        // line 279
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
@@ -421,7 +422,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                     <div class=\"du-caption-box row\">
                                           <figure style=\"height: min-content\" class=\"overflow-hidden col-lg-4 col-12\"><img
                                                   class=\"mt-2 h-100\" src=\"";
-        // line 291
+        // line 292
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/uac.jpg"), "html", null, true);
         echo "\" alt=\"\"></figure>
                                           <div class=\"du-caption col-lg-8 col-12 justify-content-between d-flex flex-column\">
@@ -437,7 +438,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                 </div>
                                                 <div class=\"d-flex justify-content-end\">
                                                       <a href=\"";
-        // line 304
+        // line 305
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
@@ -453,7 +454,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                     <div class=\"du-caption-box row\">
                                           <figure style=\"height: min-content\" class=\"overflow-hidden col-lg-4 col-12\"><img
                                                   class=\"mt-2 h-100\" src=\"";
-        // line 317
+        // line 318
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/uac.jpg"), "html", null, true);
         echo "\" alt=\"\"></figure>
                                           <div class=\"du-caption col-lg-8 col-12 justify-content-between d-flex flex-column\">
@@ -469,7 +470,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                 </div>
                                                 <div class=\"d-flex justify-content-end\">
                                                       <a href=\"";
-        // line 330
+        // line 331
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
         echo "\"
                                                               class=\"btn-default du-common-property bg-primary border-0\">
@@ -484,7 +485,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
 
                         <div class=\"ml-auto mb-5\">
                               <a href=\"";
-        // line 342
+        // line 343
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("emplois");
         echo "\" class=\"btn rounded-0 text-white bg-secondary\">Voir plus</a>
                         </div>
@@ -549,7 +550,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                         <div class=\"col-lg-6 col-md-4 col-sm-4\">
                               <div class=\"du-scholarship-item wow fadeInLeft\">
                                     <figure><img src=\"";
-        // line 404
+        // line 405
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/logo1.png"), "html", null, true);
         echo "\" width=\"100%\" alt=\"\"></figure>
                               </div>
@@ -558,7 +559,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                         <div class=\"col-lg-6 col-md-4 col-sm-4\">
                               <div class=\"du-scholarship-item wow fadeInLeft\">
                                     <figure><img src=\"";
-        // line 410
+        // line 411
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/logo.png"), "html", null, true);
         echo "\" height=\"250\" alt=\"\"></figure>
                               </div>
@@ -611,7 +612,7 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
 
     public function getDebugInfo()
     {
-        return array (  562 => 410,  553 => 404,  488 => 342,  473 => 330,  457 => 317,  441 => 304,  425 => 291,  409 => 278,  393 => 265,  377 => 252,  361 => 239,  345 => 226,  329 => 213,  313 => 200,  297 => 187,  273 => 166,  265 => 161,  245 => 144,  237 => 139,  218 => 123,  210 => 118,  173 => 84,  93 => 7,  88 => 4,  78 => 3,  59 => 2,  36 => 1,);
+        return array (  563 => 411,  554 => 405,  489 => 343,  474 => 331,  458 => 318,  442 => 305,  426 => 292,  410 => 279,  394 => 266,  378 => 253,  362 => 240,  346 => 227,  330 => 214,  314 => 201,  298 => 188,  274 => 167,  266 => 162,  246 => 145,  238 => 140,  219 => 124,  211 => 119,  174 => 85,  93 => 7,  88 => 4,  78 => 3,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -643,9 +644,10 @@ class __TwigTemplate_6a47856db7584d16404e51752febb03dcb90eb7cfab791e45733bb18eac
                                                             <i class=\"fa fa-circle text-black-50\"></i>
                                                       </div>
                                                       <select class=\"custom-select h-100 border-0 rounded-0\" id=\"menu\" name=\"menu\">
-                                                            <option value=\"actualites\">Actualités</option>
-                                                            <option value=\"publications\">Publications</option>
-                                                            <option value=\"trucs-et-astuces\">Trucs et astuces</option>
+                                                            <option value=\"\" disabled selected>Type d'opportunités</option>
+                                                            <option value=\"actualites\">Emplois</option>
+                                                            <option value=\"publications\">Stages</option>
+                                                            <option value=\"trucs-et-astuces\">Bourses</option>
                                                       </select>
                                                 </div>
                                           </div>

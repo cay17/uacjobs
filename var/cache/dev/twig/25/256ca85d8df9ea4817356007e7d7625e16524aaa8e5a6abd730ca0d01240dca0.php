@@ -210,7 +210,7 @@ class __TwigTemplate_960e5f56c92eec43f7ec6e6f5a129e978197edef41469bac3f410942e67
         echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 89, $this->source); })()), "request", [], "any", false, false, false, 89), "attributes", [], "any", false, false, false, 89), "get", [0 => "_route"], "method", false, false, false, 89), "etu_search"))) ? ("active") : (""));
         echo "\"><a href=\"";
         echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 89, $this->source); })()), "request", [], "any", false, false, false, 89), "attributes", [], "any", false, false, false, 89), "get", [0 => "_route"], "method", false, false, false, 89), "etu_search"))) ? ("#") : ($this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("etu_search")));
-        echo "\">Rechercher</a></li>
+        echo "\">Rechercher une opportunité</a></li>
                 <li class=\"";
         // line 90
         echo (((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 90, $this->source); })()), "request", [], "any", false, false, false, 90), "attributes", [], "any", false, false, false, 90), "get", [0 => "_route"], "method", false, false, false, 90), "etu_contact"))) ? ("active") : (""));
@@ -269,105 +269,147 @@ class __TwigTemplate_960e5f56c92eec43f7ec6e6f5a129e978197edef41469bac3f410942e67
         $this->displayBlock('body', $context, $blocks);
         // line 118
         echo "<footer>
-    <div class=\"container-fluid bg-dark m-0\">
-        <div class=\"row\">
-            <div class=\"col-lg-8 col-12 text-white p-5\">
-                <span class=\"font-weight-bold h4 text-secondary\">Jobs Etudiants</span>
-                <span class=\"mt-3 small d-block\">
-                              Réalisé par:
-                        </span>
-                <ul class=\"font-weight-bold h6\">
-                    <li class=\"my-3\">L'université d'Abomey-calavi</li>
-                    <li>Le programme de bourses de la fondation Mastercard à l'UAC</li>
-                </ul>
+    <section id=\"footer\" class=\" bg-dark\">
+        <div class=\"container pt-5\">
+            <div class=\"row text-center text-xs-center text-sm-left text-md-left\">
+                <div class=\"col-xs-12 col-sm-4 col-md-4\">
+                    <a class=\" ml-lg-5 ml-3 mt-0 pt-0\" href=\"";
+        // line 123
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("index");
+        echo "\">
+                        <h1 class=\"text-white pb-3 pt-0 mt-0\">UAC JOBS</h1>
+
+                    </a>
+                </div>
+                <div class=\"col-xs-12 col-sm-4 col-md-4 text-center\">
+                    <ul class=\"list-unstyled quick-links\">
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Accueil</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">A propos</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">FAQ</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Contact</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">
+                                Partenaires
+                            </a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div class=\"col-xs-12 col-sm-4 col-md-4 text-center\">
+                    <ul class=\"list-unstyled quick-links\">
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Opportunités</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Actualités</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Galerie</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Trucs et astuces</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">
+                                Podcast employabilité
+                            </a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div class=\"col-12 text-center mt-5\">
+                    <ul class=\"list-unstyled list-inline social text-center\">
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-facebook fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-twitter fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-instagram fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-google-plus fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"
+                                                        target=\"_blank\"><i class=\"fa fa-envelope fa-1x\"></i></a></li>
+                    </ul>
+                </div>
+                <div class=\"col-xs-12 col-sm-4 col-md-4\">
+
+                </div>
             </div>
-            <div class=\"col-lg-4 col-12 pt-5\">
-                <div class=\"du-scholarship-item wow fadeInLeft\">
-                    <figure><img src=\"";
-        // line 133
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/logo1.png"), "html", null, true);
-        echo "\" width=250 alt=\"\"></figure>
+            <div class=\"row\">
+                <div class=\"col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5\">
+
                 </div>
-                <div class=\"du-scholarship-item wow fadeInLeft\">
-                    <figure><img src=\"";
-        // line 136
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/img/logo.png"), "html", null, true);
-        echo "\" width=\"150\" alt=\"\"></figure>
-                </div>
+                </hr>
             </div>
         </div>
-    </div>
+    </section>
     <div class=\"container-fluid bg-secondary py-2 text-center text-white\">
         Copyright 2020 &copy; Tous droits réservés
     </div>
 </footer>
 <script type=\"text/javascript\" src=\"";
-        // line 145
+        // line 190
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/jquery.js"), "html", null, true);
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 146
+        // line 191
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/bootstrap/bootstrap.min.js"), "html", null, true);
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 147
+        // line 192
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/jquery.easing.1.3.js"), "html", null, true);
         echo "\"></script>
 
 <!-- Feature box equal height JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 150
+        // line 195
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/jquery.equalheights.js"), "html", null, true);
         echo "\"></script>
 <!-- UI bottom to top JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 152
+        // line 197
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/jquery.ui.totop.js"), "html", null, true);
         echo "\"></script>
 <!-- Subscription JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 154
+        // line 199
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/sForm.js"), "html", null, true);
         echo "\"></script>
 <!-- Animation JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 156
+        // line 201
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/wow.js"), "html", null, true);
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 157
+        // line 202
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/device.min.js"), "html", null, true);
         echo "\"></script>
 <!-- Menu JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 159
+        // line 204
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/flexy-menu.js"), "html", null, true);
         echo "\"></script>
 <!-- Text rotator JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 161
+        // line 206
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/jquery.simple-text-rotator.min.js"), "html", null, true);
         echo "\"></script>
 <!-- Smooth Scroll JS -->
 
 <!-- Testimonila JS -->
 <script type=\"text/javascript\" src=\"";
-        // line 165
+        // line 210
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/jquery.cubeportfolio.min.js"), "html", null, true);
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 166
+        // line 211
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/library/testimonials.js"), "html", null, true);
         echo "\"></script>
 <!-- Custom script -->
 <script type=\"text/javascript\" src=\"";
-        // line 168
+        // line 213
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/js/main.js"), "html", null, true);
         echo "\"></script>
 ";
-        // line 169
+        // line 214
         $this->displayBlock('js', $context, $blocks);
-        // line 170
+        // line 215
         echo "</body>
 </html>";
         
@@ -433,7 +475,7 @@ class __TwigTemplate_960e5f56c92eec43f7ec6e6f5a129e978197edef41469bac3f410942e67
 
     }
 
-    // line 169
+    // line 214
     public function block_js($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -463,7 +505,7 @@ class __TwigTemplate_960e5f56c92eec43f7ec6e6f5a129e978197edef41469bac3f410942e67
 
     public function getDebugInfo()
     {
-        return array (  437 => 169,  419 => 116,  400 => 27,  382 => 7,  371 => 170,  369 => 169,  365 => 168,  360 => 166,  356 => 165,  349 => 161,  344 => 159,  339 => 157,  335 => 156,  330 => 154,  325 => 152,  320 => 150,  314 => 147,  310 => 146,  306 => 145,  294 => 136,  288 => 133,  271 => 118,  269 => 116,  258 => 108,  253 => 106,  248 => 104,  238 => 100,  232 => 98,  228 => 96,  226 => 95,  216 => 90,  210 => 89,  203 => 85,  198 => 83,  193 => 81,  178 => 73,  172 => 70,  168 => 69,  154 => 60,  148 => 57,  144 => 56,  139 => 54,  128 => 46,  120 => 45,  111 => 39,  98 => 28,  96 => 27,  86 => 20,  81 => 18,  76 => 16,  71 => 14,  66 => 12,  61 => 10,  55 => 7,  47 => 1,);
+        return array (  479 => 214,  461 => 116,  442 => 27,  424 => 7,  413 => 215,  411 => 214,  407 => 213,  402 => 211,  398 => 210,  391 => 206,  386 => 204,  381 => 202,  377 => 201,  372 => 199,  367 => 197,  362 => 195,  356 => 192,  352 => 191,  348 => 190,  278 => 123,  271 => 118,  269 => 116,  258 => 108,  253 => 106,  248 => 104,  238 => 100,  232 => 98,  228 => 96,  226 => 95,  216 => 90,  210 => 89,  203 => 85,  198 => 83,  193 => 81,  178 => 73,  172 => 70,  168 => 69,  154 => 60,  148 => 57,  144 => 56,  139 => 54,  128 => 46,  120 => 45,  111 => 39,  98 => 28,  96 => 27,  86 => 20,  81 => 18,  76 => 16,  71 => 14,  66 => 12,  61 => 10,  55 => 7,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -556,7 +598,7 @@ class __TwigTemplate_960e5f56c92eec43f7ec6e6f5a129e978197edef41469bac3f410942e67
                         </li>
                     </ul>
                 </li>
-                <li class=\"{{ (app.request.attributes.get('_route') == 'etu_search')? 'active' }}\"><a href=\"{{ (app.request.attributes.get('_route') == 'etu_search')? '#' : path(\"etu_search\") }}\">Rechercher</a></li>
+                <li class=\"{{ (app.request.attributes.get('_route') == 'etu_search')? 'active' }}\"><a href=\"{{ (app.request.attributes.get('_route') == 'etu_search')? '#' : path(\"etu_search\") }}\">Rechercher une opportunité</a></li>
                 <li class=\"{{ (app.request.attributes.get('_route') == 'etu_contact')? 'active' }}\"><a href=\"{{ (app.request.attributes.get('_route') == 'etu_contact')? '#' : path(\"etu_contact\") }}\">Contact</a></li>
                 <li class=\"active dropdown\">
                     <a class=\"dropdown-toggle bg-primary text-white d-flex align-items-center\" href=\"#\" id=\"dropdownMenuLink3\"
@@ -586,28 +628,73 @@ class __TwigTemplate_960e5f56c92eec43f7ec6e6f5a129e978197edef41469bac3f410942e67
 {% block body %}
 {% endblock %}
 <footer>
-    <div class=\"container-fluid bg-dark m-0\">
-        <div class=\"row\">
-            <div class=\"col-lg-8 col-12 text-white p-5\">
-                <span class=\"font-weight-bold h4 text-secondary\">Jobs Etudiants</span>
-                <span class=\"mt-3 small d-block\">
-                              Réalisé par:
-                        </span>
-                <ul class=\"font-weight-bold h6\">
-                    <li class=\"my-3\">L'université d'Abomey-calavi</li>
-                    <li>Le programme de bourses de la fondation Mastercard à l'UAC</li>
-                </ul>
+    <section id=\"footer\" class=\" bg-dark\">
+        <div class=\"container pt-5\">
+            <div class=\"row text-center text-xs-center text-sm-left text-md-left\">
+                <div class=\"col-xs-12 col-sm-4 col-md-4\">
+                    <a class=\" ml-lg-5 ml-3 mt-0 pt-0\" href=\"{{ path('index') }}\">
+                        <h1 class=\"text-white pb-3 pt-0 mt-0\">UAC JOBS</h1>
+
+                    </a>
+                </div>
+                <div class=\"col-xs-12 col-sm-4 col-md-4 text-center\">
+                    <ul class=\"list-unstyled quick-links\">
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Accueil</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">A propos</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">FAQ</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Contact</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">
+                                Partenaires
+                            </a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div class=\"col-xs-12 col-sm-4 col-md-4 text-center\">
+                    <ul class=\"list-unstyled quick-links\">
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Opportunités</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Actualités</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Galerie</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">Trucs et astuces</a></li>
+                        <br><br>
+                        <li class=\"nav-item\"><a href=\"\" class=\"text-white h6\">
+                                Podcast employabilité
+                            </a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div class=\"col-12 text-center mt-5\">
+                    <ul class=\"list-unstyled list-inline social text-center\">
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-facebook fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-twitter fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-instagram fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"><i
+                                        class=\"fa fa-google-plus fa-1x\"></i></a></li>
+                        <li class=\"list-inline-item\"><a href=\"#\" class=\"text-secondary\"
+                                                        target=\"_blank\"><i class=\"fa fa-envelope fa-1x\"></i></a></li>
+                    </ul>
+                </div>
+                <div class=\"col-xs-12 col-sm-4 col-md-4\">
+
+                </div>
             </div>
-            <div class=\"col-lg-4 col-12 pt-5\">
-                <div class=\"du-scholarship-item wow fadeInLeft\">
-                    <figure><img src=\"{{ asset('build/img/logo1.png') }}\" width=250 alt=\"\"></figure>
+            <div class=\"row\">
+                <div class=\"col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5\">
+
                 </div>
-                <div class=\"du-scholarship-item wow fadeInLeft\">
-                    <figure><img src=\"{{ asset('build/img/logo.png') }}\" width=\"150\" alt=\"\"></figure>
-                </div>
+                </hr>
             </div>
         </div>
-    </div>
+    </section>
     <div class=\"container-fluid bg-secondary py-2 text-center text-white\">
         Copyright 2020 &copy; Tous droits réservés
     </div>
