@@ -2296,3 +2296,4 @@ e63b1a,127.0.0.1,GET,http://127.0.0.1:8000/api/newsletter_messages?page=1,160874
 319f75,127.0.0.1,GET,http://127.0.0.1:8000/backend/newsletter,1608744843,,200
 475320,127.0.0.1,GET,http://127.0.0.1:8000/api/newsletter_messages/?page=1,1608744851,,301
 2301a9,127.0.0.1,GET,http://127.0.0.1:8000/api/newsletter_messages?page=1,1608744854,,200
+a278aa,127.0.0.1,GET,http://127.0.0.1:8000/,1608753682,,200
